@@ -1,0 +1,4107 @@
+fileFormatVersion: 2
+guid: a340b1987cf204013b009467c483d609
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7706948896427234439
+    second: Pac_Man_Left_Middle_Open
+  - first:
+      213: 4189573269519023957
+    second: Pac_man_Left_Full_Open
+  - first:
+      213: 8635337452839114711
+    second: Pac_Man_Idle
+  - first:
+      213: -6356472564711088832
+    second: NicePng_pacman-png_240284_3
+  - first:
+      213: 4836407134742986007
+    second: NicePng_pacman-png_240284_4
+  - first:
+      213: -3052482077085172936
+    second: NicePng_pacman-png_240284_5
+  - first:
+      213: -392834376411137957
+    second: Points_100
+  - first:
+      213: 5363539273801441507
+    second: NicePng_pacman-png_240284_7
+  - first:
+      213: -7000857290484972408
+    second: Ready
+  - first:
+      213: -6002967657081321656
+    second: NicePng_pacman-png_240284_9
+  - first:
+      213: -36569281652740049
+    second: NicePng_pacman-png_240284_10
+  - first:
+      213: 7150866996928834036
+    second: NicePng_pacman-png_240284_11
+  - first:
+      213: -4117118882179508344
+    second: NicePng_pacman-png_240284_12
+  - first:
+      213: -99388920076763907
+    second: NicePng_pacman-png_240284_13
+  - first:
+      213: 5947903406104027793
+    second: NicePng_pacman-png_240284_14
+  - first:
+      213: -6814412480399729505
+    second: NicePng_pacman-png_240284_15
+  - first:
+      213: -8145447077286697052
+    second: Pac_Man_Right_Middle_Open
+  - first:
+      213: 7711812173298447535
+    second: Pac_Man_Right_Full_Open
+  - first:
+      213: 2884368329854917968
+    second: NicePng_pacman-png_240284_18
+  - first:
+      213: 8259224084758901452
+    second: NicePng_pacman-png_240284_19
+  - first:
+      213: 656712140656033608
+    second: NicePng_pacman-png_240284_20
+  - first:
+      213: -7231821065350437484
+    second: NicePng_pacman-png_240284_21
+  - first:
+      213: 6552513904797819695
+    second: Points_300
+  - first:
+      213: 1027057775604563763
+    second: NicePng_pacman-png_240284_23
+  - first:
+      213: -7888108416494022554
+    second: Pac_Man_Up_Middle_Open
+  - first:
+      213: -1861604790423040003
+    second: Pac_Man_Up_Full_Open
+  - first:
+      213: -8344234134343888909
+    second: NicePng_pacman-png_240284_26
+  - first:
+      213: -5440083715514613849
+    second: NicePng_pacman-png_240284_27
+  - first:
+      213: -1406637519912034823
+    second: NicePng_pacman-png_240284_28
+  - first:
+      213: -2910895380234757909
+    second: NicePng_pacman-png_240284_29
+  - first:
+      213: -962418865165461640
+    second: NicePng_pacman-png_240284_30
+  - first:
+      213: 589775063573851814
+    second: Points_500
+  - first:
+      213: -4282287502950500527
+    second: BIG_PAC_MAN_1
+  - first:
+      213: -7464372798592125276
+    second: Pac_Man_Down_Middle_Open
+  - first:
+      213: 1827314853577818170
+    second: Pac_Man_Down_Full_Open
+  - first:
+      213: 7338648493941515873
+    second: NicePng_pacman-png_240284_35
+  - first:
+      213: 7015958615310505514
+    second: NicePng_pacman-png_240284_36
+  - first:
+      213: -7617510109545600502
+    second: NicePng_pacman-png_240284_37
+  - first:
+      213: 2873111265061623029
+    second: NicePng_pacman-png_240284_38
+  - first:
+      213: 1018149845609587045
+    second: NicePng_pacman-png_240284_39
+  - first:
+      213: -8736389067105311981
+    second: Points_700
+  - first:
+      213: -474146185280633816
+    second: NicePng_pacman-png_240284_41
+  - first:
+      213: 3533762315976031354
+    second: 1UP
+  - first:
+      213: -2967248479617342845
+    second: NicePng_pacman-png_240284_43
+  - first:
+      213: 7404463322809932277
+    second: Blinky_Up_1
+  - first:
+      213: -6071241230204040864
+    second: Blinky_Up_2
+  - first:
+      213: 6698131057829857761
+    second: Blinky_Down_1
+  - first:
+      213: -653283217860561853
+    second: Blinky_Down_2
+  - first:
+      213: 3641950144249466659
+    second: Blinky_Left_1
+  - first:
+      213: 3211547060143863915
+    second: Blinky_Left_2
+  - first:
+      213: 5069405340676478550
+    second: Blinky_Right_1
+  - first:
+      213: -2003006698271119429
+    second: Blinky_Right_2
+  - first:
+      213: 1174428868315823750
+    second: NicePng_pacman-png_240284_52
+  - first:
+      213: -4395004700906094282
+    second: Points_1000
+  - first:
+      213: 6631875747895438842
+    second: NicePng_pacman-png_240284_54
+  - first:
+      213: -3380252651287267266
+    second: 2UP
+  - first:
+      213: -8858146230897802655
+    second: Key
+  - first:
+      213: 8735788709590024344
+    second: NicePng_pacman-png_240284_57
+  - first:
+      213: 673633712501581208
+    second: BIG_PAC_MAN_2
+  - first:
+      213: -4063914936941606900
+    second: Pinky_Up
+  - first:
+      213: -685686646030578415
+    second: Pinky_Up_2
+  - first:
+      213: 7115945163429306510
+    second: Pinky_Down
+  - first:
+      213: -7165803748908107913
+    second: Pinky_Down_2
+  - first:
+      213: 8425729433159135586
+    second: Pinky_Left
+  - first:
+      213: -2233668808036155091
+    second: Pinky_Left_2
+  - first:
+      213: -6194653425389014594
+    second: Pinky_Right
+  - first:
+      213: -4193183745029484762
+    second: Pinky_Right_2
+  - first:
+      213: 5744789638534920950
+    second: NicePng_pacman-png_240284_67
+  - first:
+      213: 1162822403170536771
+    second: NicePng_pacman-png_240284_68
+  - first:
+      213: -6701419242385506192
+    second: NicePng_pacman-png_240284_69
+  - first:
+      213: -8130464263564838864
+    second: Points_2000
+  - first:
+      213: -5344438267064121973
+    second: Inky_Up
+  - first:
+      213: 7815195306475785526
+    second: Inky_Up_2
+  - first:
+      213: 6929274649248297006
+    second: Inky_Down
+  - first:
+      213: -8492820383420298077
+    second: Inky_Down_2
+  - first:
+      213: 6585514291879044029
+    second: Inky_Left
+  - first:
+      213: 1752211138737243699
+    second: Inky_Left_2
+  - first:
+      213: -422041185627438934
+    second: Inky_Right
+  - first:
+      213: -1260089613104744712
+    second: Inky_right_2
+  - first:
+      213: 897295689848934598
+    second: Points_3000
+  - first:
+      213: 7053364137960892177
+    second: NicePng_pacman-png_240284_80
+  - first:
+      213: -6655525280715467276
+    second: NicePng_pacman-png_240284_81
+  - first:
+      213: -4087319891356343895
+    second: NicePng_pacman-png_240284_82
+  - first:
+      213: -6684261671498296389
+    second: Clyde_Up
+  - first:
+      213: 2078608950675539879
+    second: Clyde_Up_2
+  - first:
+      213: 7683757545520242314
+    second: Clyde_Down
+  - first:
+      213: 3068436947899471244
+    second: Clyde_Down_2
+  - first:
+      213: -1011672395273763473
+    second: Clyde_Left
+  - first:
+      213: 2686397675724565836
+    second: Clyde_Left_2
+  - first:
+      213: -119783385770316108
+    second: Clyde_Right
+  - first:
+      213: -420618696148690953
+    second: Clyde_Right_2
+  - first:
+      213: 2110496304937476351
+    second: NicePng_pacman-png_240284_91
+  - first:
+      213: -1511832890993444522
+    second: Points_5000
+  - first:
+      213: -712082095287559418
+    second: NicePng_pacman-png_240284_93
+  - first:
+      213: -8070575271989037364
+    second: NicePng_pacman-png_240284_94
+  - first:
+      213: -102188294261494790
+    second: Vulnerable_1
+  - first:
+      213: -5487686223988312747
+    second: Vulnerable_2
+  - first:
+      213: -6639793040229868384
+    second: Vulnerable_3
+  - first:
+      213: -8120744870666800053
+    second: Vulnerable_4
+  - first:
+      213: -4038761974870699352
+    second: NicePng_pacman-png_240284_99
+  - first:
+      213: -3891890713492093620
+    second: NicePng_pacman-png_240284_100
+  - first:
+      213: 790519629925690036
+    second: NicePng_pacman-png_240284_101
+  - first:
+      213: 3192280340266494997
+    second: Cherry
+  - first:
+      213: -3840170746342821770
+    second: Melon
+  - first:
+      213: 1634138686273053346
+    second: NicePng_pacman-png_240284_104
+  - first:
+      213: -8878980063518719436
+    second: NicePng_pacman-png_240284_105
+  - first:
+      213: -4179847272453008998
+    second: NicePng_pacman-png_240284_106
+  - first:
+      213: -293092601949047189
+    second: NicePng_pacman-png_240284_107
+  - first:
+      213: -5490487511708578686
+    second: NicePng_pacman-png_240284_108
+  - first:
+      213: -9152841393219032054
+    second: NicePng_pacman-png_240284_109
+  - first:
+      213: 4422050836955111413
+    second: NicePng_pacman-png_240284_110
+  - first:
+      213: -4060797888993595382
+    second: NicePng_pacman-png_240284_111
+  - first:
+      213: -3352811601005929848
+    second: NicePng_pacman-png_240284_112
+  - first:
+      213: 8961290925172304129
+    second: NicePng_pacman-png_240284_113
+  - first:
+      213: 4798105310535140297
+    second: NicePng_pacman-png_240284_114
+  - first:
+      213: -4059149954751706838
+    second: NicePng_pacman-png_240284_115
+  - first:
+      213: 4792609672346407122
+    second: StrawBerry
+  - first:
+      213: -688857281475116164
+    second: Galaxian
+  - first:
+      213: -5967211176008064801
+    second: GAMEOVER
+  - first:
+      213: -8952116407057181584
+    second: NicePng_pacman-png_240284_119
+  - first:
+      213: 3738976308019316577
+    second: NicePng_pacman-png_240284_120
+  - first:
+      213: -5193241563269183185
+    second: NicePng_pacman-png_240284_121
+  - first:
+      213: 7952254289757257412
+    second: NicePng_pacman-png_240284_122
+  - first:
+      213: 5907868777033590225
+    second: NicePng_pacman-png_240284_123
+  - first:
+      213: -1001285983029601134
+    second: NicePng_pacman-png_240284_124
+  - first:
+      213: 2949854490292987790
+    second: NicePng_pacman-png_240284_125
+  - first:
+      213: -9126342636649893252
+    second: EYES_UP
+  - first:
+      213: -3958191378587359556
+    second: NicePng_pacman-png_240284_127
+  - first:
+      213: 1221344727330949971
+    second: EYES_DOWN
+  - first:
+      213: 4311543979303583461
+    second: NicePng_pacman-png_240284_129
+  - first:
+      213: 7980069148357333199
+    second: EYES_LEFT
+  - first:
+      213: -4515218510618742211
+    second: NicePng_pacman-png_240284_131
+  - first:
+      213: -4798439073389306682
+    second: EYES_RIGHT
+  - first:
+      213: 5510884170502137041
+    second: NicePng_pacman-png_240284_133
+  - first:
+      213: -5249875374503783170
+    second: NicePng_pacman-png_240284_134
+  - first:
+      213: 5900502950659142972
+    second: NicePng_pacman-png_240284_135
+  - first:
+      213: 7446380204680235489
+    second: Bell
+  - first:
+      213: -9155000263235127586
+    second: Blue_Points_200
+  - first:
+      213: -7227032749038871164
+    second: NicePng_pacman-png_240284_138
+  - first:
+      213: -3753855170672020200
+    second: NicePng_pacman-png_240284_139
+  - first:
+      213: 7040427236740302374
+    second: Blue_Points_400
+  - first:
+      213: -6115812181680949507
+    second: NicePng_pacman-png_240284_141
+  - first:
+      213: 5955481888630403828
+    second: NicePng_pacman-png_240284_142
+  - first:
+      213: 7354029622352554574
+    second: Blue_Points_800
+  - first:
+      213: -5274581985694989553
+    second: NicePng_pacman-png_240284_144
+  - first:
+      213: 2749073728725937740
+    second: NicePng_pacman-png_240284_145
+  - first:
+      213: -4569226432059620713
+    second: Blue_Points_1600
+  - first:
+      213: 2054595269767938423
+    second: NicePng_pacman-png_240284_147
+  - first:
+      213: 7329211747133684812
+    second: NicePng_pacman-png_240284_148
+  - first:
+      213: -337604329076725536
+    second: NicePng_pacman-png_240284_149
+  - first:
+      213: 8504954192809650921
+    second: NicePng_pacman-png_240284_150
+  - first:
+      213: -4426234005295557129
+    second: Apple
+  - first:
+      213: -4740396956732221073
+    second: NicePng_pacman-png_240284_152
+  - first:
+      213: -7654451255169142360
+    second: NicePng_pacman-png_240284_153
+  - first:
+      213: 6304748736966202126
+    second: NicePng_pacman-png_240284_154
+  - first:
+      213: 5076625063071837937
+    second: NicePng_pacman-png_240284_155
+  - first:
+      213: 8062370029007951480
+    second: NicePng_pacman-png_240284_156
+  - first:
+      213: -9015554637967019531
+    second: NicePng_pacman-png_240284_157
+  - first:
+      213: 502987958506961566
+    second: NicePng_pacman-png_240284_158
+  - first:
+      213: -2550058319004858968
+    second: NicePng_pacman-png_240284_159
+  - first:
+      213: -8987658531562216364
+    second: NicePng_pacman-png_240284_160
+  - first:
+      213: 7776199156180980483
+    second: NicePng_pacman-png_240284_161
+  - first:
+      213: -2563902489272781726
+    second: NicePng_pacman-png_240284_162
+  - first:
+      213: 5798112798891373574
+    second: NicePng_pacman-png_240284_163
+  - first:
+      213: 8873447078504363276
+    second: NicePng_pacman-png_240284_164
+  - first:
+      213: -5484460210562790097
+    second: NicePng_pacman-png_240284_165
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pac_Man_Left_Middle_Open
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 258
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b920dbedddc5a43c1865ebb159626999
+      internalID: -7706948896427234439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pac_man_Left_Full_Open
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 258
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba409537e41db4f5d8d280b1799ca806
+      internalID: 4189573269519023957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pac_Man_Idle
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 258
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b80873652104c4f8ebf25af5b4fab7
+      internalID: 8635337452839114711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 257
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0373d0d476ccb40cda9717084d99fe41
+      internalID: -6356472564711088832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 257
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1907b613608f84c968ff66e8462deb13
+      internalID: 4836407134742986007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 257
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7107e8c58a4a948ce8b1aed9be07d74f
+      internalID: -3052482077085172936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Points_100
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 261
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f330a67f670f489e96cc9aad40607a3
+      internalID: -392834376411137957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 261
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1123ca1243a934dddb866a2b8b4f32d0
+      internalID: 5363539273801441507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ready
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 265
+        width: 47
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c8ce75998f4b05a357a5c97afbeb8
+      internalID: -7000857290484972408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 265
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca08ac7410a84e66854012bc7823571
+      internalID: -6002967657081321656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 265
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db68b3913a43542c1a343886d500c170
+      internalID: -36569281652740049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 265
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6869e904121bf4c79928334563a89a9c
+      internalID: 7150866996928834036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 265
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a8eca86e0fe43f2bc2380c58003912
+      internalID: -4117118882179508344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_13
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 265
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4238c428a8540119fcf3754882c093
+      internalID: -99388920076763907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_14
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 240
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45bb408263064e459c01384ce4f0ecc
+      internalID: 5947903406104027793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_15
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 464
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fc8ea09f5784c85a047cd73cce1b2b
+      internalID: -6814412480399729505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pac_Man_Right_Middle_Open
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 238
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506d9549d2fda405cb3429c9c29c8338
+      internalID: -8145447077286697052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pac_Man_Right_Full_Open
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 238
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94faec2c669043a7b04e5e3ce411a9b
+      internalID: 7711812173298447535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_18
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 237
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bde427c594254347966bac025b024da
+      internalID: 2884368329854917968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 237
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5256cdc26d9234460927350327b8dbb0
+      internalID: 8259224084758901452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_20
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 235
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bb077d66d694723b8f9c678db0622e
+      internalID: 656712140656033608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 241
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdc7e1d22d8b41159a908c2b5117c33
+      internalID: -7231821065350437484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Points_300
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 241
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4224aaa502b4fa39cb9f897c0618da
+      internalID: 6552513904797819695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 241
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b7e7ddb2bb2407cab50320f85b2721
+      internalID: 1027057775604563763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pac_Man_Up_Middle_Open
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 218
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f256579df9094b93be3cb4d40af8b34
+      internalID: -7888108416494022554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pac_Man_Up_Full_Open
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 218
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1768a6e8438ab4cb89ac86db2be6c3a0
+      internalID: -1861604790423040003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 217
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa3d8492928b41829668b3839e8ef25
+      internalID: -8344234134343888909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 217
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454065da7430c44ee982d249a241f3f5
+      internalID: -5440083715514613849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_28
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 217
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5483a5e92446e4536a9465321b0d7740
+      internalID: -1406637519912034823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 221
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edf4780653fd4f2e9e1575e3780b87c
+      internalID: -2910895380234757909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_30
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 221
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e86937b1ca6a456498833679d5f214e
+      internalID: -962418865165461640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Points_500
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 221
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6accbbdb5394490fa7502ad31afaf75
+      internalID: 589775063573851814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_PAC_MAN_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 200
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5178b3a723daa488a9a7cbbca23619a9
+      internalID: -4282287502950500527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pac_Man_Down_Middle_Open
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 199
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c3f884cbbb94582b68b894f09923c2
+      internalID: -7464372798592125276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pac_Man_Down_Full_Open
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 203
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fae074155490429092028aace29acfe
+      internalID: 1827314853577818170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_35
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 199
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe6ba40d52c946d39e1248ce9d174f2
+      internalID: 7338648493941515873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 201
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5c7c567f2724f4cad7210304615a57
+      internalID: 7015958615310505514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_37
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 197
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70d2c68f22d540bb9b1e3f4f1dfe22d
+      internalID: -7617510109545600502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_38
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 201
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b4ef35ab0644ac4b0787e230e965af
+      internalID: 2873111265061623029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_39
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 201
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2c56038f67347b09d8f251814a43e6
+      internalID: 1018149845609587045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Points_700
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 201
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f561ef7acf6e84cbcb97d342af630a0b
+      internalID: -8736389067105311981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_41
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 195
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574b9552028d64df0a8f34f884f6e432
+      internalID: -474146185280633816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1UP
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 195
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2695734dd1040b5a77835577d9db2e
+      internalID: 3533762315976031354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 195
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c9100c94f974102a94f346c1b4b0b5
+      internalID: -2967248479617342845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blinky_Up_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7748496f3fed7465dbc8f46c1d33e65c
+      internalID: 7404463322809932277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blinky_Up_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85a90a294651406190bcea0d454d160
+      internalID: -6071241230204040864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blinky_Down_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab2bacffeab448dc923da5316e53b3d
+      internalID: 6698131057829857761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blinky_Down_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8161e11a5e28437ca287d3b22b57b18
+      internalID: -653283217860561853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blinky_Left_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23691d92715c4adaa9858e7934294d5
+      internalID: 3641950144249466659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blinky_Left_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27f023b432b24e63af287ec360f14e1
+      internalID: 3211547060143863915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blinky_Right_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c4543d8c307498cbfdc9bbde522c02
+      internalID: 5069405340676478550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blinky_Right_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3219495a953da4be1bf47a65f76a8981
+      internalID: -2003006698271119429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_52
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 181
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ad58f4edc8c446cad4b4671c3c922a
+      internalID: 1174428868315823750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Points_1000
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 181
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4d662cc621a443e8c37d03cc5547fe
+      internalID: -4395004700906094282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_54
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 181
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d431b8ecf951471d8a2bbcfef7a79e4
+      internalID: 6631875747895438842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2UP
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 185
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246407a831a5545d99f6ced3682f4ac5
+      internalID: -3380252651287267266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 37
+        width: 9
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5223454, y: 0.52234757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1f6a57fa5fc4f56a1661d028931443
+      internalID: -8858146230897802655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_57
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 185
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54118aa21ed34463691556a5c7ff313e
+      internalID: 8735788709590024344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_PAC_MAN_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40af62f962ae64b37b23274c28d9bc7c
+      internalID: 673633712501581208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinky_Up
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c46d78b16ad948bf93c0c3d3c165f46
+      internalID: -4063914936941606900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinky_Up_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99cad47e06d348b9a21d81e64387b21
+      internalID: -685686646030578415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinky_Down
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568d1ccfcbf32423ebc4e896c68e743e
+      internalID: 7115945163429306510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinky_Down_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7474be741684f04b7bff5e64ba7491
+      internalID: -7165803748908107913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinky_Left
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e187851cae3754f55894526de3153fa4
+      internalID: 8425729433159135586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinky_Left_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5e7c959a9084debbc485b9fbeca116
+      internalID: -2233668808036155091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinky_Right
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3591415db584cd2ab19e2c212e1259
+      internalID: -6194653425389014594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinky_Right_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9619efcb1cccb4fdd968de8b3804ef07
+      internalID: -4193183745029484762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_67
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 161
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9240ffaf5f2134dfba9e4a37159c8129
+      internalID: 5744789638534920950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_68
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 161
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0c742012f10482286eb94784cf667b
+      internalID: 1162822403170536771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_69
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 161
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a006895fe366462b8b9919b1928afc7
+      internalID: -6701419242385506192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Points_2000
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 161
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659ed300c1f9a4358ac2f4638171cf70
+      internalID: -8130464263564838864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inky_Up
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9fa89263edc4accbf371ff0a64c100
+      internalID: -5344438267064121973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inky_Up_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bd94d2ad58c4a68b62b197305feaa1
+      internalID: 7815195306475785526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inky_Down
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affb9411babf74a7e8982571780af18a
+      internalID: 6929274649248297006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inky_Down_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ffb6ceae9cd4f69b53826b65c5d0dc
+      internalID: -8492820383420298077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inky_Left
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0339329a9ccb84269ac2467df7ce8371
+      internalID: 6585514291879044029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inky_Left_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf178316b9724a64abdcc8fbd56c3b6
+      internalID: 1752211138737243699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inky_Right
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56bcac17118445f19b2dc6fbea491d3
+      internalID: -422041185627438934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inky_right_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474c0cae88369478491123f4a008ef18
+      internalID: -1260089613104744712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Points_3000
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 141
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8ef3be2c4134348aebcb4debef26ac
+      internalID: 897295689848934598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_80
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 141
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac33f54500fb4503b71753ab9da9c81
+      internalID: 7053364137960892177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_81
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 141
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788b7d97614d349b8b6f367b98568179
+      internalID: -6655525280715467276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_82
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 141
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4b8ff7ccc314c949b6a5df76444633
+      internalID: -4087319891356343895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clyde_Up
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 117
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6513519fa960145d79dbbc18e5673091
+      internalID: -6684261671498296389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clyde_Up_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 117
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9953c1425834747f78aa6df6fa3e1a82
+      internalID: 2078608950675539879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clyde_Down
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 117
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763d6fb6589844ced8c7ab667bf93cb9
+      internalID: 7683757545520242314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clyde_Down_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 117
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98af67d5872743d6beacfce35df1512
+      internalID: 3068436947899471244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clyde_Left
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 117
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ad8b85b89ef44d78aa31b3dfef5f79
+      internalID: -1011672395273763473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clyde_Left_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 117
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdc7848a003640af9c47e833fca2be4
+      internalID: 2686397675724565836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clyde_Right
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 117
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814a302229f25484d838e639fd6fe12c
+      internalID: -119783385770316108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clyde_Right_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 117
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e136241e86c454a4daae4618ed923ebe
+      internalID: -420618696148690953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_91
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 121
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ef7cf21a87e46a7a27c65b17f0e632
+      internalID: 2110496304937476351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Points_5000
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 121
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c471a087ffd6486594c84484c60d645
+      internalID: -1511832890993444522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_93
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 121
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afb2f2c526a54cb899024bb6fd856e0
+      internalID: -712082095287559418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_94
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 121
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2295faef16de545d9bdb53940b2e9433
+      internalID: -8070575271989037364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulnerable_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ac8e741c8784e4094c2453fe8e0212
+      internalID: -102188294261494790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulnerable_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8cde5b3404349fc95fcb24fd2da785
+      internalID: -5487686223988312747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulnerable_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f7f3178b14487cbe50e43cf45598a
+      internalID: -6639793040229868384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulnerable_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc93969d6abc4d31adcdd5009c92c1b
+      internalID: -8120744870666800053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_99
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 99
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c15e58c9a8424206b7d266339a1dd2e
+      internalID: -4038761974870699352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_100
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f0ca1abe1844f70bd85a902da6567c
+      internalID: -3891890713492093620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_101
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f8a07cb0d44fa2a1cd871d3826c5b
+      internalID: 790519629925690036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cherry
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 98
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b593db59cd3284b019b29f528cb1d418
+      internalID: 3192280340266494997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melon
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 97
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563aae432267d4059a9e87c1ea01ccfa
+      internalID: -3840170746342821770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe88bf21e161745f2b3caa5a3d776092
+      internalID: 1634138686273053346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_105
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88171a8f9098247f290ffd2fec9ca65e
+      internalID: -8878980063518719436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_106
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cd12abdeb8f4debb3cfc6fa46b1d42
+      internalID: -4179847272453008998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47339ae82d39409fa60608f419c6b89
+      internalID: -293092601949047189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_108
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b36ec2d02e7c49aaba7d2c82d7a2caa
+      internalID: -5490487511708578686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_109
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a0822693b19411b8caf53b7a9e7c06
+      internalID: -9152841393219032054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_110
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abf4476a15804b4f806120ddde294a5
+      internalID: 4422050836955111413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_111
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22020db6194bb4330aa9c09686788f67
+      internalID: -4060797888993595382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_112
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c284bec29c8644659b5f2c89e1e63c6e
+      internalID: -3352811601005929848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_113
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422ab8336fc3a4280b01e40f7f6c7da8
+      internalID: 8961290925172304129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_114
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5164bd166b2fc4bafb232677092b2075
+      internalID: 4798105310535140297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_115
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 77
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6826e4ef53f9e42738c3cf3c00891833
+      internalID: -4059149954751706838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrawBerry
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 78
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d000a515bed5452c8d5c30be1182d5d
+      internalID: 4792609672346407122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Galaxian
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 78
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a47b68f798e4c9783f04f31ddf8273
+      internalID: -688857281475116164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEOVER
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 75
+        width: 79
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927f8f16f1536463186e507676ee8c12
+      internalID: -5967211176008064801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_119
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a6d2ff644d1452091019408255c7f6
+      internalID: -8952116407057181584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_120
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0793187b0de374c7dbe50978553a8d65
+      internalID: 3738976308019316577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_121
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce61325e84b1495fb0c5c5d823c830b
+      internalID: -5193241563269183185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_122
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c68ce8ab166b4cc8b58dead45d77a25
+      internalID: 7952254289757257412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_123
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e46d6b24d606405f890873498d9b192
+      internalID: 5907868777033590225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_124
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593d98aaf047d44c2a0b2d2f4b51248e
+      internalID: -1001285983029601134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_125
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a255c615df344b8a3e389e84295394
+      internalID: 2949854490292987790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EYES_UP
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 65
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f650d7c3427754c248f829b7d75d46ca
+      internalID: -9126342636649893252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_127
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 65
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6e823fb572e41f6aabf9099ae17488
+      internalID: -3958191378587359556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EYES_DOWN
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 62
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a64a4f734ed42bab17710ffaae5aa9
+      internalID: 1221344727330949971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_129
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 62
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546447c0835c84a29897fcfba7b1534c
+      internalID: 4311543979303583461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EYES_LEFT
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 62
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d7717dd13ec4d2fb4fcd81129d48c5
+      internalID: 7980069148357333199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_131
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 62
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4be13cee82846b6aa0042061ddf5c4
+      internalID: -4515218510618742211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EYES_RIGHT
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 62
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aa43899345f4554be8f6faa01c92cf
+      internalID: -4798439073389306682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_133
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 62
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80dce9d44b3748bbb9c6d20309fd694
+      internalID: 5510884170502137041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_134
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 57
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f8751eeea03437585fca2a55351764
+      internalID: -5249875374503783170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_135
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 58
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1fc801cc793480abcf3966e7940c6c
+      internalID: 5900502950659142972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bell
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 58
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693415f85952948b799c51b7b938dd1e
+      internalID: 7446380204680235489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Points_200
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 41
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd5b8695477e413d98bcf6ddab8cdba
+      internalID: -9155000263235127586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_138
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af844b93cbff4fb29a469d286078aa4
+      internalID: -7227032749038871164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_139
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861f7acb10d2e49dc844c923b383d8b9
+      internalID: -3753855170672020200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Points_400
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 41
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536d5a679849448f289bdf62b2dc2ef7
+      internalID: 7040427236740302374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_141
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d3067ccf1934574ab8543e8335dfb1
+      internalID: -6115812181680949507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_142
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbb5943600734b5092f0683b282c397
+      internalID: 5955481888630403828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Points_800
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 41
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c9119a26daa47b8b19a2343f6b7ec3
+      internalID: 7354029622352554574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_144
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c4d1432b73f4f0fac2e1ab00050474
+      internalID: -5274581985694989553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_145
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998dbdf3afeee4afd95b5e78287de729
+      internalID: 2749073728725937740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Points_1600
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 41
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27a14b590eeb45c3a91af99ba6b0a07
+      internalID: -4569226432059620713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_147
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856470e4bda564f0b9850972523b1b53
+      internalID: 2054595269767938423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_148
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6489725181c4aaebf3cf777b4a73ae
+      internalID: 7329211747133684812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_149
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 37
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc40fc61d8424007893dda026409e67
+      internalID: -337604329076725536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_150
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 37
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232822c8c60584573a663d44cccc6009
+      internalID: 8504954192809650921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apple
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d361842af21437d93c10c61c5f0cd3
+      internalID: -4426234005295557129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_152
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 16
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22c23028dc4e44c282de1b1a6e01dd3
+      internalID: -4740396956732221073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_153
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873c55df197b64df99022794bc65aedb
+      internalID: -7654451255169142360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_154
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6c10cb7e55d4a25b35f19a11f9060e
+      internalID: 6304748736966202126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_155
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 20
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fdd77090bdd453aa3e492e453b87e1
+      internalID: 5076625063071837937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_156
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 20
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cedd5848581f4a418a6af4d6fef504d
+      internalID: 8062370029007951480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_157
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 19
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea0b9fc4ad93438ab2a577548483822
+      internalID: -9015554637967019531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_158
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 18
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58847f7ececbe4cc79b4b86855cc4603
+      internalID: 502987958506961566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_159
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 17
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f495abf31787b47fd8751e6259b621c1
+      internalID: -2550058319004858968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_160
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faa37c4c80464454905a87c3e76c723
+      internalID: -8987658531562216364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_161
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 17
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbae7ed138310413baecf7f64a4ab77b
+      internalID: 7776199156180980483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_162
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b54427e216249cebaa0b22262b5b25
+      internalID: -2563902489272781726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_163
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f08b257198e4d7ab3947ca9534c535
+      internalID: 5798112798891373574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfa22f9c4a9f40139bc4fcce0876668
+      internalID: 8873447078504363276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_pacman-png_240284_165
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9466a4d8d95ef46018c85a544af94c99
+      internalID: -5484460210562790097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3b074804c2d3f4345b82b57eb0278751
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

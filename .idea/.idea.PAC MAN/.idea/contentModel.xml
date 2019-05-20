@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Audio" t="Include">
+            <e p="AudioController.cs" t="Include" />
+          </e>
+          <e p="Characters" t="Include">
+            <e p="Animation" t="Include">
+              <e p="AnimatorController.cs" t="Include" />
+            </e>
+            <e p="Enemies" t="Include">
+              <e p="Difficulty.cs" t="Include" />
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemyMovement.cs" t="Include" />
+              <e p="EnemyUI.cs" t="Include" />
+              <e p="EnemyVision.cs" t="Include" />
+            </e>
+            <e p="Implementations" t="Include">
+              <e p="EnemyCharacter.cs" t="Include" />
+              <e p="PacManCharacter.cs" t="Include" />
+            </e>
+            <e p="State" t="Include">
+              <e p="CharacterCondition.cs" t="Include" />
+              <e p="CharacterDirection.cs" t="Include" />
+              <e p="CharacterMovement.cs" t="Include" />
+              <e p="CharacterState.cs" t="Include" />
+              <e p="CharacterStateManagement.cs" t="Include" />
+            </e>
+            <e p="Structures" t="Include">
+              <e p="Character.cs" t="Include" />
+              <e p="CharacterController.cs" t="Include" />
+              <e p="CharacterMovement.cs" t="Include" />
+              <e p="CharacterName.cs" t="Include" />
+              <e p="CharacterType.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Core" t="Include">
+            <e p="Constants" t="Include">
+              <e p="GameConstants.cs" t="Include" />
+            </e>
+            <e p="Initialize.cs" t="Include" />
+            <e p="Settings" t="Include">
+              <e p="GameSettings.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Gameplay" t="Include">
+            <e p="GameplayManagement.cs" t="Include" />
+            <e p="Score" t="Include">
+              <e p="ScoreManagement.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
+          <e p="Input" t="Include">
+            <e p="Button" t="Include">
+              <e p="Button.cs" t="Include" />
+              <e p="ButtonState.cs" t="Include" />
+            </e>
+            <e p="InputController.cs" t="Include" />
+            <e p="Keys.cs" t="Include" />
+          </e>
+          <e p="Level" t="Include">
+            <e p="FX" t="Include">
+              <e p="FlickerEffect.cs" t="Include" />
+            </e>
+            <e p="Item" t="Include">
+              <e p="Implementations" t="Include">
+                <e p="DotItem.cs" t="Include" />
+                <e p="FruitItem.cs" t="Include" />
+                <e p="PowerUpItem.cs" t="Include" />
+              </e>
+              <e p="PickableItem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PathFind" t="Include">
+            <e p="ItemPath.cs" t="Include" />
+            <e p="PathDirection.cs" t="Include" />
+            <e p="PathPosition.cs" t="Include" />
+            <e p="WayPointManagement.cs" t="Include" />
+            <e p="WayPointState.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Screen" t="Include">
+              <e p="Screen.cs" t="Include" />
+              <e p="ScreenManagement.cs" t="Include" />
+            </e>
+            <e p="UIController.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="PAC MAN.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_PAC MAN.-960877615.00" t="ExcludeRecursive" />
+  </component>
+</project>
