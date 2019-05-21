@@ -32,21 +32,6 @@ public class AudioController : Singleton<AudioController>
         M_Audio.PlayOneShot(_startLevelClip);
     }
 
-    public void OnDotPickup()
-    {
-        M_Audio.PlayOneShot(_dotPickupClip);
-    }
-
-    public void OnPowerUpClip()
-    {
-        M_Audio.PlayOneShot(_powerUpClip);
-    }
-
-    public void OnPlayerDied()
-    {
-        M_Audio.PlayOneShot(_diedClip);
-    }
-
     public void PlayClip(AudioClip clipToPlay)
     {
         if(M_Audio.isPlaying)

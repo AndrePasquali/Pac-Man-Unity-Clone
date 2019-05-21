@@ -14,7 +14,7 @@ namespace DroidDigital.PacMan.Characters.State
         {
             PopulateDirections();
         }
-        
+            
         private static void PopulateDirections()
         {
             foreach (CharacterDirection direction in Enum.GetValues(typeof(CharacterDirection)))

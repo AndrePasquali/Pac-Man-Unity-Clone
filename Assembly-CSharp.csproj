@@ -63,8 +63,13 @@
     <Compile Include="Assets\Scripts\Characters\Enemies\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\Characters\Enemies\EnemyUI.cs" />
     <Compile Include="Assets\Scripts\Characters\Enemies\EnemyVision.cs" />
-    <Compile Include="Assets\Scripts\Characters\Implementations\EnemyCharacter.cs" />
-    <Compile Include="Assets\Scripts\Characters\Implementations\PacManCharacter.cs" />
+    <Compile Include="Assets\Scripts\Characters\Enemies\Implementations\EnemyCharacter.cs" />
+    <Compile Include="Assets\Scripts\Characters\Enemies\Implementations\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Characters\Enemies\Implementations\EnemyPhysics.cs" />
+    <Compile Include="Assets\Scripts\Characters\Interfaces\IKill.cs" />
+    <Compile Include="Assets\Scripts\Characters\PacMan\Implementations\PacManCharacter.cs" />
+    <Compile Include="Assets\Scripts\Characters\PacMan\Implementations\PacManHealth.cs" />
+    <Compile Include="Assets\Scripts\Characters\PacMan\Implementations\PacManPhysics.cs" />
     <Compile Include="Assets\Scripts\Characters\State\CharacterCondition.cs" />
     <Compile Include="Assets\Scripts\Characters\State\CharacterDirection.cs" />
     <Compile Include="Assets\Scripts\Characters\State\CharacterMovement.cs" />
@@ -72,8 +77,10 @@
     <Compile Include="Assets\Scripts\Characters\State\CharacterStateManagement.cs" />
     <Compile Include="Assets\Scripts\Characters\Structures\Character.cs" />
     <Compile Include="Assets\Scripts\Characters\Structures\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\Characters\Structures\CharacterHealth.cs" />
     <Compile Include="Assets\Scripts\Characters\Structures\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\Characters\Structures\CharacterName.cs" />
+    <Compile Include="Assets\Scripts\Characters\Structures\CharacterPhysics.cs" />
     <Compile Include="Assets\Scripts\Characters\Structures\CharacterType.cs" />
     <Compile Include="Assets\Scripts\Core\Constants\GameConstants.cs" />
     <Compile Include="Assets\Scripts\Core\Initialize.cs" />

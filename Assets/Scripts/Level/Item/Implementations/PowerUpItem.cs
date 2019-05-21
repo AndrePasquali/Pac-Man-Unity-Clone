@@ -22,7 +22,7 @@ namespace DroidDigital.PacMan.Level.Item
             
             flicker.OnPicked();
             
-            Invoke("DisableVunerability", 5.0F);
+            Invoke("DisableVunerability", 8.0F);
         }
 
         private void DisableVunerability()

@@ -46,6 +46,12 @@ namespace DroidDigital.PacMan.PathFind
         }
 
         public PathType Type = PathType.WayPoint;
+        
+        public CharacterDirection DirectionToAddAfterRelease;
+
+        public float TimeToRelease = 5.0F;
+
+        private float _timeCounter;
 
         public SpriteRenderer Sprite => _sprite ?? (_sprite = GetComponent<SpriteRenderer>());
 
@@ -61,6 +67,38 @@ namespace DroidDigital.PacMan.PathFind
 
         private float _lastCollidingTime;
 
+        private void Update()
+        {
+            if(Type == PathType.WayPoint) return;
+            
+            if (_timeCounter >= TimeToRelease)
+                OnReleaseEnemy();
+            else _timeCounter += Time.deltaTime;
+
+        }
+
+        private void OnReleaseEnemy()
+        {
+            if(AlowedDirections.Contains(DirectionToAddAfterRelease)) return;
+            
+            AlowedDirections.Add(DirectionToAddAfterRelease);
+        }
+
+        private void ResetCounter()
+        {
+            _timeCounter = 0;
+        }
+
+        private void ResetAllowedDirection()
+        {
+            AlowedDirections.RemoveAll(e => e == DirectionToAddAfterRelease);
+        }
+
+        public void OnEnemieRespawn()
+        {
+            ResetCounter();
+            ResetAllowedDirection();
+        }
 
         private void OnTriggerStay2D(Collider2D collider)
         {

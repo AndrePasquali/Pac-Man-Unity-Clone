@@ -13,6 +13,9 @@ namespace DroidDigital.PacMan.Characters.State
         public void ChangeConditionState(CharacterCondition newConditionState)
         {
             ConditionState = newConditionState;
+            
+            if(newConditionState == CharacterCondition.Dead)
+                ChangeDirectionState(CharacterDirection.Null);
         }
 
         public void ChangeDirectionState(CharacterDirection newDirectionState)

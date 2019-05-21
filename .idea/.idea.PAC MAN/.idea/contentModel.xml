@@ -18,10 +18,21 @@
               <e p="EnemyMovement.cs" t="Include" />
               <e p="EnemyUI.cs" t="Include" />
               <e p="EnemyVision.cs" t="Include" />
+              <e p="Implementations" t="Include">
+                <e p="EnemyCharacter.cs" t="Include" />
+                <e p="EnemyHealth.cs" t="Include" />
+                <e p="EnemyPhysics.cs" t="Include" />
+              </e>
             </e>
-            <e p="Implementations" t="Include">
-              <e p="EnemyCharacter.cs" t="Include" />
-              <e p="PacManCharacter.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IKill.cs" t="Include" />
+            </e>
+            <e p="PacMan" t="Include">
+              <e p="Implementations" t="Include">
+                <e p="PacManCharacter.cs" t="Include" />
+                <e p="PacManHealth.cs" t="Include" />
+                <e p="PacManPhysics.cs" t="Include" />
+              </e>
             </e>
             <e p="State" t="Include">
               <e p="CharacterCondition.cs" t="Include" />
@@ -33,8 +44,10 @@
             <e p="Structures" t="Include">
               <e p="Character.cs" t="Include" />
               <e p="CharacterController.cs" t="Include" />
+              <e p="CharacterHealth.cs" t="Include" />
               <e p="CharacterMovement.cs" t="Include" />
               <e p="CharacterName.cs" t="Include" />
+              <e p="CharacterPhysics.cs" t="Include" />
               <e p="CharacterType.cs" t="Include" />
             </e>
           </e>

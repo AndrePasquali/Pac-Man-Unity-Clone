@@ -5,12 +5,6 @@ using DroidDigital.PacMan.PathFind;
 using PathFind;
 using UnityEngine;
 
-/*
- * CHARACTER MOVE - HANDLES THE MOVEMENT OF PAC MAN
- * PROGRAMMING BY ANDRE R. PASQUALI 
- * >>> DROID DIGITAL 2019 <<<<<
- */
-
 namespace DroidDigital.PacMan.Characters
 {
     public class CharacterMovement: MonoBehaviour
@@ -58,11 +52,13 @@ namespace DroidDigital.PacMan.Characters
 
         private void ProcessMove()
         {
+            if(Character.State.ConditionState == CharacterCondition.Dead) return;
+            
             var direction = (Vector3) CharacterStateManagement.GetVectorByDirectionState(Character.State.DirectionState);
             
             if(!AllowedDirections.Contains(Character.State.DirectionState)) return;
 
-            transform.position = transform.position + direction * Time.deltaTime * MovementPointSpeed;
+            transform.position = transform.position + direction * Time.fixedDeltaTime * MovementPointSpeed;
         }
 
         public void SetDirectionByInput()
@@ -131,39 +127,6 @@ namespace DroidDigital.PacMan.Characters
                                     default: return Vector2.zero;
             }
         }
-        
-        private void HandleFlipAnimation()
-        {
-            var directionState = Character.State.DirectionState;
-
-            switch (directionState)
-            {
-                case CharacterDirection.Left:
-                {
-                    transform.eulerAngles = new Vector3(0, 0, 0);
-                    transform.localScale = new Vector3(-1, 1, 1);
-                    break;
-                }
-                case CharacterDirection.Right:
-                {
-                    transform.eulerAngles = new Vector3(0, 0, 0);
-                    transform.localScale = new Vector3(1, 1, 1);
-                    break;
-                }
-                case CharacterDirection.Up:
-                {
-                    transform.eulerAngles = new Vector3(0, 0, 90);
-                    transform.localScale = new Vector3(1, 1, 1);
-                    break;
-                }
-                case CharacterDirection.Down:
-                {
-                    transform.eulerAngles = new Vector3(0, 0, -90);
-                    transform.localScale = new Vector3(1, 1, 1);
-                    break;
-                }
-            }      
-        }
 
         private void Start()
         {
@@ -188,7 +151,6 @@ namespace DroidDigital.PacMan.Characters
         public void EveryFrame()
         {
             SetDirectionByInput();
-         //   HandleFlipAnimation();
             ProcessMove();            
         }
 

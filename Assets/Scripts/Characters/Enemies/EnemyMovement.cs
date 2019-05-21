@@ -1,18 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
-using DroidDigital.Core.Constants;
 using DroidDigital.PacMan.Characters;
 using DroidDigital.PacMan.Characters.State;
 using DroidDigital.PacMan.PathFind;
-using PathFind;
 using UnityEngine;
-using CharacterMovement = DroidDigital.PacMan.Characters.CharacterMovement;
 
 namespace DroidDigital.PacMan.Enemy.IA
 {
     public class EnemyMovement: MonoBehaviour
-    {
-        
+    {        
         [Range(0, 10)]
         public float Speed = 5.0F;
 
@@ -48,7 +44,8 @@ namespace DroidDigital.PacMan.Enemy.IA
 
         private void Initialize()
         {
-            WayPointManagement.PopulatePathList();
+            if(Character.Name != CharacterName.Blinky && Character.Name != CharacterName.PacMan)
+                Character.State.ChangeConditionState(CharacterCondition.WaitToMove);
         }
 
         public void AILogic()
