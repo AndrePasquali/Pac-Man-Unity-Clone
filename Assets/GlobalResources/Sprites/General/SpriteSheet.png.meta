@@ -316,7 +316,7 @@ TextureImporter:
     second: Melon
   - first:
       213: 1634138686273053346
-    second: NicePng_pacman-png_240284_104
+    second: PowerUp
   - first:
       213: -8878980063518719436
     second: NicePng_pacman-png_240284_105
@@ -2788,7 +2788,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NicePng_pacman-png_240284_104
+      name: PowerUp
       rect:
         serializedVersion: 2
         x: 1

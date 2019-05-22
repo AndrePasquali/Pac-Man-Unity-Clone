@@ -1,16 +1,25 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
-namespace DefaultNamespace
+namespace DroidDigital.PacMan.FX
 {
     [RequireComponent(typeof(SpriteRenderer))]
     public class FlickerEffect: MonoBehaviour
     {
         [SerializeField] private float _flickerFrequency = 0.5F;
         
-        protected SpriteRenderer Sprite => _sprite ?? (_sprite = GetComponent<SpriteRenderer>());
-
         private SpriteRenderer _sprite;
+  
+        private Text _animatedText;
+
+        public enum Mode
+        {
+            Text,
+            Sprite
+        }
+
+        public Mode CurrentMode = Mode.Sprite;
 
         public bool AutoStart = true;
 
@@ -18,22 +27,45 @@ namespace DefaultNamespace
 
         private void Start()
         {
+            Initialize();        
+        }
+
+        private void Initialize()
+        {
+            if (CurrentMode == Mode.Sprite)
+                _sprite = GetComponent<SpriteRenderer>();
+            else _animatedText = GetComponent<Text>();
+            
             if(AutoStart)
                 StartFlicker();
         }
 
         protected void StartFlicker()
         {
-            StartCoroutine(StartFlickerAsync());
+            if (CurrentMode == Mode.Sprite)
+                StartCoroutine(StartSpriteFlickerAsync());
+            else StartCoroutine(StartTextFlickerAsync());
         }
 
-        private IEnumerator StartFlickerAsync()
+        private IEnumerator StartSpriteFlickerAsync()
         {
             while (!isPicked)
             {
-                var isActive = !Sprite.enabled;
+                var isActive = !_sprite.enabled;
 
-                Sprite.enabled = isActive;
+                _sprite.enabled = isActive;
+                
+                yield return new WaitForSeconds(_flickerFrequency);
+            }
+        }
+        
+        private IEnumerator StartTextFlickerAsync()
+        {
+            while (!isPicked)
+            {
+                var isActive = !_animatedText.enabled;
+
+                _animatedText.enabled = isActive;
                 
                 yield return new WaitForSeconds(_flickerFrequency);
             }

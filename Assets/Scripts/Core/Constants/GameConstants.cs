@@ -20,6 +20,18 @@ namespace DroidDigital.Core.Constants
         public const string IDLE = "Idle";
         #endregion
 
+        #region UIState
+
+        public const string IDLE_SCREEN = "Idle";
+        public const string PREPARE_TO_START = "PrepareToStart";
+        public const string START_GAME = "StartGame";
+        public const string GAMEPLAY = "Gameplay";
+        public const string LEVEL_COMPLETED = "LevelCompleted";
+        public const string GAMEOVER = "GameOver";
+        
+
+        #endregion
+
         public const string PLAYER_TAG = "Player";    
         public const string ENEMY_TAG = "Enemy";
         

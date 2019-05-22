@@ -15,7 +15,9 @@ namespace DroidDigital.PacMan.Characters
 
             var enemieState = collider.GetComponent<CharacterState>();
                         
-            if(enemieState.ConditionState == CharacterCondition.Vulnerable) return;
+            if(enemieState.ConditionState == CharacterCondition.Vulnerable
+               || enemieState.ConditionState == CharacterCondition.Dead) 
+                return;
                         
             Kill(CharacterHealth);                              
         }       

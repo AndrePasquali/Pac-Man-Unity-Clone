@@ -44,8 +44,8 @@ namespace DroidDigital.PacMan.Enemy.IA
 
         private void Initialize()
         {
-            if(Character.Name != CharacterName.Blinky && Character.Name != CharacterName.PacMan)
-                Character.State.ChangeConditionState(CharacterCondition.WaitToMove);
+           // if(Character.Name != CharacterName.Blinky && Character.Name != CharacterName.PacMan)
+             //   Character.State.ChangeConditionState(CharacterCondition.WaitToMove);
         }
 
         public void AILogic()

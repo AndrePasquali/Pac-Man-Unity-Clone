@@ -1,7 +1,7 @@
 using System.Linq;
-using DefaultNamespace;
 using DroidDigital.PacMan.Characters.State;
 using DroidDigital.PacMan.Enemy.IA;
+using DroidDigital.PacMan.FX;
 
 namespace DroidDigital.PacMan.Level.Item
 {
@@ -14,7 +14,9 @@ namespace DroidDigital.PacMan.Level.Item
             foreach (var enemie in enemies)
             {
                 enemie.Character.State.ChangeConditionState(CharacterCondition.Vulnerable);
+
                 enemie.OnPlayerPickPowerUp();
+
                 enemie.Speed = enemie.Speed / 2;
             }
 

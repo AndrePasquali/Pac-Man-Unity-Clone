@@ -4,7 +4,7 @@ using UnityEngine;
 namespace DroidDigital.Characters
 {
     public abstract class CharacterPhysics: MonoBehaviour, IKill
-    {
+    {        
         public CharacterHealth CharacterHealth =>
             _characterHealth ?? (_characterHealth = GetComponent<CharacterHealth>());
 

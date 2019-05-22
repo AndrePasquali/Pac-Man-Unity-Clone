@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\Input\InputController.cs" />
     <Compile Include="Assets\Scripts\Input\Keys.cs" />
     <Compile Include="Assets\Scripts\Level\FX\FlickerEffect.cs" />
+    <Compile Include="Assets\Scripts\Level\FX\Teleport.cs" />
     <Compile Include="Assets\Scripts\Level\Item\Implementations\DotItem.cs" />
     <Compile Include="Assets\Scripts\Level\Item\Implementations\FruitItem.cs" />
     <Compile Include="Assets\Scripts\Level\Item\Implementations\PowerUpItem.cs" />
@@ -104,6 +105,9 @@
     <Compile Include="Assets\Scripts\PathFind\WayPointState.cs" />
     <Compile Include="Assets\Scripts\UI\Screen\Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Screen\ScreenManagement.cs" />
+    <Compile Include="Assets\Scripts\UI\StateMachine\UIState.cs" />
+    <Compile Include="Assets\Scripts\UI\StateMachine\UIStateController.cs" />
+    <Compile Include="Assets\Scripts\UI\StateMachine\UIStateManagement.cs" />
     <Compile Include="Assets\Scripts\UI\UIController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/andre/Documents/HeartAttack Games/PAC MAN/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

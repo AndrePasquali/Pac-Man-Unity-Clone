@@ -80,6 +80,7 @@
           <e p="Level" t="Include">
             <e p="FX" t="Include">
               <e p="FlickerEffect.cs" t="Include" />
+              <e p="Teleport.cs" t="Include" />
             </e>
             <e p="Item" t="Include">
               <e p="Implementations" t="Include">
@@ -101,6 +102,11 @@
             <e p="Screen" t="Include">
               <e p="Screen.cs" t="Include" />
               <e p="ScreenManagement.cs" t="Include" />
+            </e>
+            <e p="StateMachine" t="Include">
+              <e p="UIState.cs" t="Include" />
+              <e p="UIStateController.cs" t="Include" />
+              <e p="UIStateManagement.cs" t="Include" />
             </e>
             <e p="UIController.cs" t="Include" />
           </e>

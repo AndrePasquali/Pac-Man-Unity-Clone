@@ -223,15 +223,15 @@ namespace DroidDigital.PacMan.PathFind
             {
                 //Move to next node for search for player
                 var itemPath = hit.collider.gameObject.GetComponent<ItemPath>();
-                    
-                if(itemPath.ID == ID) yield break;
+                 
+                if(itemPath != null) if(itemPath.ID == ID) yield break;
                     
                 Debug.DrawRay(rayorigin, desiredDirection * RayDistance, Color.green, 0.1F);
 
                 itemPath.PerformRayCasting();
             }
-            if(collidingPlayer)
-                Debug.Log("CATCH THE PLAYER! ");
+           // if(collidingPlayer)
+             //   Debug.Log("CATCH THE PLAYER! ");
 
             _rayIndex++;
 
