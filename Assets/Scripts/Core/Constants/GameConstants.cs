@@ -18,6 +18,7 @@ namespace DroidDigital.Core.Constants
         public const string ALIVE = "Alive";
         public const string VULNERABLE = "Vulnerable";
         public const string IDLE = "Idle";
+        public const string FREEZE = "Freeze";
         #endregion
 
         #region UIState

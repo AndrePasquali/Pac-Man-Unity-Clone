@@ -23,6 +23,11 @@ namespace DroidDigital.PacMan.Characters
 
         private Animator _animator;
 
+        [SerializeField]
+        private float _timeToStartMove = 2.5F;
+
+        private Vector3 _startPosition;
+
         protected int _currentWayPoint = 0;
 
         protected float _lastUpdateTime;
@@ -52,7 +57,7 @@ namespace DroidDigital.PacMan.Characters
 
         private void ProcessMove()
         {
-            if(Character.State.ConditionState == CharacterCondition.Dead) return;
+            if(Character.State.ConditionState == CharacterCondition.Dead || Character.State.ConditionState == CharacterCondition.Freeze) return;
             
             var direction = (Vector3) CharacterStateManagement.GetVectorByDirectionState(Character.State.DirectionState);
             
@@ -130,13 +135,71 @@ namespace DroidDigital.PacMan.Characters
 
         private void Start()
         {
-           PopulateDirections();
+           Initialize();
         }
 
         public void Initialize()
         {
-            WayPointManagement.PopulatePathList();
-            PopulateDirections();
+            PopulateDirections();           
+            StoreInitialPosition();
+            AuthorizingWalkAfterTime();
+        }
+
+        private void OnLevelStart()
+        {
+            AuthorizingWalkAfterTime();
+        }
+
+        public void AuthorizingWalkAfterTime()
+        {
+            if(Character.State.ConditionState == CharacterCondition.Freeze)
+                Invoke("AuthorizingWalk", _timeToStartMove);    
+        }
+
+        private void StoreInitialPosition()
+        {
+            _startPosition = transform.position;
+        }
+
+        private void RestoreInitialPosition()
+        {
+            transform.position = _startPosition;
+        }
+
+        private void RestoreStartDirections()
+        {
+            AllowedDirections.Clear();
+            
+            AllowedDirections.Add(CharacterDirection.Left);
+            AllowedDirections.Add(CharacterDirection.Right);
+        }
+
+        private void EnableCollider()
+        {
+            var collider = GetComponent<CircleCollider2D>();
+
+            collider.enabled = true;
+        }
+
+        private void EnableInput()
+        {
+            Character.LinkedInputController.IsEnable = true;
+        }
+
+        public void Respawn()
+        {
+            RestoreInitialPosition();
+            Invoke("AuthorizingWalk", _timeToStartMove);
+        }
+           
+
+        public void AuthorizingWalk()
+        {
+            EnableCollider();        
+            EnableInput();
+            RestoreStartDirections();
+            
+            Character.State.ChangeConditionState(CharacterCondition.Alive);
         }
 
         private void PopulateDirections()
@@ -147,7 +210,7 @@ namespace DroidDigital.PacMan.Characters
                 AllowedDirections.Add(direction);
             }
         }
-
+        
         public void EveryFrame()
         {
             SetDirectionByInput();
@@ -157,7 +220,6 @@ namespace DroidDigital.PacMan.Characters
         private void FixedUpdate()
         {
            EveryFrame();
-        }
-        
+        }        
     }
 }

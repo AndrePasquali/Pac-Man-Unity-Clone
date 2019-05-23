@@ -28,6 +28,8 @@ namespace DroidDigital.PacMan.PathFind
 
         public List<CharacterDirection> AlowedDirections;
 
+        public PathCharacter Character = PathCharacter.Both;
+
         public float PlayerDistance
         {
             get
@@ -49,6 +51,7 @@ namespace DroidDigital.PacMan.PathFind
         
         public CharacterDirection DirectionToAddAfterRelease;
 
+        [Tooltip("USED ONLY IF THE CHARACTER START INSIDE THE HOME")]
         public float TimeToRelease = 5.0F;
 
         private float _timeCounter;
@@ -105,22 +108,27 @@ namespace DroidDigital.PacMan.PathFind
             var isPlayerColliding = collider.transform.CompareTag(GameConstants.PLAYER_TAG);
             var isEnemieColliding = collider.transform.CompareTag(GameConstants.ENEMY_TAG);
 
-            if (isPlayerColliding)
+            if (isPlayerColliding && (Character == PathCharacter.PacMan || Character == PathCharacter.Both))
             {         
-                var character = collider.transform.gameObject.GetComponent<Characters.CharacterMovement>();
+                var character = collider.transform.gameObject.GetComponent<CharacterMovement>();
                 var input = collider.transform.gameObject.GetComponent<InputController>();
 
                 if (Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F)
                 {
                     character.UpdateAllowedDirections(AlowedDirections);
                     
-                    input.enabled = true;
+                    if (!input.IsEnable)
+                        input.IsEnable = true;
                     
                     FixPosition(character.gameObject);                
                 }
+                else
+                {
+                    input.IsEnable = false;
+                }
             }
 
-            if (isEnemieColliding && Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F)
+            if (isEnemieColliding && Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F && (Character == PathCharacter.Ghosts || Character == PathCharacter.Both))
             {
                 if(Time.time - _lastCollidingTime < 0.1F) return;
 
@@ -155,6 +163,40 @@ namespace DroidDigital.PacMan.PathFind
                 LastDirectionPick(character.Character.State.DirectionState);                
             }                    
         }
+
+     /*   private void OnTriggerExit2D(Collider2D collider2D)
+        {
+            var isPlayer = collider2D.CompareTag(GameConstants.PLAYER_TAG);
+
+            if (isPlayer)
+            {
+                var input = collider2D.GetComponent<InputController>();
+
+                input.IsEnable = false;
+                StartCoroutine(DisableInputForPlayer(collider2D, 0.01F));
+            }
+        }*/
+
+        private IEnumerator DisableInputForPlayer(Collider2D targetObject, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+
+            var input = targetObject.GetComponent<InputController>();
+
+            input.IsEnable = false;
+        }
+
+    /*    private void OnTriggerEnter2D(Collider2D collider2D)
+        {
+            var isPlayer = collider2D.CompareTag(GameConstants.PLAYER_TAG);
+
+            if (isPlayer)
+            {
+                var input = collider2D.gameObject.GetComponent<InputController>();
+
+                input.IsEnable = true;
+            }
+        }*/
 
         private void LastDirectionPick(CharacterDirection currentDirection)
         {

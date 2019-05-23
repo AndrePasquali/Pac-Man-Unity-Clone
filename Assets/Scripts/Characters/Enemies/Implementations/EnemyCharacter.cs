@@ -30,6 +30,9 @@ namespace DroidDigital.PacMan.Characters
 
             AnimatorController.SetFloat(Animator, GameConstants.HORIZONTAL_SPEED, MovementCharacterController.Speed.x);
             AnimatorController.SetFloat(Animator, GameConstants.VERTICAL_SPEED, MovementCharacterController.Speed.y);
+
+            if (State.ConditionState == CharacterCondition.Freeze)
+                Animator.speed = 0;
         }
     }
 }

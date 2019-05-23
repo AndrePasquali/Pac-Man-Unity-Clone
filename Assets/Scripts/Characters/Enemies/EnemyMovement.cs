@@ -28,24 +28,96 @@ namespace DroidDigital.PacMan.Enemy.IA
         
         public List<CharacterDirection> AllowedDirections = new List<CharacterDirection>();
         
+        public List<CharacterDirection> InitialAllowedDirections = new List<CharacterDirection>();
+        
         public List<Vector2> VectorDirectionList = new List<Vector2>{Vector2.left, Vector2.right, Vector2.down, Vector2.up};
 
         private ItemPath _lastDetectedPath;
+
+        private Vector3 _startPosition;
+
+        [SerializeField]
+        private float _timeToStartMove = 2.5F;
         
         private void Start()
         {
             Initialize();
         }
 
+        private bool CanWalk()
+        {
+            return (Character.State.ConditionState != CharacterCondition.Freeze);
+        }
+
+        private void AuthorizingWalk()
+        {
+            ResetDirections();
+            ResetState();      
+        }
+
+        private void ResetState()
+        {
+            Character.State.ChangeConditionState(CharacterCondition.Alive);
+        }
+
         private void FixedUpdate()
         {
+            if(!CanWalk()) return;
+            
             AILogic();            
         }   
 
         private void Initialize()
         {
-           // if(Character.Name != CharacterName.Blinky && Character.Name != CharacterName.PacMan)
-             //   Character.State.ChangeConditionState(CharacterCondition.WaitToMove);
+            StoreInitialPosition();
+            StoreInitialDirections();
+            
+            if(!CanWalk()) Invoke("AuthorizingWalk", _timeToStartMove);
+        }
+
+        private void StoreInitialPosition()
+        {
+            _startPosition = transform.position;
+        }
+
+        private void StoreInitialDirections()
+        {
+            InitialAllowedDirections = AllowedDirections;
+        }
+
+        public void OnRespawn()
+        {
+            Character.State.ChangeConditionState(CharacterCondition.Freeze);
+            
+            SetVisibility(false);
+            
+            Invoke("Respawn", 2.0F);
+        }
+
+        public void Respawn()
+        {
+            SetVisibility(true);
+            
+            ResetPosition();
+                        
+            Invoke("AuthorizingWalk", _timeToStartMove);
+        }
+
+        private void ResetPosition()
+        {
+            transform.position = _startPosition;
+        }
+
+        private void ResetDirections()
+        {
+            AllowedDirections = InitialAllowedDirections;
+        }
+
+        public void SetVisibility(bool isVisible)
+        {
+            var sprite = GetComponent<SpriteRenderer>();
+
+            sprite.enabled = isVisible;
         }
 
         public void AILogic()

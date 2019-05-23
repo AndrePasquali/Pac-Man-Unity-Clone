@@ -1,10 +1,11 @@
 using DroidDigital.Core.Constants;
 using DroidDigital.PacMan.Characters.Animation;
+using DroidDigital.PacMan.Helpers;
 using UnityEngine;
 
 namespace DroidDigital.PacMan.UI.StateMachine
 {
-    public class UIStateController: MonoBehaviour
+    public class UIStateController: Singleton<UIStateController>
     {
         public UIState CurrentUIState = UIState.Idle;
 
@@ -35,8 +36,7 @@ namespace DroidDigital.PacMan.UI.StateMachine
         }
 
         private void OnLevelStart()
-        {
-            _characters.SetActive(true);
+        {                        
             ChangeUIState(UIState.Gameplay);
         }
 
@@ -50,8 +50,15 @@ namespace DroidDigital.PacMan.UI.StateMachine
                 
                 AudioController.Instance.OnLevelStart();
                 
-                Invoke("OnLevelStart", 3.0F);
+                Invoke("TurnOnCharacters", 2.0F);
             }
+        }
+
+        private void TurnOnCharacters()
+        {
+            _characters.SetActive(true);
+            
+            Invoke("OnLevelStart", 3.0F);
         }
     }
 }

@@ -7,6 +7,10 @@ namespace DroidDigital.PacMan.Level.Item
 {
     public class PowerUpItem: PickableItem
     {
+        public FlickerEffect FlickerFX => _flickerFX ?? (_flickerFX = GetComponent<FlickerEffect>());
+
+        private FlickerEffect _flickerFX;
+        
         public override void OnPick()
         {
             var enemies = FindObjectsOfType<EnemyMovement>().ToList();
@@ -19,10 +23,8 @@ namespace DroidDigital.PacMan.Level.Item
 
                 enemie.Speed = enemie.Speed / 2;
             }
-
-            var flicker = GetComponent<FlickerEffect>();
             
-            flicker.OnPicked();
+            FlickerFX.OnPicked();
             
             Invoke("DisableVunerability", 8.0F);
         }

@@ -99,6 +99,7 @@
     <Compile Include="Assets\Scripts\Level\Item\Implementations\PowerUpItem.cs" />
     <Compile Include="Assets\Scripts\Level\Item\PickableItem.cs" />
     <Compile Include="Assets\Scripts\PathFind\ItemPath.cs" />
+    <Compile Include="Assets\Scripts\PathFind\PathCharacter.cs" />
     <Compile Include="Assets\Scripts\PathFind\PathDirection.cs" />
     <Compile Include="Assets\Scripts\PathFind\PathPosition.cs" />
     <Compile Include="Assets\Scripts\PathFind\WayPointManagement.cs" />

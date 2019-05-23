@@ -5,6 +5,7 @@
         Alive,
         Dead,
         Vulnerable,
-        WaitToMove
+        WaitToMove,
+        Freeze
     }
 }

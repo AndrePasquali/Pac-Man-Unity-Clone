@@ -43,7 +43,7 @@ namespace DroidDigital.Characters.Enemies
 
         private void EveryFrame()
         {
-            ProcessVision();
+            //ProcessVision();
         }
         
         private void ProcessVision()

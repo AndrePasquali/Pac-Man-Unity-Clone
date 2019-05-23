@@ -93,6 +93,7 @@
           </e>
           <e p="PathFind" t="Include">
             <e p="ItemPath.cs" t="Include" />
+            <e p="PathCharacter.cs" t="Include" />
             <e p="PathDirection.cs" t="Include" />
             <e p="PathPosition.cs" t="Include" />
             <e p="WayPointManagement.cs" t="Include" />
