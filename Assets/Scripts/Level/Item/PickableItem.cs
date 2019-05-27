@@ -14,11 +14,13 @@ namespace DroidDigital.PacMan.Level.Item
 
         public int BonusPointsAmount;
 
+        public bool IsPicked;
+
         public delegate void OnPickEvent();
 
         public event OnPickEvent OnPickEventAction;
 
-        private void Initialize()
+        protected virtual void Initialize()
         {
             OnPickEventAction += PlayClip;
             OnPickEventAction += OnPick;
@@ -76,6 +78,8 @@ namespace DroidDigital.PacMan.Level.Item
             OnPickEventAction -= PlayClip;
             OnPickEventAction -= OnPick;
             OnPickEventAction -= AddScore;
+            OnPickEventAction -= DisableCollider;
+            OnPickEventAction -= DisableSprite;
         }
     
     }

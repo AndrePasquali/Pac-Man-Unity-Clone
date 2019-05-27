@@ -13,7 +13,7 @@ namespace DroidDigital.Core.Constants
         public const string VERTICAL_SPEED = "SpeedY";     
         #endregion
 
-        #region State    
+        #region Character States    
         public const string DEAD = "Dead";
         public const string ALIVE = "Alive";
         public const string VULNERABLE = "Vulnerable";
@@ -23,7 +23,7 @@ namespace DroidDigital.Core.Constants
 
         #region UIState
 
-        public const string IDLE_SCREEN = "Idle";
+        public const string START_SCREEN = "StartScreen";
         public const string PREPARE_TO_START = "PrepareToStart";
         public const string START_GAME = "StartGame";
         public const string GAMEPLAY = "Gameplay";
@@ -38,15 +38,24 @@ namespace DroidDigital.Core.Constants
         
         public const string NODE_TAG = "Node";
         public const string WALL_TAG = "Wall";
-        
 
         #region GameplaySettings
 
         public const int MAX_LIVES = 3;
-
+        public const float PLAYER_RESPAWN_TIME = 3.0F;
 
         #endregion
 
+        #region Animations
 
+        public const float PLAYER_DEAD_DURATION = 3.0F;
+
+        public const float GAMEOVER_SCREEN_DURATION = 2.5F;
+
+        public const float GAMEPLAY_SCREEN_DURATION = 2.5F;
+
+        public const float GAMEPLAY_SCREEN_PRE_START_DURATION = 2.0F;
+
+        #endregion
     }
 }

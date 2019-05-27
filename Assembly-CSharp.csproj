@@ -83,10 +83,14 @@
     <Compile Include="Assets\Scripts\Characters\Structures\CharacterPhysics.cs" />
     <Compile Include="Assets\Scripts\Characters\Structures\CharacterType.cs" />
     <Compile Include="Assets\Scripts\Core\Constants\GameConstants.cs" />
+    <Compile Include="Assets\Scripts\Core\Extensions\AsyncExtensions.cs" />
+    <Compile Include="Assets\Scripts\Core\Extensions\GameObjectExtensions.cs" />
     <Compile Include="Assets\Scripts\Core\Initialize.cs" />
     <Compile Include="Assets\Scripts\Core\Settings\GameSettings.cs" />
-    <Compile Include="Assets\Scripts\Gameplay\GameplayManagement.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\GameplayController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Score\ScoreManagement.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\State\GamePlayState.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\State\GamePlayStateController.cs" />
     <Compile Include="Assets\Scripts\Helpers\Singleton.cs" />
     <Compile Include="Assets\Scripts\Input\Button\Button.cs" />
     <Compile Include="Assets\Scripts\Input\Button\ButtonState.cs" />
@@ -94,22 +98,26 @@
     <Compile Include="Assets\Scripts\Input\Keys.cs" />
     <Compile Include="Assets\Scripts\Level\FX\FlickerEffect.cs" />
     <Compile Include="Assets\Scripts\Level\FX\Teleport.cs" />
+    <Compile Include="Assets\Scripts\Level\Item\Fruits\Fruit.cs" />
+    <Compile Include="Assets\Scripts\Level\Item\Fruits\FruitItem.cs" />
     <Compile Include="Assets\Scripts\Level\Item\Implementations\DotItem.cs" />
     <Compile Include="Assets\Scripts\Level\Item\Implementations\FruitItem.cs" />
     <Compile Include="Assets\Scripts\Level\Item\Implementations\PowerUpItem.cs" />
     <Compile Include="Assets\Scripts\Level\Item\PickableItem.cs" />
+    <Compile Include="Assets\Scripts\Level\Level.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelManager.cs" />
     <Compile Include="Assets\Scripts\PathFind\ItemPath.cs" />
     <Compile Include="Assets\Scripts\PathFind\PathCharacter.cs" />
     <Compile Include="Assets\Scripts\PathFind\PathDirection.cs" />
     <Compile Include="Assets\Scripts\PathFind\PathPosition.cs" />
     <Compile Include="Assets\Scripts\PathFind\WayPointManagement.cs" />
     <Compile Include="Assets\Scripts\PathFind\WayPointState.cs" />
+    <Compile Include="Assets\Scripts\UI\HUDController.cs" />
     <Compile Include="Assets\Scripts\UI\Screen\Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Screen\ScreenManagement.cs" />
     <Compile Include="Assets\Scripts\UI\StateMachine\UIState.cs" />
     <Compile Include="Assets\Scripts\UI\StateMachine\UIStateController.cs" />
     <Compile Include="Assets\Scripts\UI\StateMachine\UIStateManagement.cs" />
-    <Compile Include="Assets\Scripts\UI\UIController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/andre/Documents/HeartAttack Games/PAC MAN/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

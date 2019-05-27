@@ -14,14 +14,14 @@ namespace DroidDigital.Gameplay.Score
             
             UpdateHighScore(_score);
             
-            UIController.Instance.UpdateScoreUI(_score);
+            HUDController.Instance.UpdateScoreUI(_score);
         }
 
         public static void UpdateHighScore(int newHighScore)
         {
             _highScore = newHighScore > _highScore ? newHighScore : _highScore;
             
-            UIController.Instance.UpdateHighScoreUI(_highScore);
+            HUDController.Instance.UpdateHighScoreUI(_highScore);
         }
 
         public static void Initialize()

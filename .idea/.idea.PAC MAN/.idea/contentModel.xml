@@ -55,15 +55,23 @@
             <e p="Constants" t="Include">
               <e p="GameConstants.cs" t="Include" />
             </e>
+            <e p="Extensions" t="Include">
+              <e p="AsyncExtensions.cs" t="Include" />
+              <e p="GameObjectExtensions.cs" t="Include" />
+            </e>
             <e p="Initialize.cs" t="Include" />
             <e p="Settings" t="Include">
               <e p="GameSettings.cs" t="Include" />
             </e>
           </e>
           <e p="Gameplay" t="Include">
-            <e p="GameplayManagement.cs" t="Include" />
+            <e p="GameplayController.cs" t="Include" />
             <e p="Score" t="Include">
               <e p="ScoreManagement.cs" t="Include" />
+            </e>
+            <e p="State" t="Include">
+              <e p="GameplayState.cs" t="Include" />
+              <e p="GameplayStateController.cs" t="Include" />
             </e>
           </e>
           <e p="Helpers" t="Include">
@@ -83,6 +91,10 @@
               <e p="Teleport.cs" t="Include" />
             </e>
             <e p="Item" t="Include">
+              <e p="Fruits" t="Include">
+                <e p="Fruit.cs" t="Include" />
+                <e p="FruitItem.cs" t="Include" />
+              </e>
               <e p="Implementations" t="Include">
                 <e p="DotItem.cs" t="Include" />
                 <e p="FruitItem.cs" t="Include" />
@@ -90,6 +102,8 @@
               </e>
               <e p="PickableItem.cs" t="Include" />
             </e>
+            <e p="Level.cs" t="Include" />
+            <e p="LevelManager.cs" t="Include" />
           </e>
           <e p="PathFind" t="Include">
             <e p="ItemPath.cs" t="Include" />
@@ -100,6 +114,7 @@
             <e p="WayPointState.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="HUDController.cs" t="Include" />
             <e p="Screen" t="Include">
               <e p="Screen.cs" t="Include" />
               <e p="ScreenManagement.cs" t="Include" />
@@ -109,7 +124,6 @@
               <e p="UIStateController.cs" t="Include" />
               <e p="UIStateManagement.cs" t="Include" />
             </e>
-            <e p="UIController.cs" t="Include" />
           </e>
         </e>
       </e>

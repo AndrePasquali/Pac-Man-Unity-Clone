@@ -95,8 +95,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f7aef19349de41cbb23df92c271478a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PickClip: {fileID: 8300000, guid: 70973fb88edd642c1abed1a26982f2ca, type: 3}
+  PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 200
+  IsPicked: 0
 --- !u!58 &4671633137540718799
 CircleCollider2D:
   m_ObjectHideFlags: 0

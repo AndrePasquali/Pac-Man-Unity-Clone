@@ -2,7 +2,7 @@ namespace DroidDigital.PacMan.UI.StateMachine
 {
     public enum UIState
     {
-        Idle,
+        StartScreen,
         PrepareToStart,
         StartGame,
         Gameplay,

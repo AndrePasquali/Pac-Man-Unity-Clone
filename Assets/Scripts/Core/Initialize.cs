@@ -9,7 +9,6 @@ namespace DroidDigital.Core
     {
         public static void InitalizeGame()
         {
-            GameplayManagement.Initialize();
             ScoreManagement.Initialize();
             CharacterStateManagement.Initialize();
             WayPointManagement.PopulatePathList();

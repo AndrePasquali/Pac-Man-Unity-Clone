@@ -27,6 +27,8 @@ namespace DroidDigital.PacMan.PathFind
         public List<PathDirection> PathDirectionList = new List<PathDirection>();
 
         public List<CharacterDirection> AlowedDirections;
+        
+        private List<CharacterDirection> _initialAllowedDirections = new List<CharacterDirection>();
 
         public PathCharacter Character = PathCharacter.Both;
 
@@ -94,7 +96,8 @@ namespace DroidDigital.PacMan.PathFind
 
         private void ResetAllowedDirection()
         {
-            AlowedDirections.RemoveAll(e => e == DirectionToAddAfterRelease);
+            //AlowedDirections.RemoveAll(e => e == DirectionToAddAfterRelease);
+            AlowedDirections = _initialAllowedDirections;
         }
 
         public void OnEnemieRespawn()
@@ -113,18 +116,18 @@ namespace DroidDigital.PacMan.PathFind
                 var character = collider.transform.gameObject.GetComponent<CharacterMovement>();
                 var input = collider.transform.gameObject.GetComponent<InputController>();
 
-                if (Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F)
+                if (Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F) //0.25F
                 {
-                    character.UpdateAllowedDirections(AlowedDirections);
+                 //   character.UpdateAllowedDirections(AlowedDirections);
                     
-                    if (!input.IsEnable)
-                        input.IsEnable = true;
+                   // if (!input.IsEnable)
+                     //   input.IsEnable = true;
                     
                     FixPosition(character.gameObject);                
                 }
                 else
                 {
-                    input.IsEnable = false;
+                    //input.IsEnable = false;
                 }
             }
 
@@ -206,7 +209,8 @@ namespace DroidDigital.PacMan.PathFind
 
         private void Initialize()
         {
-            DisableSprite();           
+            DisableSprite();
+            _initialAllowedDirections = AlowedDirections;
         }
 
         private void Start()

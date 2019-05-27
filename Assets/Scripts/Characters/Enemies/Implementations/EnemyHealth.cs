@@ -1,4 +1,5 @@
 using DroidDigital.Characters;
+using DroidDigital.Core.Extensions;
 using DroidDigital.PacMan.Characters.State;
 
 namespace DroidDigital.PacMan.Characters
@@ -8,17 +9,13 @@ namespace DroidDigital.PacMan.Characters
         public override void Kill()
         {            
             base.Kill();
-
-            CharacterState.ChangeConditionState(CharacterCondition.Freeze);
             
             Invoke("DisableEnemy", 1F);
         }
 
         private void DisableEnemy()
-        {
-            CharacterState.ChangeConditionState(CharacterCondition.Dead);
-            
-            gameObject.SetActive(false);
+        {            
+            gameObject.Hide();
         }
     }
 }

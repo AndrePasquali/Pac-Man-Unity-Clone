@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Start
-  m_Speed: 2
+  m_Speed: 999
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -91,31 +91,28 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -8912229992824586959}
-    m_Position: {x: 120, y: 300, z: 0}
+    m_Position: {x: 300, y: 340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5801910318605995920}
-    m_Position: {x: 120, y: 10, z: 0}
+    m_Position: {x: 110, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7272886690503930771}
-    m_Position: {x: 120, y: -50, z: 0}
+    m_Position: {x: 110, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2660797715387078683}
-    m_Position: {x: 120, y: 70, z: 0}
+    m_Position: {x: 110, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2060155429075504586}
-    m_Position: {x: 120, y: 130, z: 0}
+    m_Position: {x: 110, y: 130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6691840414274802540}
-    m_Position: {x: 120, y: 220, z: 0}
+    m_Position: {x: 110, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3241571520708229571}
-    m_Position: {x: 130, y: -110, z: 0}
+    m_Position: {x: 110, y: -120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -962937362037962822}
-    m_Position: {x: 30, y: -190, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 3861674778895908843}
-    m_Position: {x: 65, y: -125, z: 0}
+    m_Position: {x: 110, y: -200, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 6078977947470980384}
@@ -130,7 +127,7 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -200, y: -50, z: 0}
   m_EntryPosition: {x: -170, y: 350, z: 0}
-  m_ExitPosition: {x: 550, y: 110, z: 0}
+  m_ExitPosition: {x: 420, y: 0, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -8912229992824586959}
 --- !u!1101 &-6033617050462504582
@@ -181,7 +178,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.75
-  m_HasExitTime: 0
+  m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -392,32 +389,6 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 943a939eb8f744b9f88506aeb141419b, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &3861674778895908843
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: PacMan_Idle
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 36335b04d211d456f918c66a05e6849e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

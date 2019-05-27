@@ -1,6 +1,7 @@
 using DroidDigital.Characters;
 using DroidDigital.PacMan.Enemy.IA;
 using DroidDigital.PacMan.Gameplay;
+using DroidDigital.PacMan.Gameplay.State;
 using DroidDigital.PacMan.UI.StateMachine;
 using UnityEngine;
 
@@ -8,9 +9,9 @@ namespace DroidDigital.PacMan.Characters
 {
     public sealed class PacManHealth: CharacterHealth
     {
-        public CircleCollider2D Collider => _collider ?? (_collider = GetComponent<CircleCollider2D>());
+        public Collider2D Collider => _collider ?? (_collider = GetComponent<Collider2D>());
 
-        private CircleCollider2D _collider;
+        private Collider2D _collider;
 
         public override void Kill()
         {
@@ -18,33 +19,20 @@ namespace DroidDigital.PacMan.Characters
             
             OnDie();
                                   
-            GameplayManagement.OnPlayerDie();            
+            GamePlayStateController.ChangeGamePlayState(GamePlayState.PlayerDie);           
         }
 
         private void OnDie()
         {
+            DisableCollider();
+            
+            UIStateController.Instance.ChangeUIState(UIState.StartGame);         
+        }
+
+        private void DisableCollider()
+        {
             Collider.enabled = false;
-            
-            UIStateController.Instance.ChangeUIState(UIState.StartGame);
-            
-            RespawnAllEnemies();
-            
-            Invoke("RespawnPlayer", 3.0F);
         }
-
-        private void RespawnAllEnemies()
-        {
-            var enemies = FindObjectsOfType<EnemyMovement>();
-
-            foreach (var enemy in enemies)
-                enemy.OnRespawn(); 
-        }
-
-        private void RespawnPlayer()
-        {
-            var pacman = GetComponent<CharacterMovement>();
-            
-            pacman.Respawn();
-        }
+  
     }
 }

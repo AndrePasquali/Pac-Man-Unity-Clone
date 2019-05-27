@@ -1,9 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using DroidDigital.PacMan.Characters;
 using DroidDigital.PacMan.Characters.State;
 using DroidDigital.PacMan.PathFind;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace DroidDigital.PacMan.Enemy.IA
 {
@@ -46,7 +50,7 @@ namespace DroidDigital.PacMan.Enemy.IA
 
         private bool CanWalk()
         {
-            return (Character.State.ConditionState != CharacterCondition.Freeze);
+            return (Character.State.ConditionState != CharacterCondition.Freeze && Character.State.ConditionState != CharacterCondition.Dead);
         }
 
         private void AuthorizingWalk()
@@ -61,9 +65,7 @@ namespace DroidDigital.PacMan.Enemy.IA
         }
 
         private void FixedUpdate()
-        {
-            if(!CanWalk()) return;
-            
+        {            
             AILogic();            
         }   
 
@@ -85,22 +87,35 @@ namespace DroidDigital.PacMan.Enemy.IA
             InitialAllowedDirections = AllowedDirections;
         }
 
-        public void OnRespawn()
+        public async void OnRespawn()
         {
             Character.State.ChangeConditionState(CharacterCondition.Freeze);
             
-            SetVisibility(false);
+            ResetPosition();
             
-            Invoke("Respawn", 2.0F);
+            SetVisibility(false);
+
+            await Task.Delay(TimeSpan.FromSeconds(2.0F));
+            
+            Respawn();
         }
 
-        public void Respawn()
+        public async void Respawn()
         {
             SetVisibility(true);
+
+            await Task.Delay(TimeSpan.FromSeconds(_timeToStartMove));
+                              
+            AuthorizingWalk();
+        }
+
+        public void OnGameReset()
+        {
+            Character.State.ChangeConditionState(CharacterCondition.Freeze);
+            
+            ResetDirections();
             
             ResetPosition();
-                        
-            Invoke("AuthorizingWalk", _timeToStartMove);
         }
 
         private void ResetPosition()
@@ -122,6 +137,8 @@ namespace DroidDigital.PacMan.Enemy.IA
 
         public void AILogic()
         {
+            if(!CanWalk()) return;
+            
             var direction = (Vector3) CharacterStateManagement.GetVectorByDirectionState(Character.State.DirectionState);
 
             transform.position = transform.position + direction * Time.deltaTime * Speed;
@@ -170,14 +187,18 @@ namespace DroidDigital.PacMan.Enemy.IA
         public void OnPlayerPickPowerUp()
         {
             var currentDirection = Character.State;
+            
+            //var targetDirection = AllowedDirections.First(e => e != currentDirection.DirectionState);
 
+            //currentDirection.ChangeDirectionState(targetDirection);
+            
             switch (currentDirection.DirectionState)
             {
-                    case CharacterDirection.Down: currentDirection.ChangeDirectionState(CharacterDirection.Up); break;
-                        case CharacterDirection.Up: currentDirection.ChangeDirectionState(CharacterDirection.Down); break;
-                            case CharacterDirection.Left: currentDirection.ChangeDirectionState(CharacterDirection.Right); break;
-                                case CharacterDirection.Right: currentDirection.ChangeDirectionState(CharacterDirection.Left); break;
-                                    default: currentDirection.ChangeDirectionState(CharacterDirection.Left); break;
+                    case CharacterDirection.Down: if(AllowedDirections.Contains(CharacterDirection.Up)) currentDirection.ChangeDirectionState(CharacterDirection.Up); break;
+                        case CharacterDirection.Up: if(AllowedDirections.Contains(CharacterDirection.Down)) currentDirection.ChangeDirectionState(CharacterDirection.Down); break;
+                            case CharacterDirection.Left: if(AllowedDirections.Contains(CharacterDirection.Right)) currentDirection.ChangeDirectionState(CharacterDirection.Right); break;
+                                case CharacterDirection.Right: if(AllowedDirections.Contains(CharacterDirection.Left)) currentDirection.ChangeDirectionState(CharacterDirection.Left); break;
+                                    default: currentDirection.ChangeDirectionState(currentDirection.DirectionState); break;
             }  
         }
 

@@ -26,7 +26,7 @@ namespace DroidDigital.Characters
             CharacterState.ChangeConditionState(CharacterCondition.Dead);
             
             if(DeathClip != null)
-                AudioController.Instance.PlayClip(DeathClip);
+                AudioController.Instance.PlaySound(DeathClip);
         }
 
         private void OnDestroy()

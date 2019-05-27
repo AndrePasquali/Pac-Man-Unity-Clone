@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using DroidDigital.PacMan.Helpers;
+﻿using DroidDigital.PacMan.Helpers;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(AudioSource))]
 public class AudioController : Singleton<AudioController>
@@ -9,27 +8,38 @@ public class AudioController : Singleton<AudioController>
     [Header("Audio Clips")]
     [SerializeField] private AudioClip _powerUpClip;
 
-    [SerializeField] private AudioClip _dotPickupClip;
+    [SerializeField] private AudioClip[] _dotPickupClips;
 
     [SerializeField] private AudioClip _startLevelClip;
 
-    [SerializeField] private AudioClip _diedClip;
+    [SerializeField] private AudioClip _gameplayClip;
+
+    [SerializeField] private AudioClip _playerDieClip;
+    
 
     public AudioSource M_Audio => _m_audio ?? (_m_audio = GetComponent<AudioSource>());
 
     private AudioSource _m_audio;
 
 
-    private void Start()
-    {
-       // M_Audio.PlayOneShot(_startLevelClip);
-    }
-
     #region Events
     
     public void OnLevelStart()
     {
         M_Audio.PlayOneShot(_startLevelClip);
+    }
+
+    public void OnGameplay()
+    {
+        M_Audio.clip = _gameplayClip;
+        M_Audio.loop = true;
+        M_Audio.Play();
+    }
+
+    public void OnPlayerDie()
+    {
+        if(_playerDieClip != null)
+            M_Audio.PlayOneShot(_playerDieClip);
     }
 
     public void PlayClip(AudioClip clipToPlay)
@@ -64,6 +74,14 @@ public class AudioController : Singleton<AudioController>
         audioSource.Play();
     }
 
+    public void PlayEatingClip()
+    {
+        if(_dotPickupClips == null) return;
+        
+        var clip = _dotPickupClips[Random.Range(0, _dotPickupClips.Length)];
+        M_Audio.PlayOneShot(clip);
+    }
+
     public void PlayOnShot(AudioClip clipToPlay)
     {
         M_Audio.PlayOneShot(clipToPlay);
@@ -72,6 +90,11 @@ public class AudioController : Singleton<AudioController>
     public void PlayOnShot(ref AudioSource audioSource, AudioClip clipToPlay)
     {
         audioSource.PlayOneShot(clipToPlay);
+    }
+
+    public void StopAll()
+    {
+        M_Audio.Stop();
     }
 
 

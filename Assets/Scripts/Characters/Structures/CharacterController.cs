@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace DroidDigital.PacMan
 {
-    [RequireComponent(typeof(CircleCollider2D), typeof(Rigidbody2D))]
+    [RequireComponent(typeof(Rigidbody2D))]
     public class CharacterController : MonoBehaviour
     {
         //Is Left Colliding?
@@ -17,7 +17,29 @@ namespace DroidDigital.PacMan
 
         //IsColliding Back
         private bool IsCollidingBack;
+
+        public Collider2D Collider2D => _collider2D ?? (_collider2D = GetComponent<Collider2D>());
         
+        private Collider2D _collider2D;
+
+        private float _colliderTop => Collider2D.offset.y + (Collider2D.bounds.size.y / 2F);
+
+        private float _colliderBottom => Collider2D.offset.y - (Collider2D.bounds.size.y / 2F);
+
+        private float _colliderLeft => Collider2D.offset.x - (Collider2D.bounds.size.x / 2F);
+
+        private float _colliderRight => Collider2D.offset.x + (Collider2D.bounds.size.x / 2F);
+        
+        private Vector2 _colliderTopLeft => new Vector2(_colliderLeft, _colliderTop);
+        
+        private Vector2 _colliderTopRight => new Vector2(_colliderRight, _colliderTop);
+        
+        private Vector2 _colliderBottomLeft => new Vector2(_colliderLeft, _colliderBottom);
+        
+        private Vector2 _colliderBottomRight => new Vector2(_colliderRight, _colliderBottom);
+        
+        private Vector2 _colliderCenter => new Vector2(Collider2D.bounds.center.x, Collider2D.bounds.center.y);
+
         public Rigidbody2D Rigibody => _rigibody ?? (_rigibody = GetComponent<Rigidbody2D>());
 
         private Rigidbody2D _rigibody;
@@ -47,6 +69,11 @@ namespace DroidDigital.PacMan
         private void FixedUpdate()
         {
             //EveryFrame();
+        }
+
+        public void ProcessContacts()
+        {
+            
         }
 
         public void MoveToPosition(Vector2 newPosition)
