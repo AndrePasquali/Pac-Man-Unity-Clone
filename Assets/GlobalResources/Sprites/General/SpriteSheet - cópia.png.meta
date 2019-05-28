@@ -1,0 +1,3414 @@
+fileFormatVersion: 2
+guid: 5b54c17f74f7d47e98e9b48cfda10f5a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 988721557815292926
+    second: pacman_left_mid
+  - first:
+      213: -7411498550847952266
+    second: pacman_left_high
+  - first:
+      213: 3885816259866037877
+    second: pacman_idle
+  - first:
+      213: -7545268310745827581
+    second: pac_idle
+  - first:
+      213: -3131256023323259666
+    second: "SpriteSheet - co\u0301pia_4"
+  - first:
+      213: 6344802875888500893
+    second: "SpriteSheet - co\u0301pia_5"
+  - first:
+      213: 7870429724575307743
+    second: "SpriteSheet - co\u0301pia_6"
+  - first:
+      213: 2815486926098249388
+    second: "SpriteSheet - co\u0301pia_7"
+  - first:
+      213: -8773770205436526055
+    second: "SpriteSheet - co\u0301pia_8"
+  - first:
+      213: -8191696611447562087
+    second: "SpriteSheet - co\u0301pia_9"
+  - first:
+      213: 3088110527857608741
+    second: "SpriteSheet - co\u0301pia_10"
+  - first:
+      213: -721783040780988216
+    second: "SpriteSheet - co\u0301pia_11"
+  - first:
+      213: 4605079301928653787
+    second: "SpriteSheet - co\u0301pia_12"
+  - first:
+      213: -9055103156339079642
+    second: "SpriteSheet - co\u0301pia_13"
+  - first:
+      213: 7828240026254901666
+    second: pac_right_m
+  - first:
+      213: 45063697296415079
+    second: pac_right_h
+  - first:
+      213: 970650807001767423
+    second: pacman_right_mid
+  - first:
+      213: -4093825915588823474
+    second: pacman_right_high
+  - first:
+      213: -5884677958847396444
+    second: "SpriteSheet - co\u0301pia_18"
+  - first:
+      213: 3810758801747018068
+    second: "SpriteSheet - co\u0301pia_19"
+  - first:
+      213: 2725310456191806230
+    second: pac_up_m
+  - first:
+      213: -874864282652018240
+    second: pac_up_h
+  - first:
+      213: 8007707723544977669
+    second: "SpriteSheet - co\u0301pia_22"
+  - first:
+      213: -8270653160683519905
+    second: "SpriteSheet - co\u0301pia_23"
+  - first:
+      213: 7972490573338261976
+    second: pacman_up_mid
+  - first:
+      213: -5282879276125716191
+    second: pacman_up_high
+  - first:
+      213: -5781398031449242427
+    second: "SpriteSheet - co\u0301pia_26"
+  - first:
+      213: -7445241974783840012
+    second: pac_down_m
+  - first:
+      213: 4500422750133485231
+    second: pac_down_h
+  - first:
+      213: 6586090089603281692
+    second: "SpriteSheet - co\u0301pia_29"
+  - first:
+      213: -8457105918277127344
+    second: "SpriteSheet - co\u0301pia_30"
+  - first:
+      213: 142773609661820691
+    second: "SpriteSheet - co\u0301pia_31"
+  - first:
+      213: 14644510544918100
+    second: "SpriteSheet - co\u0301pia_32"
+  - first:
+      213: -8746721625495673212
+    second: "SpriteSheet - co\u0301pia_33"
+  - first:
+      213: 4411277966049860873
+    second: "SpriteSheet - co\u0301pia_34"
+  - first:
+      213: 6665023283175111888
+    second: "SpriteSheet - co\u0301pia_35"
+  - first:
+      213: -3970454897074781287
+    second: "SpriteSheet - co\u0301pia_36"
+  - first:
+      213: 141068024464737398
+    second: "SpriteSheet - co\u0301pia_37"
+  - first:
+      213: -1675015634888971356
+    second: "SpriteSheet - co\u0301pia_38"
+  - first:
+      213: -133152802491581775
+    second: "SpriteSheet - co\u0301pia_39"
+  - first:
+      213: 9177739280379195311
+    second: "SpriteSheet - co\u0301pia_40"
+  - first:
+      213: -6775695972796600919
+    second: "SpriteSheet - co\u0301pia_41"
+  - first:
+      213: -6263930278752427066
+    second: "SpriteSheet - co\u0301pia_42"
+  - first:
+      213: -3179903055704946204
+    second: "SpriteSheet - co\u0301pia_43"
+  - first:
+      213: 6282675244591359379
+    second: "SpriteSheet - co\u0301pia_44"
+  - first:
+      213: -5557673951389461810
+    second: "SpriteSheet - co\u0301pia_45"
+  - first:
+      213: -2925881264133372896
+    second: "SpriteSheet - co\u0301pia_46"
+  - first:
+      213: -7212701619950560806
+    second: "SpriteSheet - co\u0301pia_47"
+  - first:
+      213: -5996696870862054415
+    second: "SpriteSheet - co\u0301pia_48"
+  - first:
+      213: 5465677250062296283
+    second: "SpriteSheet - co\u0301pia_49"
+  - first:
+      213: 1537974288733026241
+    second: "SpriteSheet - co\u0301pia_50"
+  - first:
+      213: -6792762296011015419
+    second: "SpriteSheet - co\u0301pia_51"
+  - first:
+      213: 8420332532404284861
+    second: "SpriteSheet - co\u0301pia_52"
+  - first:
+      213: -7492765271739243563
+    second: "SpriteSheet - co\u0301pia_53"
+  - first:
+      213: 4368780812628304941
+    second: "SpriteSheet - co\u0301pia_54"
+  - first:
+      213: 5283400037121447820
+    second: "SpriteSheet - co\u0301pia_55"
+  - first:
+      213: -7081659581507857676
+    second: "SpriteSheet - co\u0301pia_56"
+  - first:
+      213: -8747062258668977025
+    second: "SpriteSheet - co\u0301pia_57"
+  - first:
+      213: -8176508753297072725
+    second: "SpriteSheet - co\u0301pia_58"
+  - first:
+      213: 6771596289999137316
+    second: "SpriteSheet - co\u0301pia_59"
+  - first:
+      213: 9014850364696895014
+    second: "SpriteSheet - co\u0301pia_60"
+  - first:
+      213: 938887509565333568
+    second: "SpriteSheet - co\u0301pia_61"
+  - first:
+      213: -5012555760046731228
+    second: "SpriteSheet - co\u0301pia_62"
+  - first:
+      213: 336940116662922319
+    second: "SpriteSheet - co\u0301pia_63"
+  - first:
+      213: -146688979217434435
+    second: "SpriteSheet - co\u0301pia_64"
+  - first:
+      213: 5293250358060714640
+    second: "SpriteSheet - co\u0301pia_65"
+  - first:
+      213: 1235256345455689742
+    second: "SpriteSheet - co\u0301pia_66"
+  - first:
+      213: -1768552088733678928
+    second: "SpriteSheet - co\u0301pia_67"
+  - first:
+      213: 5325665786498800184
+    second: "SpriteSheet - co\u0301pia_68"
+  - first:
+      213: -8777789754835996100
+    second: "SpriteSheet - co\u0301pia_69"
+  - first:
+      213: 8195086146061713540
+    second: "SpriteSheet - co\u0301pia_70"
+  - first:
+      213: 5005024117351104920
+    second: "SpriteSheet - co\u0301pia_71"
+  - first:
+      213: -8315284790722491724
+    second: "SpriteSheet - co\u0301pia_72"
+  - first:
+      213: 8561481335478047848
+    second: "SpriteSheet - co\u0301pia_73"
+  - first:
+      213: -6703195478271638513
+    second: "SpriteSheet - co\u0301pia_74"
+  - first:
+      213: -8751706004710923646
+    second: "SpriteSheet - co\u0301pia_75"
+  - first:
+      213: 3278743064550672871
+    second: "SpriteSheet - co\u0301pia_76"
+  - first:
+      213: 6169827623186415970
+    second: "SpriteSheet - co\u0301pia_77"
+  - first:
+      213: 2594671570522626524
+    second: "SpriteSheet - co\u0301pia_78"
+  - first:
+      213: -3089308700620697463
+    second: "SpriteSheet - co\u0301pia_79"
+  - first:
+      213: 2321896108577972467
+    second: "SpriteSheet - co\u0301pia_80"
+  - first:
+      213: -8106794304704112357
+    second: "SpriteSheet - co\u0301pia_81"
+  - first:
+      213: 6197531277087380901
+    second: "SpriteSheet - co\u0301pia_82"
+  - first:
+      213: -1347839827857967073
+    second: "SpriteSheet - co\u0301pia_83"
+  - first:
+      213: -2372282130867280018
+    second: "SpriteSheet - co\u0301pia_84"
+  - first:
+      213: -253636416714344787
+    second: "SpriteSheet - co\u0301pia_85"
+  - first:
+      213: -3336644504995635770
+    second: "SpriteSheet - co\u0301pia_86"
+  - first:
+      213: -5290404095013872413
+    second: "SpriteSheet - co\u0301pia_87"
+  - first:
+      213: 63147756658538420
+    second: "SpriteSheet - co\u0301pia_88"
+  - first:
+      213: 1081365350524224036
+    second: "SpriteSheet - co\u0301pia_89"
+  - first:
+      213: 8935347766857453074
+    second: "SpriteSheet - co\u0301pia_90"
+  - first:
+      213: -9004046921413933039
+    second: "SpriteSheet - co\u0301pia_91"
+  - first:
+      213: 3167561792242339469
+    second: "SpriteSheet - co\u0301pia_92"
+  - first:
+      213: 3224374795062541027
+    second: "SpriteSheet - co\u0301pia_93"
+  - first:
+      213: 7248582931686611051
+    second: "SpriteSheet - co\u0301pia_94"
+  - first:
+      213: -8272721036143080201
+    second: "SpriteSheet - co\u0301pia_95"
+  - first:
+      213: -8849928905145925424
+    second: "SpriteSheet - co\u0301pia_96"
+  - first:
+      213: -7541961883997783741
+    second: "SpriteSheet - co\u0301pia_97"
+  - first:
+      213: -2463734756715184188
+    second: "SpriteSheet - co\u0301pia_98"
+  - first:
+      213: -8562000011717115536
+    second: "SpriteSheet - co\u0301pia_99"
+  - first:
+      213: 4640466046636219180
+    second: "SpriteSheet - co\u0301pia_100"
+  - first:
+      213: -1064650250185729060
+    second: "SpriteSheet - co\u0301pia_101"
+  - first:
+      213: -549387732879246193
+    second: "SpriteSheet - co\u0301pia_102"
+  - first:
+      213: 2729403061340204383
+    second: "SpriteSheet - co\u0301pia_103"
+  - first:
+      213: -2877369592462093210
+    second: "SpriteSheet - co\u0301pia_104"
+  - first:
+      213: 4226613344720929778
+    second: "SpriteSheet - co\u0301pia_105"
+  - first:
+      213: 2940678860058962269
+    second: "SpriteSheet - co\u0301pia_106"
+  - first:
+      213: -3141865646236026440
+    second: "SpriteSheet - co\u0301pia_107"
+  - first:
+      213: 7739045943268123589
+    second: "SpriteSheet - co\u0301pia_108"
+  - first:
+      213: -8072773301890324156
+    second: "SpriteSheet - co\u0301pia_109"
+  - first:
+      213: -8749311732175009007
+    second: "SpriteSheet - co\u0301pia_110"
+  - first:
+      213: -2900371425715367186
+    second: "SpriteSheet - co\u0301pia_111"
+  - first:
+      213: 7378303740299439971
+    second: "SpriteSheet - co\u0301pia_112"
+  - first:
+      213: -5562669520730633320
+    second: "SpriteSheet - co\u0301pia_113"
+  - first:
+      213: -265226974850120785
+    second: "SpriteSheet - co\u0301pia_114"
+  - first:
+      213: -7174322865605317948
+    second: "SpriteSheet - co\u0301pia_115"
+  - first:
+      213: -4107956043497650302
+    second: "SpriteSheet - co\u0301pia_116"
+  - first:
+      213: -6563277499859279231
+    second: "SpriteSheet - co\u0301pia_117"
+  - first:
+      213: 7726031908208178417
+    second: "SpriteSheet - co\u0301pia_118"
+  - first:
+      213: 5390781784351266354
+    second: "SpriteSheet - co\u0301pia_119"
+  - first:
+      213: 8149736407167667449
+    second: "SpriteSheet - co\u0301pia_120"
+  - first:
+      213: 5474930600395512082
+    second: "SpriteSheet - co\u0301pia_121"
+  - first:
+      213: -1018050797998019922
+    second: "SpriteSheet - co\u0301pia_122"
+  - first:
+      213: 4786803295960093766
+    second: "SpriteSheet - co\u0301pia_123"
+  - first:
+      213: 3866877559844636793
+    second: "SpriteSheet - co\u0301pia_124"
+  - first:
+      213: 2451103984188297859
+    second: "SpriteSheet - co\u0301pia_125"
+  - first:
+      213: 4208388746068083235
+    second: "SpriteSheet - co\u0301pia_126"
+  - first:
+      213: 7067040202867072120
+    second: "SpriteSheet - co\u0301pia_127"
+  - first:
+      213: -7749407365455167682
+    second: "SpriteSheet - co\u0301pia_128"
+  - first:
+      213: 6933665014432547890
+    second: "SpriteSheet - co\u0301pia_129"
+  - first:
+      213: 247453009621177466
+    second: "SpriteSheet - co\u0301pia_130"
+  - first:
+      213: 3648180229514756008
+    second: "SpriteSheet - co\u0301pia_131"
+  - first:
+      213: 8533538938653685160
+    second: "SpriteSheet - co\u0301pia_132"
+  - first:
+      213: -6395878110599727799
+    second: "SpriteSheet - co\u0301pia_133"
+  - first:
+      213: -5701282611694989844
+    second: "SpriteSheet - co\u0301pia_134"
+  - first:
+      213: 5706569281040219300
+    second: "SpriteSheet - co\u0301pia_135"
+  - first:
+      213: -8371218663395102500
+    second: "SpriteSheet - co\u0301pia_136"
+  - first:
+      213: -1099371654317188376
+    second: "SpriteSheet - co\u0301pia_137"
+  - first:
+      213: 5695126073360721232
+    second: "SpriteSheet - co\u0301pia_138"
+  - first:
+      213: 3241243143964647363
+    second: "SpriteSheet - co\u0301pia_139"
+  - first:
+      213: 8128452500416933478
+    second: "SpriteSheet - co\u0301pia_140"
+  - first:
+      213: -7062713043750018676
+    second: "SpriteSheet - co\u0301pia_141"
+  - first:
+      213: -6932624465800094049
+    second: "SpriteSheet - co\u0301pia_142"
+  - first:
+      213: -1819059819146868758
+    second: "SpriteSheet - co\u0301pia_143"
+  - first:
+      213: -3400871292986364705
+    second: "SpriteSheet - co\u0301pia_144"
+  - first:
+      213: 2258030701089739900
+    second: "SpriteSheet - co\u0301pia_145"
+  - first:
+      213: 7230005238588980963
+    second: "SpriteSheet - co\u0301pia_146"
+  - first:
+      213: -4661697249243812566
+    second: "SpriteSheet - co\u0301pia_147"
+  - first:
+      213: -2871359306140539861
+    second: "SpriteSheet - co\u0301pia_148"
+  - first:
+      213: -4744282190951598728
+    second: "SpriteSheet - co\u0301pia_149"
+  - first:
+      213: -7191526027487976720
+    second: "SpriteSheet - co\u0301pia_150"
+  - first:
+      213: -8695684786169324397
+    second: "SpriteSheet - co\u0301pia_151"
+  - first:
+      213: -7932023448750134884
+    second: "SpriteSheet - co\u0301pia_152"
+  - first:
+      213: 2998316206293487738
+    second: "SpriteSheet - co\u0301pia_153"
+  - first:
+      213: 1348635472637024709
+    second: "SpriteSheet - co\u0301pia_154"
+  - first:
+      213: 6054074018702913893
+    second: "SpriteSheet - co\u0301pia_155"
+  - first:
+      213: 5746276594797170767
+    second: "SpriteSheet - co\u0301pia_156"
+  - first:
+      213: -8188964904833055244
+    second: "SpriteSheet - co\u0301pia_157"
+  - first:
+      213: -5987333606524515450
+    second: "SpriteSheet - co\u0301pia_158"
+  - first:
+      213: 5913910796755967628
+    second: "SpriteSheet - co\u0301pia_159"
+  - first:
+      213: 3538237903882189057
+    second: "SpriteSheet - co\u0301pia_160"
+  - first:
+      213: 7134864279936925969
+    second: "SpriteSheet - co\u0301pia_161"
+  - first:
+      213: 3175772857394305759
+    second: "SpriteSheet - co\u0301pia_162"
+  - first:
+      213: 5954126392723388376
+    second: "SpriteSheet - co\u0301pia_163"
+  - first:
+      213: 5191330892145067626
+    second: "SpriteSheet - co\u0301pia_164"
+  - first:
+      213: 1078548379485192145
+    second: "SpriteSheet - co\u0301pia_165"
+  - first:
+      213: 585998926787508656
+    second: "SpriteSheet - co\u0301pia_0"
+  - first:
+      213: 6949270872544594549
+    second: pac_left_mid
+  - first:
+      213: -4796716030158777364
+    second: pac_left_h
+  - first:
+      213: 2995581990631047437
+    second: "SpriteSheet - co\u0301pia_16"
+  - first:
+      213: 7728756416687573819
+    second: "SpriteSheet - co\u0301pia_17"
+  - first:
+      213: 2528213264062596710
+    second: "SpriteSheet - co\u0301pia_24"
+  - first:
+      213: -3792984843942552093
+    second: "SpriteSheet - co\u0301pia_25"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e345e5ef725004128b7feed2e162bff2
+      internalID: 585998926787508656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_left_mid
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 941
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f70da0fdf540b98692ecb34018a39
+      internalID: 6949270872544594549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_left_h
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 941
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de659f1cab4c4d9ab312f8990d004df
+      internalID: -4796716030158777364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_idle
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 941
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbfeac7c14cf429a94a29d09232b5e8
+      internalID: -7545268310745827581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_4"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 937
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000aadd530ae4454d941669ac1ef2241
+      internalID: -3131256023323259666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_5"
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 937
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee3be5762f5b44deaa6991de4f475ec
+      internalID: 6344802875888500893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_6"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 937
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95411ef5fc7eb4c7e83884fcc111931b
+      internalID: 7870429724575307743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_7"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 952
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f5412969d244b35b4e1b994bf7a6b7
+      internalID: 2815486926098249388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_8"
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 966
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7399e7b6e906e498f843a1d295c8701c
+      internalID: -8773770205436526055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_9"
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 966
+        width: 86
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77477b6d5523a4bf9ba7160dcd2cc569
+      internalID: -8191696611447562087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_10"
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 966
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c38cdaffb204383951b3d68d2bf0c0
+      internalID: 3088110527857608741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_11"
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 966
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4213cd338584673b235a5740a246e7
+      internalID: -721783040780988216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_12"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 875
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d561d62ea74a4e82927b44e4c5e578c
+      internalID: 4605079301928653787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_13"
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 0
+        width: 1699
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17c76acb685d4ea6baa9db57e21ed5f
+      internalID: -9055103156339079642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_right_m
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 868
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5846dd0653c254860a8a8de34a97e031
+      internalID: 7828240026254901666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_right_h
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 868
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d0f36b98ca843f4b6ce0634557e60e
+      internalID: 45063697296415079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_16"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 864
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783412c75522a463d8942596efb5fbfc
+      internalID: 2995581990631047437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_17"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 864
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f7c9cd9e493424284d3dbcf9eb6ad0
+      internalID: 7728756416687573819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_18"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 857
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a5a9fa6d8ad43cca2c39ede3077c53
+      internalID: -5884677958847396444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_19"
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 879
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b1253d49f854f72823ac8ee4ae0868
+      internalID: 3810758801747018068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_up_m
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 795
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1414f92b57d41ad9b82655f4b21cb5
+      internalID: 2725310456191806230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_up_h
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 795
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5856720fbef49f4a70aa016783bd44
+      internalID: -874864282652018240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_22"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 791
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8164edf89fbe24e588d12c0b6ae895f8
+      internalID: 8007707723544977669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_23"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 791
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae92ee53cc3f47e98769ae17b977ef6
+      internalID: -8270653160683519905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_24"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 791
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542bd74ae4033439cb9bfbc53c5c9a79
+      internalID: 2528213264062596710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_25"
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 805
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3528d199a97f442cd87f2303f1eabdce
+      internalID: -3792984843942552093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_26"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 729
+        width: 116
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83d9f982d336428ab584b3a679e77ba
+      internalID: -5781398031449242427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_down_m
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 725
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e882e73a89da4f8b83393aef65d2303
+      internalID: -7445241974783840012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pac_down_h
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 739
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef41651a19454e83a408cb579864a18
+      internalID: 4500422750133485231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_29"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 725
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cda5e6739d945908dbe9688b983af3
+      internalID: 6586090089603281692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_30"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 732
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcff67791c3184a04917c8088d02865b
+      internalID: -8457105918277127344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_31"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 718
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33999e4af444f43f58c73979f81f691d
+      internalID: 142773609661820691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_32"
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 732
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396cf7fb70c9e4aa392716ecdfc156e8
+      internalID: 14644510544918100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_33"
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 710
+        width: 87
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b840dfbeb21334bc286b82e3f377ec6f
+      internalID: -8746721625495673212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_34"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 645
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79df9571412c443669083209dd60f9f7
+      internalID: 4411277966049860873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_35"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 645
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb68eb1cee673455c9766bdd9e6fb38f
+      internalID: 6665023283175111888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_36"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 645
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb41f3e88c4a04877a471a2517c21ba6
+      internalID: -3970454897074781287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_37"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 645
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d540933fccd4851bb5872f88e3af69
+      internalID: 141068024464737398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_38"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 645
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a6bedf32a344ae0b3a6be37a14f23a
+      internalID: -1675015634888971356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_39"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 645
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0d96a2fca304b36bd6d67e5a6849f9
+      internalID: -133152802491581775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_40"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 645
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b68713611eb462886a9d1fcad13688
+      internalID: 9177739280379195311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_41"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 645
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340ee456a1d564bb2834009ca6dd9952
+      internalID: -6775695972796600919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_42"
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 659
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da8ed22b29f642e38cbe367a3b49971
+      internalID: -6263930278752427066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_43"
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 673
+        width: 91
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50958238c8758438d9ca48765dc9a849
+      internalID: -3179903055704946204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_44"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 582
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84de9966822d4df59444a3034ac80db
+      internalID: 6282675244591359379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_45"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 571
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63322f2595812442ab6b0d99e81ce3e3
+      internalID: -5557673951389461810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_46"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 571
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e34b4433f774f4fbdd54226452c9d3
+      internalID: -2925881264133372896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_47"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 571
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4724dac906e97428bb38aa1e87612185
+      internalID: -7212701619950560806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_48"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 571
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2329505a291334bc697d6de052f9293e
+      internalID: -5996696870862054415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_49"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 571
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1a78e3154cb4c2eab917e48e55cce5
+      internalID: 5465677250062296283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_50"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 571
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdff081c2358426496465f4611c2c7a
+      internalID: 1537974288733026241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_51"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 571
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afff6e70d89d4bba911b3d3d5e04c78
+      internalID: -6792762296011015419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_52"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 571
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fec47807f1f457b96674341a1a1b74
+      internalID: 8420332532404284861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_53"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 586
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f7fed58b08e4661873f3c4c5d5dfeb
+      internalID: -7492765271739243563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_54"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 498
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a710a71316d3941349f93ca743206df2
+      internalID: 4368780812628304941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_55"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 498
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55330f221535e47f3b5b6d64b3390da2
+      internalID: 5283400037121447820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_56"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 498
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fd3c1aff4af4d928a9d8308a2e04fe
+      internalID: -7081659581507857676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_57"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 498
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da8e0cb29e994cf1afa28b9869b8626
+      internalID: -8747062258668977025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_58"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 498
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce41bbd798694c4799ddf67a7bb84d8
+      internalID: -8176508753297072725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_59"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 498
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fa7fd1362cc43dc8d2ef43e0e8b2d0
+      internalID: 6771596289999137316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_60"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 498
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabf789c6c80b4ca4ad2f33c8d09e20c
+      internalID: 9014850364696895014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_61"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 498
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e8b1c270d6f421c9855167f038e751
+      internalID: 938887509565333568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_62"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 512
+        width: 79
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2597268afc4843bd96add8f75a3fb84
+      internalID: -5012555760046731228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_63"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 425
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434876eaa38674be89c72e10cd7b988f
+      internalID: 336940116662922319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_64"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 425
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01775e77d9b4a46d89e9f8286b3e2cbb
+      internalID: -146688979217434435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_65"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 425
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37c9f3218df54c26b71617e647dee8c
+      internalID: 5293250358060714640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_66"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 425
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6c958446d14f1998dd027ec2fd704
+      internalID: 1235256345455689742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_67"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 425
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41aeae271578486984995ef9a0f8261
+      internalID: -1768552088733678928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_68"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 425
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79048f5bec3234a6ab3b824b8fe01795
+      internalID: 5325665786498800184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_69"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 425
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184c2a43de1fc49e0827aec3cff20971
+      internalID: -8777789754835996100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_70"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 425
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e1d698bbf0d48fab6d66d9909be034
+      internalID: 8195086146061713540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_71"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 439
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33f096cc2115454f8667027811c0566
+      internalID: 5005024117351104920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_72"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 351
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb67712e9c82940f2b5db8f803e15804
+      internalID: -8315284790722491724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_73"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 351
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaaddb79444649a8b916944103569c4
+      internalID: 8561481335478047848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_74"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 351
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59775f876000d4ff8b84042dfd7d0f25
+      internalID: -6703195478271638513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_75"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 351
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69aa06272cec41ce8c8ab14794d3a43
+      internalID: -8751706004710923646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_76"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 359
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22be3303ecc16427db06dcd173ba774b
+      internalID: 3278743064550672871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_77"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 351
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8de5af79a0c749a1b066f6ff1043f5a
+      internalID: 6169827623186415970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_78"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 351
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ec5e67299a94c419bcf7b8fac67a10
+      internalID: 2594671570522626524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_79"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 355
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed06b8c1eb1a4d33a80ac4b15745149
+      internalID: -3089308700620697463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_80"
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 351
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b2fab62385c477eb10f76adf626b2d
+      internalID: 2321896108577972467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_81"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0f38a7a2f6c4408af044f46c7451e5
+      internalID: -8106794304704112357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_82"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 308
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cddeaa359cac4d7bb3386af77a0c18f
+      internalID: 6197531277087380901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_83"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3707a79586a5349239cabfd51314cd2f
+      internalID: -1347839827857967073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_84"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9489a2590b15a4c2fa586eb6a6476411
+      internalID: -2372282130867280018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_85"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dabea212ce5a4760ace1564e090e4b5
+      internalID: -253636416714344787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_86"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc04c13e740f44478e5b22292e193f9
+      internalID: -3336644504995635770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_87"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cd64bce18c14a479cbe7cae2f36949
+      internalID: -5290404095013872413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_88"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 308
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c0267c1a06544e3ae24189f1db4264
+      internalID: 63147756658538420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_89"
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a9c97af9e9845b183deca6c0d453ac
+      internalID: 1081365350524224036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_90"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088503f247d284cabb3bfd784a6e3bc3
+      internalID: 8935347766857453074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_91"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 278
+        width: 87
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df83fd201e154c369535fcb3dc20267
+      internalID: -9004046921413933039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_92"
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 282
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74b32dd016e14ee385a77830353f1ab
+      internalID: 3167561792242339469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_93"
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 282
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffd2bfb9016a47eb90dc3048dfd4737
+      internalID: 3224374795062541027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_94"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 271
+        width: 91
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b73b7bfff2f4befbc3d2534cf4c0d1
+      internalID: 7248582931686611051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_95"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 271
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bc37cc2216d4646b2ca8d8dab6132f
+      internalID: -8272721036143080201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_96"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 271
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b829f6b3a4d1740b081d06befee4f99f
+      internalID: -8849928905145925424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_97"
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 271
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6eebb47f83e4084adbdb86cf7f271e
+      internalID: -7541961883997783741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_98"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 235
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256428debdd5242e2889b55b77b7a06e
+      internalID: -2463734756715184188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_99"
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 224
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c87c4c73c543d9b83c8adff865772
+      internalID: -8562000011717115536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_100"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 224
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a35679c4f78a4f7e8aa46f7d97778d2
+      internalID: 4640466046636219180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_101"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 224
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8a8d1b0bc9945cd9009ebd8c5d22dc
+      internalID: -1064650250185729060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_102"
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a1d924e174f433d96297c25419a2f9
+      internalID: -549387732879246193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_103"
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 224
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e03869418c8e4c6da2c6171d0f0577f
+      internalID: 2729403061340204383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_104"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 224
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfcbbb552a5b42249d130f94d5848ac
+      internalID: -2877369592462093210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_105"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 205
+        width: 83
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c793d8a9dbc694d24985605eed078dfa
+      internalID: 4226613344720929778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_106"
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 209
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351d501cc6ca1430aa6f653967785e15
+      internalID: 2940678860058962269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_107"
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 209
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec88e5bf02224c3ba22dc9edc7518ab
+      internalID: -3141865646236026440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_108"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 146
+        width: 63
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db379f98055f4571a53688bf984a50e
+      internalID: 7739045943268123589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_109"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 146
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b8dd29ff82f4a688dc06e8fbf75fa5
+      internalID: -8072773301890324156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_110"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 146
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a37b33a78b740cbb750656807a944d
+      internalID: -8749311732175009007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_111"
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 146
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63ddfe686096481f8de62ace2d6da4d
+      internalID: -2900371425715367186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_112"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 132
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2951e68d8c11741318585259b50946d3
+      internalID: 7378303740299439971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_113"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 132
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d8ad3bb9d9d4e29851351737c535d3
+      internalID: -5562669520730633320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_114"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 135
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec8ab719433a46a5a437bcbf730fab8
+      internalID: -265226974850120785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_115"
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 132
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2025d90745afd4606a8a52deb5f775a7
+      internalID: -7174322865605317948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_116"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067476e7d06d641daa23766a9562298e
+      internalID: -4107956043497650302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_117"
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 70
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d260c5ed1052844b0816147038f2be13
+      internalID: -6563277499859279231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_118"
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 70
+        width: 62
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2de5ea3ef0241a5952d7e397fc79a5
+      internalID: 7726031908208178417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_119"
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 70
+        width: 62
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacf7503c785e48aa81e9ea0f3096604
+      internalID: 5390781784351266354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_120"
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 67
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2ce594a1ae6496d99c52db5e847e70
+      internalID: 8149736407167667449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_121"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 62
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80764df631ddc44d09db42ad833f8acc
+      internalID: 5474930600395512082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_122"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 59
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabd2f044f7d24155af173f7c5a5d401
+      internalID: -1018050797998019922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_123"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 59
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c6cf64738044fb2bff3fe98efdd82c
+      internalID: 4786803295960093766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_124"
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 59
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12a22d3c4522404eb6e9066fa2ec51e
+      internalID: 3866877559844636793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_125"
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 62
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1253d08ca301b46fe854841f20acaeaf
+      internalID: 2451103984188297859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_126"
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 55
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a030b36527d48f888b7363ad9db405
+      internalID: 4208388746068083235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_127"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012797f706a6442fba305771fe62e52f
+      internalID: 7067040202867072120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_128"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e164484ee7e441bacc82b85733cdbc
+      internalID: -7749407365455167682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_129"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc73e155c7d14e009627bdba1a0177b
+      internalID: 6933665014432547890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_130"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f5c0b9492bc4fa5818558b1f625bee
+      internalID: 247453009621177466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheet - co\u0301pia_131"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfe49541735d4048b0d80985809b98b
+      internalID: 3648180229514756008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0cfd0b41fd5df466b91ec3e2a05774ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

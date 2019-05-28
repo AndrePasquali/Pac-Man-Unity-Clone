@@ -22,6 +22,7 @@ namespace DroidDigital.PacMan.Level
 
         [SerializeField]
         private Sprite _levelFinishSprite;
+        
         [SerializeField]
         private Sprite _levelSprite;
 
@@ -45,6 +46,11 @@ namespace DroidDigital.PacMan.Level
                 CallAnimation();
 
             CurrentLevel = LevelsList.FirstOrDefault(e => e.ID == currentLevelID + 1);
+        }
+        
+        public int GetCurrentLevel()
+        {
+            return CurrentLevel.ID;
         }
 
         public void CallAnimation()

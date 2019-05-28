@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\Core\Extensions\AsyncExtensions.cs" />
     <Compile Include="Assets\Scripts\Core\Extensions\GameObjectExtensions.cs" />
     <Compile Include="Assets\Scripts\Core\Initialize.cs" />
+    <Compile Include="Assets\Scripts\Core\IO\SaveManager.cs" />
     <Compile Include="Assets\Scripts\Core\Settings\GameSettings.cs" />
     <Compile Include="Assets\Scripts\Gameplay\GameplayController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Score\ScoreManagement.cs" />
@@ -112,6 +113,8 @@
     <Compile Include="Assets\Scripts\PathFind\PathPosition.cs" />
     <Compile Include="Assets\Scripts\PathFind\WayPointManagement.cs" />
     <Compile Include="Assets\Scripts\PathFind\WayPointState.cs" />
+    <Compile Include="Assets\Scripts\Player\Progress\PlayerProgressManager.cs" />
+    <Compile Include="Assets\Scripts\Player\Progress\Save.cs" />
     <Compile Include="Assets\Scripts\UI\HUDController.cs" />
     <Compile Include="Assets\Scripts\UI\Screen\Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Screen\ScreenManagement.cs" />

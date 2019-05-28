@@ -1,6 +1,8 @@
 using DroidDigital.Characters;
 using DroidDigital.Core.Extensions;
 using DroidDigital.PacMan.Characters.State;
+using DroidDigital.PacMan.Enemy.IA;
+using DroidDigital.PacMan.Gameplay;
 
 namespace DroidDigital.PacMan.Characters
 {
@@ -14,8 +16,11 @@ namespace DroidDigital.PacMan.Characters
         }
 
         private void DisableEnemy()
-        {            
-            gameObject.Hide();
+        {
+            var movement = GetComponent<EnemyMovement>();
+            
+            movement.OnGameReset();
+            movement.OnRespawn();   
         }
     }
 }

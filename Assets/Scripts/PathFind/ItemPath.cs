@@ -111,27 +111,29 @@ namespace DroidDigital.PacMan.PathFind
             var isPlayerColliding = collider.transform.CompareTag(GameConstants.PLAYER_TAG);
             var isEnemieColliding = collider.transform.CompareTag(GameConstants.ENEMY_TAG);
 
-            if (isPlayerColliding && (Character == PathCharacter.PacMan || Character == PathCharacter.Both))
+            var direction = new CharacterDirection();
+
+            if (isPlayerColliding)
             {         
                 var character = collider.transform.gameObject.GetComponent<CharacterMovement>();
                 var input = collider.transform.gameObject.GetComponent<InputController>();
 
                 if (Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F) //0.25F
                 {
-                 //   character.UpdateAllowedDirections(AlowedDirections);
+                    character.UpdateAllowedDirections(AlowedDirections);
                     
-                   // if (!input.IsEnable)
-                     //   input.IsEnable = true;
+                    if (!input.AuthorizingMove)
+                        input.AuthorizingMove = true;
                     
                     FixPosition(character.gameObject);                
                 }
                 else
                 {
-                    //input.IsEnable = false;
+                    input.AuthorizingMove = false;
                 }
             }
 
-            if (isEnemieColliding && Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F && (Character == PathCharacter.Ghosts || Character == PathCharacter.Both))
+            if (isEnemieColliding && Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F)
             {
                 if(Time.time - _lastCollidingTime < 0.1F) return;
 
@@ -141,18 +143,18 @@ namespace DroidDigital.PacMan.PathFind
                             
                 character.UpdateAllowedDirections(AlowedDirections);
                 
-                var randomDirection = AlowedDirections[Random.Range(0, AlowedDirections.Count)];
+                direction = AlowedDirections[Random.Range(0, AlowedDirections.Count)];
 
                 if (AlowedDirections.Count > 1)
                 {
                     if (_lastDirection != null)
                     {
-                        if (randomDirection == _lastDirection)
-                            randomDirection = AlowedDirections.FirstOrDefault(e => e != _lastDirection);
+                        if (direction == _lastDirection)
+                            direction = AlowedDirections.FirstOrDefault(e => e != _lastDirection);
                     }
                 }              
 
-                character.Character.State.DirectionState = randomDirection;
+                character.Character.State.DirectionState = direction;
 
                // var characterName = character.name;
                 
@@ -186,7 +188,7 @@ namespace DroidDigital.PacMan.PathFind
 
             var input = targetObject.GetComponent<InputController>();
 
-            input.IsEnable = false;
+            input.AuthorizingMove = false;
         }
 
     /*    private void OnTriggerEnter2D(Collider2D collider2D)

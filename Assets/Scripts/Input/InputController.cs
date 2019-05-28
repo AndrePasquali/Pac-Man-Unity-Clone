@@ -11,7 +11,7 @@ namespace DroidDigital.PacMan.Input
 
         public bool SmoothMovement = true;
 
-        public bool IsEnable = true;
+        public bool AuthorizingMove = true;
 
         private void Update()
         {
@@ -20,7 +20,7 @@ namespace DroidDigital.PacMan.Input
 
         private void ProcessMovement()
         {
-            if(!IsEnable) return;
+            if(!AuthorizingMove) return;
             
             SetMovement();
         }

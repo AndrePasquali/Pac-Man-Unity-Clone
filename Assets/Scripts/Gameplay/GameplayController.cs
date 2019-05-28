@@ -1,13 +1,17 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DroidDigital.Core.Constants;
 using DroidDigital.Core.Extensions;
+using DroidDigital.PacMan.Characters;
 using DroidDigital.PacMan.Characters.State;
 using DroidDigital.PacMan.Enemy.IA;
 using DroidDigital.PacMan.Gameplay.State;
+using DroidDigital.PacMan.Input;
 using DroidDigital.PacMan.Level.Item;
 using DroidDigital.PacMan.PathFind;
+using DroidDigital.PacMan.Player.Progress;
 using DroidDigital.PacMan.UI;
 using DroidDigital.PacMan.UI.StateMachine;
 using UnityEngine;
@@ -27,6 +31,8 @@ namespace DroidDigital.PacMan.Gameplay
 
         public static GameObject Enemies =
             _enemies ?? (_enemies = GameObject.Find("PlayGround").transform.Find("Enemies").gameObject);
+
+        public static List<EnemyCharacter> EnemyList => Enemies.GetComponentsInChildren<EnemyCharacter>().ToList();
         
 
         public static void ProcessState()
@@ -53,6 +59,8 @@ namespace DroidDigital.PacMan.Gameplay
             ResetLives();
             HidePlayer();
             HideEnemies();
+            
+            PlayerProgressManager.LoadProgress();
         }
 
         private static void OnStartConfirmation()
@@ -99,6 +107,8 @@ namespace DroidDigital.PacMan.Gameplay
             ResetEnemiesStates();
             HideEnemies();
             HidePlayer();
+            
+            PlayerProgressManager.SaveProgress();
         }
 
         private static void OnLevelTransition()
@@ -118,7 +128,9 @@ namespace DroidDigital.PacMan.Gameplay
             HideEnemies();
             HidePlayer();
             
-            HUDController.Instance.OnGameOverUI();            
+            HUDController.Instance.OnGameOverUI();
+            
+            PlayerProgressManager.SaveProgress();
         }
         
         public static async void OnPlayerDie()
@@ -133,13 +145,23 @@ namespace DroidDigital.PacMan.Gameplay
             ChangePlayerCondition(CharacterCondition.Dead);                           
             RespawnAllEnemies();
             ResetEnemiesStates();
-            ResetDots();
+            ResetPaths();
+            AuthorizingPlayerMove();
+            ChangePlayerDirection(CharacterDirection.Left);
+            
+            PlayerProgressManager.SaveProgress();
            
             await Task.Delay(TimeSpan.FromSeconds(GameConstants.PLAYER_RESPAWN_TIME));           
             
             RespawnPlayer();          
             ChangePlayerCondition(CharacterCondition.Freeze);
             AudioController.Instance.OnGameplay();
+        }
+
+        public static void OnEnemyDie(EnemyCharacter enemy)
+        {
+            enemy.GetComponent<EnemyMovement>().OnGameReset();
+            enemy.GetComponent<EnemyMovement>().OnRespawn();
         }
 
 
@@ -161,10 +183,8 @@ namespace DroidDigital.PacMan.Gameplay
         }
 
         public static void ChangeEnemieCondition(CharacterCondition newCondition)
-        {
-            var enemies = Enemies.GetComponentsInChildren<EnemyMovement>().ToList();
-
-            foreach (var enemy in enemies) enemy.Character.State.ChangeConditionState(newCondition);       
+        {         
+            foreach (var enemy in EnemyList) enemy.State.ChangeConditionState(newCondition);       
         }
 
         private static void ResetLives()
@@ -199,15 +219,13 @@ namespace DroidDigital.PacMan.Gameplay
         }
 
         public static void ResetEnemiesStates()
-        {
-            var enemies = Enemies.GetComponentsInChildren<EnemyMovement>().ToList();
-
-            if(enemies != null)
-                foreach (var enemy in enemies)
+        {         
+            if(EnemyList != null)
+                foreach (var enemy in EnemyList)
                 {
                     enemy.gameObject.SetActive(true);
                     
-                    enemy.OnGameReset();
+                    enemy.GetComponent<EnemyMovement>().OnGameReset();
                 }       
         }
         
@@ -236,11 +254,11 @@ namespace DroidDigital.PacMan.Gameplay
             ChangePlayerCondition(CharacterCondition.Alive);
         }
 
-        private static void ResetDots()
+        public static void ResetPaths()
         {
-            var dots = GameObject.FindObjectsOfType<ItemPath>().Where(e => e.Type == ItemPath.PathType.Home).ToList();
+            var paths = GameObject.FindObjectsOfType<ItemPath>().Where(e => e.Type == ItemPath.PathType.Home).ToList();
 
-            foreach (var dot in dots) dot.OnEnemieRespawn();  
+            foreach (var path in paths) path.OnEnemieRespawn();  
         }
 
         private static void FreezeCharacters()
@@ -257,6 +275,13 @@ namespace DroidDigital.PacMan.Gameplay
         private static void ChangeGamePlayState(GamePlayState newState)
         {
             GamePlayStateController.ChangeGamePlayState(newState);
+        }
+
+        private static void AuthorizingPlayerMove()
+        {
+            var move = Player.GetComponent<InputController>();
+
+            move.AuthorizingMove = true;
         }
     }
 }

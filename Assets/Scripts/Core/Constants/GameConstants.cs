@@ -1,3 +1,6 @@
+using System.IO;
+using UnityEngine;
+
 namespace DroidDigital.Core.Constants
 {
     internal sealed class GameConstants
@@ -43,6 +46,16 @@ namespace DroidDigital.Core.Constants
 
         public const int MAX_LIVES = 3;
         public const float PLAYER_RESPAWN_TIME = 3.0F;
+
+        #endregion
+
+        #region IO
+
+        public static readonly string SAVE_FILE_NAME = "gamesave.sav";
+
+        public static readonly string SAVE_PATH = Application.persistentDataPath;
+
+        public static readonly string FULL_SAVE_PATH = Application.persistentDataPath + Path.DirectorySeparatorChar + SAVE_FILE_NAME; 
 
         #endregion
 

@@ -1,4 +1,6 @@
-﻿using DroidDigital.PacMan.Helpers;
+﻿using System;
+using System.Threading.Tasks;
+using DroidDigital.PacMan.Helpers;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -6,8 +8,6 @@ using Random = UnityEngine.Random;
 public class AudioController : Singleton<AudioController>
 {
     [Header("Audio Clips")]
-    [SerializeField] private AudioClip _powerUpClip;
-
     [SerializeField] private AudioClip[] _dotPickupClips;
 
     [SerializeField] private AudioClip _startLevelClip;
@@ -16,11 +16,11 @@ public class AudioController : Singleton<AudioController>
 
     [SerializeField] private AudioClip _playerDieClip;
     
-
     public AudioSource M_Audio => _m_audio ?? (_m_audio = GetComponent<AudioSource>());
 
     private AudioSource _m_audio;
 
+    private int _index;
 
     #region Events
     
@@ -74,12 +74,18 @@ public class AudioController : Singleton<AudioController>
         audioSource.Play();
     }
 
-    public void PlayEatingClip()
+    public async void PlayEatingClip()
     {
         if(_dotPickupClips == null) return;
+
+        if (_index >= _dotPickupClips.Length)
+            _index = 0;
         
-        var clip = _dotPickupClips[Random.Range(0, _dotPickupClips.Length)];
+        var clip = _dotPickupClips[_index];
+        await Task.Delay(TimeSpan.FromSeconds(0.1F));
         M_Audio.PlayOneShot(clip);
+
+        _index++;
     }
 
     public void PlayOnShot(AudioClip clipToPlay)

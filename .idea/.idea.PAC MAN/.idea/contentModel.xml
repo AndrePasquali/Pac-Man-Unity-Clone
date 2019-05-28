@@ -60,6 +60,9 @@
               <e p="GameObjectExtensions.cs" t="Include" />
             </e>
             <e p="Initialize.cs" t="Include" />
+            <e p="IO" t="Include">
+              <e p="SaveManager.cs" t="Include" />
+            </e>
             <e p="Settings" t="Include">
               <e p="GameSettings.cs" t="Include" />
             </e>
@@ -112,6 +115,12 @@
             <e p="PathPosition.cs" t="Include" />
             <e p="WayPointManagement.cs" t="Include" />
             <e p="WayPointState.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="Progress" t="Include">
+              <e p="PlayerProgressManager.cs" t="Include" />
+              <e p="Save.cs" t="Include" />
+            </e>
           </e>
           <e p="UI" t="Include">
             <e p="HUDController.cs" t="Include" />

@@ -96,7 +96,10 @@ MonoBehaviour:
   RayDistance: 2
   OriginRayDistance: 1
   AlowedDirections: 
+  Character: 2
   Type: 0
+  DirectionToAddAfterRelease: 0
+  TimeToRelease: 5
   DistanceToDetectWall: 1
 --- !u!58 &-912580341638041419
 CircleCollider2D:
@@ -113,4 +116,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.4
+  m_Radius: 0.15

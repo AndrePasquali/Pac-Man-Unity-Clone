@@ -43,6 +43,8 @@ namespace DroidDigital.PacMan.Characters
 
         public LayerMask ObstaclesLayer;
 
+        public float DistanceDelta = 5.0F;
+
         public List<CharacterDirection> AllowedDirections = new List<CharacterDirection>();
         
         public List<Vector2> VectorDirectionList = new List<Vector2>{Vector2.left, Vector2.right, Vector2.down, Vector2.up};
@@ -64,7 +66,7 @@ namespace DroidDigital.PacMan.Characters
         {
             SetDirectionByInput();
             ProcessMove();
-            ProcessVision();
+           // ProcessVision();
            // CheckWalls();
             //Vision();
         }
@@ -126,8 +128,8 @@ namespace DroidDigital.PacMan.Characters
             var targetPosition = transform.position + direction * Time.fixedDeltaTime * MovementPointSpeed;
 
             var position = Vector2.MoveTowards(transform.position,
-                transform.position + direction * Time.fixedDeltaTime * MovementPointSpeed,
-                CharacterController.MovementSpeed);
+                targetPosition,
+                DistanceDelta);
             
             CharacterController.Rigibody.MovePosition(position);
 
@@ -435,7 +437,7 @@ namespace DroidDigital.PacMan.Characters
 
         private void EnableInput()
         {
-            Character.LinkedInputController.IsEnable = true;
+            Character.LinkedInputController.AuthorizingMove = true;
         }
 
         public async void Respawn()

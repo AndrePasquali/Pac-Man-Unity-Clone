@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DroidDigital.PacMan.Characters;
 using DroidDigital.PacMan.Characters.State;
+using DroidDigital.PacMan.Gameplay;
 using DroidDigital.PacMan.PathFind;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -111,9 +112,15 @@ namespace DroidDigital.PacMan.Enemy.IA
 
         public void OnGameReset()
         {
+            GameplayController.ResetPaths();
+        
+            Character.State.ChangeConditionState(CharacterCondition.Alive);
+        
             Character.State.ChangeConditionState(CharacterCondition.Freeze);
             
             ResetDirections();
+            
+            Character.State.ChangeDirectionState(AllowedDirections[Random.Range(0, AllowedDirections.Count)]);
             
             ResetPosition();
         }

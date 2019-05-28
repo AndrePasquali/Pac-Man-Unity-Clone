@@ -21,12 +21,18 @@ namespace DroidDigital.Gameplay.Score
         {
             _highScore = newHighScore > _highScore ? newHighScore : _highScore;
             
-            HUDController.Instance.UpdateHighScoreUI(_highScore);
+            HUDController.Instance.UpdateHighScoreUI(_highScore);            
         }
+       
 
         public static void Initialize()
         {
-            UpdateScore(0);
+            UpdateScore(0);            
         }
+
+        public static int GetHighestScore()
+        {
+            return _highScore;
+        }        
     }
 }
