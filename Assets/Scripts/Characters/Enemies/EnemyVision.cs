@@ -1,11 +1,11 @@
-using DroidDigital.Core.Constants;
-using DroidDigital.PacMan.Characters;
-using DroidDigital.PacMan.Characters.State;
-using DroidDigital.PacMan.Enemy.IA;
-using DroidDigital.PacMan.PathFind;
+using Aquiris.Core.Constants;
+using Aquiris.PacMan.Characters;
+using Aquiris.PacMan.Characters.State;
+using Aquiris.PacMan.Enemy.IA;
+using Aquiris.PacMan.PathFind;
 using UnityEngine;
 
-namespace DroidDigital.Characters.Enemies
+namespace Aquiris.Characters.Enemies
 {
     public class EnemyVision: MonoBehaviour
     {
@@ -52,7 +52,7 @@ namespace DroidDigital.Characters.Enemies
 
             RecordTime();
             
-            var direction = (Vector3)CharacterStateManagement.GetVectorByDirectionState(Character.State.DirectionState);
+            var direction = (Vector3)CharacterDirectionHelper.GetVectorByDirectionState(Character.State.DirectionState);
 
             var rayOrigin = transform.position + direction * OriginRayDistance;
 

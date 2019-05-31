@@ -1,11 +1,14 @@
-using DroidDigital.PacMan.Characters.State;
+using Aquiris.PacMan.Characters.State;
+using Aquiris.Core.Constants;
+using Aquiris.PacMan.Characters.Animation;
 using UnityEngine;
 
-namespace DroidDigital.PacMan.Characters
+namespace Aquiris.PacMan.Characters
 {
     [RequireComponent(typeof(Animator))]
     public abstract class Character: MonoBehaviour
     {
+        
         #region Components
 
         public CharacterType Type { get { return Name == CharacterName.PacMan ? CharacterType.Player : CharacterType.AI;}}

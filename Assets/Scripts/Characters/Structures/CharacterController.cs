@@ -1,7 +1,7 @@
-﻿using DroidDigital.PacMan.Characters.State;
+﻿using Aquiris.PacMan.Characters.State;
 using UnityEngine;
 
-namespace DroidDigital.PacMan
+namespace Aquiris.PacMan
 {
     [RequireComponent(typeof(Rigidbody2D))]
     public class CharacterController : MonoBehaviour

@@ -1,6 +1,6 @@
 using System;
 
-namespace DroidDigital.PacMan.Player.Progress
+namespace Aquiris.PacMan.Player.Progress
 {
     [Serializable]
     public class Save

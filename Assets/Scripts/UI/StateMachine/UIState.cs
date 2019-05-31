@@ -1,11 +1,11 @@
-namespace DroidDigital.PacMan.UI.StateMachine
+namespace Aquiris.PacMan.UI.StateMachine
 {
     public enum UIState
     {
         StartScreen,
-        PrepareToStart,
-        StartGame,
-        Gameplay,
+        StartScreenConfirmation,
+        LevelStart,
+        GameStart,
         GameOver,
         LevelCompleted     
     }

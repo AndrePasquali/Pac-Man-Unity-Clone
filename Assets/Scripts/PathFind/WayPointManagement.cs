@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace DroidDigital.PacMan.PathFind
+namespace Aquiris.PacMan.PathFind
 {
     internal static class WayPointManagement
     {
@@ -42,13 +42,8 @@ namespace DroidDigital.PacMan.PathFind
                 e => Vector3.Distance(currentPosition, e.PathTransform.position) <= 1.0F).ToList();
 
             if (pos != null && pos.Count > 0)
-            {
-                Debug.Log("Pegou o mais proximo: " + pos.Count);
                 return pos[0];
-            }
             
-            Debug.Log("Pegou random");
-
             var randomList = WayPointList.OrderBy(e => Guid.NewGuid()).ToList();
 
             return randomList[0];

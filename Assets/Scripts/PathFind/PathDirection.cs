@@ -1,4 +1,4 @@
-using DroidDigital.PacMan.Characters.State;
+using Aquiris.PacMan.Characters.State;
 using UnityEngine;
 
 namespace PathFind

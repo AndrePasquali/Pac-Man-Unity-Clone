@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DroidDigital.PacMan.Enemy
+namespace Aquiris.PacMan.Enemy
 {
     public abstract class Enemy : MonoBehaviour
     {

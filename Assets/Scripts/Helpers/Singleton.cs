@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DroidDigital.PacMan.Helpers
+namespace Aquiris.PacMan.Helpers
 {
     public class Singleton<T> : MonoBehaviour where T: Object, new()
     {

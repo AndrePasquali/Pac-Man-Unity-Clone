@@ -1,10 +1,11 @@
-﻿namespace DroidDigital.PacMan.Characters.State
+﻿namespace Aquiris.PacMan.Characters.State
 {
     public enum CharacterCondition
     {
-        Alive,
+        Normal,
         Dead,
-        Vulnerable,
+        Blue,
+        FlashBlue,
         WaitToMove,
         Freeze
     }

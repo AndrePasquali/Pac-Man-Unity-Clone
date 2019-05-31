@@ -1,7 +1,7 @@
-using DroidDigital.Core.Constants;
+using Aquiris.Core.Constants;
 using UnityEngine;
 
-namespace DroidDigital.PacMan.Input
+namespace Aquiris.PacMan.Input
 {
     public class InputController: MonoBehaviour
     {

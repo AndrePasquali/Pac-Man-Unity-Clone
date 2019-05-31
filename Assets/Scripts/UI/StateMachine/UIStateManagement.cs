@@ -1,6 +1,6 @@
-using DroidDigital.PacMan.Gameplay;
+using Aquiris.PacMan.Gameplay;
 
-namespace DroidDigital.PacMan.UI.StateMachine
+namespace Aquiris.PacMan.UI.StateMachine
 {
     internal static class UIStateManagement
     {

@@ -1,4 +1,4 @@
-namespace DroidDigital.PacMan.PathFind
+namespace Aquiris.PacMan.PathFind
 {
     public enum PathCharacter
     {

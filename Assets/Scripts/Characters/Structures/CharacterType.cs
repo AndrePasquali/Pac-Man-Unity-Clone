@@ -1,4 +1,4 @@
-namespace DroidDigital.PacMan.Characters
+namespace Aquiris.PacMan.Characters
 {
     public enum CharacterType
     {

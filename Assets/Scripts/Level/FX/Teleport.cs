@@ -1,7 +1,7 @@
-﻿using DroidDigital.PacMan.Characters.State;
+﻿using Aquiris.PacMan.Characters.State;
 using UnityEngine;
 
-namespace DroidDigital.Level
+namespace Aquiris.Level
 {
     public class Teleport : MonoBehaviour
     {

@@ -1,8 +1,8 @@
-﻿using DroidDigital.Core.Constants;
-using DroidDigital.Gameplay.Score;
+﻿using Aquiris.Core.Constants;
+using Aquiris.Gameplay.Score;
 using UnityEngine;
 
-namespace DroidDigital.PacMan.Level.Item
+namespace Aquiris.PacMan.Level.Item
 {
     public abstract class PickableItem : MonoBehaviour
     {
@@ -14,7 +14,22 @@ namespace DroidDigital.PacMan.Level.Item
 
         public int BonusPointsAmount;
 
-        public bool IsPicked;
+        public Collider2D Collider2D => _collider2D ?? (_collider2D = GetComponent<Collider2D>());
+
+        private Collider2D _collider2D;
+
+        public bool IsPicked
+        {
+            get { return _isPicked; }
+            set
+            {
+                _isPicked = value;
+                SpriteRenderer.enabled = !value;
+                Collider2D.enabled = !value;
+            }
+        }
+
+        private bool _isPicked;
 
         public delegate void OnPickEvent();
 
@@ -25,8 +40,6 @@ namespace DroidDigital.PacMan.Level.Item
             OnPickEventAction += PlayClip;
             OnPickEventAction += OnPick;
             OnPickEventAction += AddScore;
-            OnPickEventAction += DisableCollider;
-            OnPickEventAction += DisableSprite;
         }
 
         private void Start()
@@ -40,19 +53,22 @@ namespace DroidDigital.PacMan.Level.Item
         {
             if (PickClip == null) return;
             
-            AudioController.Instance.PlaySound(PickClip);     
+            AudioManager.Instance.PlaySound(PickClip);     
         }
 
         public virtual void AddScore()
         {
-            ScoreManagement.UpdateScore(BonusPointsAmount);
+            ScoreManager.UpdateScore(BonusPointsAmount);
         }
 
         private void OnTriggerEnter2D(Collider2D collider)
         {
             if (collider.gameObject.CompareTag(GameConstants.PLAYER_TAG))
+            {
+                IsPicked = true;
                 OnPickEventAction.Invoke();
-            
+            }
+
             OnTriggerCollider(collider);
         }
 
@@ -60,26 +76,13 @@ namespace DroidDigital.PacMan.Level.Item
         {
             
         }
-        
-        private void DisableSprite()
-        {
-            SpriteRenderer.enabled = false;
-        }
-
-        private void DisableCollider()
-        {
-            var collider = GetComponent<CircleCollider2D>();
-
-            collider.enabled = false;
-        }
+ 
         
         private void OnDestroy()
         {
             OnPickEventAction -= PlayClip;
             OnPickEventAction -= OnPick;
             OnPickEventAction -= AddScore;
-            OnPickEventAction -= DisableCollider;
-            OnPickEventAction -= DisableSprite;
         }
     
     }

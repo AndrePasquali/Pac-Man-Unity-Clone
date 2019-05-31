@@ -3,20 +3,24 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DroidDigital.PacMan.Characters;
-using DroidDigital.PacMan.Characters.State;
-using DroidDigital.PacMan.Gameplay;
-using DroidDigital.PacMan.PathFind;
+using Aquiris.Core.Constants;
+using Aquiris.PacMan.Characters;
+using Aquiris.PacMan.Characters.State;
+using Aquiris.PacMan.PathFind;
+using Characters.Enemies;
+using Aquiris.PacMan.Gameplay;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace DroidDigital.PacMan.Enemy.IA
+namespace Aquiris.PacMan.Enemy.IA
 {
     public class EnemyMovement: MonoBehaviour
     {        
         [Range(0, 10)]
+        //Movement Speed
         public float Speed = 5.0F;
 
+        //I will use this later for waypoint system
         public ItemPath NextRoute;
 
         public EnemyCharacter Character => _character ?? (_character = GetComponent<EnemyCharacter>());
@@ -30,16 +34,66 @@ namespace DroidDigital.PacMan.Enemy.IA
         private int _currentWayPoint;
 
         private float _lastUpdateTime;
+
+        public EnemySpeed CurrentEnemySpeed
+        {
+            get { return _currentEnemySpeed; }
+            set
+            {
+                _currentEnemySpeed = value;
+                Speed = CurrentSpeed;
+            }
+        }
+
+        private EnemySpeed _currentEnemySpeed;
+
+        public float CurrentSpeed
+        {
+            get
+            {
+                switch (CurrentEnemySpeed)
+                {
+                        case EnemySpeed.Low: return GameConstants.LOW_SPEED;
+                        case EnemySpeed.Normal: return GameConstants.NORMAL_SPEED;
+                        case EnemySpeed.Moderate: return GameConstants.MODERATE_SPEED;
+                        case EnemySpeed.Fast: return GameConstants.FAST_SPEED;
+                        case EnemySpeed.SuperFast: return GameConstants.SUPER_FAST_SPEED;
+                        case EnemySpeed.UltraFast: return GameConstants.ULTRA_FAST_SPEED;
+                        default: return GameConstants.NORMAL_SPEED;
+                }
+            }
+        }
+
+        private float _currentSpeed;
         
+        //The current directions allowed. Is updated by item paths
         public List<CharacterDirection> AllowedDirections = new List<CharacterDirection>();
         
+        //We make cache of initial allowed directions to restore later
         public List<CharacterDirection> InitialAllowedDirections = new List<CharacterDirection>();
         
+        //The list of possible vectors directions
         public List<Vector2> VectorDirectionList = new List<Vector2>{Vector2.left, Vector2.right, Vector2.down, Vector2.up};
 
+        //last detected path. I will use this later for waypoint system
         private ItemPath _lastDetectedPath;
 
-        private Vector3 _startPosition;
+        //The start position. The unity bug sometimes the intial positions  
+        private Vector3 _startPosition
+        {
+            get
+            {
+                switch (Character.Name)
+                {
+                        case CharacterName.Blinky: return GameConstants.INITIAL_BLINKY_POSITION;
+                            case CharacterName.Clyde: return GameConstants.INITIAL_CLYDE_POSITION;
+                                case CharacterName.Inky: return GameConstants.INITAL_INKY_POSITION;
+                                    case CharacterName.Pinky: return GameConstants.INITIAL_PINKY_POSITION;
+                                        case CharacterName.PacMan: return GameConstants.INITIAL_PACMAN_POSITION;
+                                            default: return Vector3.zero;
+                }        
+            }
+        }
 
         [SerializeField]
         private float _timeToStartMove = 2.5F;
@@ -49,20 +103,25 @@ namespace DroidDigital.PacMan.Enemy.IA
             Initialize();
         }
 
+        //Check if the character have the right conditions to walk or not
         private bool CanWalk()
         {
             return (Character.State.ConditionState != CharacterCondition.Freeze && Character.State.ConditionState != CharacterCondition.Dead);
         }
 
+        
+        //Happens when 
         private void AuthorizingWalk()
         {
+            Character.State.ChangeConditionState(CharacterCondition.Normal);
+
             ResetDirections();
             ResetState();      
         }
 
         private void ResetState()
         {
-            Character.State.ChangeConditionState(CharacterCondition.Alive);
+            Character.State.ChangeConditionState(CharacterCondition.Normal);
         }
 
         private void FixedUpdate()
@@ -72,15 +131,9 @@ namespace DroidDigital.PacMan.Enemy.IA
 
         private void Initialize()
         {
-            StoreInitialPosition();
             StoreInitialDirections();
             
             if(!CanWalk()) Invoke("AuthorizingWalk", _timeToStartMove);
-        }
-
-        private void StoreInitialPosition()
-        {
-            _startPosition = transform.position;
         }
 
         private void StoreInitialDirections()
@@ -88,52 +141,97 @@ namespace DroidDigital.PacMan.Enemy.IA
             InitialAllowedDirections = AllowedDirections;
         }
 
-        public async void OnRespawn()
-        {
-            Character.State.ChangeConditionState(CharacterCondition.Freeze);
-            
-            ResetPosition();
-            
-            SetVisibility(false);
+        #region Direction Handlers
 
-            await Task.Delay(TimeSpan.FromSeconds(2.0F));
+        protected bool IsValidDirection(Vector2 direction)
+        {
+            var characterDirection = CharacterDirectionHelper.GetDirectionByVector(direction);
             
-            Respawn();
+            return AllowedDirections.Contains(characterDirection);
         }
-
-        public async void Respawn()
+            
+        protected bool IsValidDirection()
         {
-            SetVisibility(true);
-
-            await Task.Delay(TimeSpan.FromSeconds(_timeToStartMove));
-                              
-            AuthorizingWalk();
+            return AllowedDirections.Contains(Character.State.DirectionState);
         }
-
-        public void OnGameReset()
-        {
-            GameplayController.ResetPaths();
         
-            Character.State.ChangeConditionState(CharacterCondition.Alive);
-        
-            Character.State.ChangeConditionState(CharacterCondition.Freeze);
-            
-            ResetDirections();
-            
-            Character.State.ChangeDirectionState(AllowedDirections[Random.Range(0, AllowedDirections.Count)]);
-            
-            ResetPosition();
-        }
-
-        private void ResetPosition()
+        public void UpdateAllowedDirections(List<CharacterDirection> characterDirections)
         {
-            transform.position = _startPosition;
+            AllowedDirections = characterDirections;
         }
-
+        
         private void ResetDirections()
         {
             AllowedDirections = InitialAllowedDirections;
+            
+       //     if(Character.Name != CharacterName.Blinky)
+         //   Character.State.DirectionState = InitialAllowedDirections[0];
         }
+
+        #endregion
+
+        #region Events
+
+        public void OnRespawn()
+        {
+            Character.State.ChangeConditionState(CharacterCondition.Freeze);
+            
+            ResetPosition();
+                        
+            Respawn();
+        }
+        
+        public void OnGameReset()
+        {
+            Gameplay.Gameplay.ResetPaths();
+                
+            Character.State.ChangeConditionState(CharacterCondition.Freeze);
+            
+            ResetDirections();
+                        
+            ResetPosition();
+        }
+        
+        public void OnPlayerPickPowerUp()
+        {
+            var currentDirection = Character.State;
+            
+            //var targetDirection = AllowedDirections.First(e => e != currentDirection.DirectionState);
+
+            //currentDirection.ChangeDirectionState(targetDirection);
+            
+            switch (currentDirection.DirectionState)
+            {
+                case CharacterDirection.Down: if(AllowedDirections.Contains(CharacterDirection.Up)) currentDirection.ChangeDirectionState(CharacterDirection.Up); break;
+                case CharacterDirection.Up: if(AllowedDirections.Contains(CharacterDirection.Down)) currentDirection.ChangeDirectionState(CharacterDirection.Down); break;
+                case CharacterDirection.Left: if(AllowedDirections.Contains(CharacterDirection.Right)) currentDirection.ChangeDirectionState(CharacterDirection.Right); break;
+                case CharacterDirection.Right: if(AllowedDirections.Contains(CharacterDirection.Left)) currentDirection.ChangeDirectionState(CharacterDirection.Left); break;
+                default: currentDirection.ChangeDirectionState(currentDirection.DirectionState); break;
+            }  
+        }
+
+        #endregion
+
+        #region Methods
+
+        public async void Respawn()
+        {
+            ResetPosition();
+            ResetState();
+                        
+            await Task.Delay(TimeSpan.FromMilliseconds(10));
+            
+            ResetDirections();
+            
+            await Task.Delay(TimeSpan.FromSeconds(_timeToStartMove));
+                                          
+            AuthorizingWalk();
+        }
+    
+        private void ResetPosition()
+        {
+            transform.position = _startPosition;
+        }    
 
         public void SetVisibility(bool isVisible)
         {
@@ -142,11 +240,15 @@ namespace DroidDigital.PacMan.Enemy.IA
             sprite.enabled = isVisible;
         }
 
+        #endregion
+
+        #region Movements
+
         public void AILogic()
         {
             if(!CanWalk()) return;
             
-            var direction = (Vector3) CharacterStateManagement.GetVectorByDirectionState(Character.State.DirectionState);
+            var direction = (Vector3) CharacterDirectionHelper.GetVectorByDirectionState(Character.State.DirectionState);
 
             transform.position = transform.position + direction * Time.deltaTime * Speed;
         }
@@ -163,7 +265,7 @@ namespace DroidDigital.PacMan.Enemy.IA
                 var desiredPosition = Vector2.MoveTowards(transform.position,
                     direction.transform.position, Speed);
                 
-                Character.State.DirectionState = CharacterStateManagement.GetDirectionByVector(desiredPosition);
+                Character.State.DirectionState = CharacterDirectionHelper.GetDirectionByVector(desiredPosition);
                                                 
                 Controller.MoveToPosition(desiredPosition);
                 
@@ -186,28 +288,12 @@ namespace DroidDigital.PacMan.Enemy.IA
             
             if(!IsValidDirection(choosedDirection)) return;
 
-            Character.State.DirectionState = CharacterStateManagement.GetDirectionByVector(choosedDirection);
+            Character.State.DirectionState = CharacterDirectionHelper.GetDirectionByVector(choosedDirection);
                                                 
             Controller.MoveToPosition(transform.position + (Vector3)choosedDirection);     
         }
         
-        public void OnPlayerPickPowerUp()
-        {
-            var currentDirection = Character.State;
-            
-            //var targetDirection = AllowedDirections.First(e => e != currentDirection.DirectionState);
-
-            //currentDirection.ChangeDirectionState(targetDirection);
-            
-            switch (currentDirection.DirectionState)
-            {
-                    case CharacterDirection.Down: if(AllowedDirections.Contains(CharacterDirection.Up)) currentDirection.ChangeDirectionState(CharacterDirection.Up); break;
-                        case CharacterDirection.Up: if(AllowedDirections.Contains(CharacterDirection.Down)) currentDirection.ChangeDirectionState(CharacterDirection.Down); break;
-                            case CharacterDirection.Left: if(AllowedDirections.Contains(CharacterDirection.Right)) currentDirection.ChangeDirectionState(CharacterDirection.Right); break;
-                                case CharacterDirection.Right: if(AllowedDirections.Contains(CharacterDirection.Left)) currentDirection.ChangeDirectionState(CharacterDirection.Left); break;
-                                    default: currentDirection.ChangeDirectionState(currentDirection.DirectionState); break;
-            }  
-        }
+        
 
 
         public void ProcessAIMovement()
@@ -224,7 +310,7 @@ namespace DroidDigital.PacMan.Enemy.IA
                 var desiredPosition = Vector2.MoveTowards(transform.position,
                     currentWayPointPosition, Speed);
                 
-                Character.State.DirectionState = CharacterStateManagement.GetDirectionByVector(desiredPosition);
+                Character.State.DirectionState = CharacterDirectionHelper.GetDirectionByVector(desiredPosition);
                                                 
                 Controller.MoveToPosition(desiredPosition);
             }
@@ -237,22 +323,8 @@ namespace DroidDigital.PacMan.Enemy.IA
                 }
             }                    
         }
+
+        #endregion  
         
-        protected bool IsValidDirection(Vector2 direction)
-        {
-            var characterDirection = CharacterStateManagement.GetDirectionByVector(direction);
-            
-            return AllowedDirections.Contains(characterDirection);
-        }
-            
-        protected bool IsValidDirection()
-        {
-            return AllowedDirections.Contains(Character.State.DirectionState);
-        }
-        
-        public void UpdateAllowedDirections(List<CharacterDirection> characterDirections)
-        {
-            AllowedDirections = characterDirections;
-        }
     }
 }

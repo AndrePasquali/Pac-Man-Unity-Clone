@@ -2,19 +2,21 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using DroidDigital.PacMan.Characters;
-using DroidDigital.Core.Constants;
-using DroidDigital.PacMan.Characters.State;
-using DroidDigital.PacMan.Enemy.IA;
-using DroidDigital.PacMan.Input;
+using Aquiris.Core.Constants;
+using Aquiris.PacMan.Characters.State;
+using Aquiris.PacMan.Enemy.IA;
+using Aquiris.PacMan.Input;
+using Aquiris.PacMan.Characters;
 using PathFind;
+using UnityEditor;
 using UnityEngine;
-using CharacterMovement = DroidDigital.PacMan.Characters.CharacterMovement;
+using CharacterMovement = Aquiris.PacMan.Characters.CharacterMovement;
 using Random = UnityEngine.Random;
 
-namespace DroidDigital.PacMan.PathFind
+namespace Aquiris.PacMan.PathFind
 {
     [RequireComponent(typeof(SpriteRenderer))]
+    [Serializable]
     public class ItemPath: MonoBehaviour
     {
         [Header("SETTINGS")]
@@ -26,9 +28,11 @@ namespace DroidDigital.PacMan.PathFind
         
         public List<PathDirection> PathDirectionList = new List<PathDirection>();
 
-        public List<CharacterDirection> AlowedDirections;
+        //[SerializeField]
+        public List<CharacterDirection> AlowedDirections = new List<CharacterDirection>();
         
-        private List<CharacterDirection> _initialAllowedDirections = new List<CharacterDirection>();
+        //[SerializeField]
+        public List<CharacterDirection> _initialAllowedDirections = new List<CharacterDirection>();
 
         public PathCharacter Character = PathCharacter.Both;
 
@@ -56,6 +60,8 @@ namespace DroidDigital.PacMan.PathFind
         [Tooltip("USED ONLY IF THE CHARACTER START INSIDE THE HOME")]
         public float TimeToRelease = 5.0F;
 
+        private bool _isReleased;
+
         private float _timeCounter;
 
         public SpriteRenderer Sprite => _sprite ?? (_sprite = GetComponent<SpriteRenderer>());
@@ -72,32 +78,69 @@ namespace DroidDigital.PacMan.PathFind
 
         private float _lastCollidingTime;
 
+        private CharacterDirection _pickedDirection = new CharacterDirection();
+
+        private float _lastUpdateTime;
+
+        private float _lastUpdateDirectionTime;
+        
+        private void Start()
+        {
+            Initialize();
+        }    
+        
+        private void Initialize()
+        {
+            DisableSprite();
+            SetInitialAllowedDirections();
+        }
+
+        private void EveryFrame()
+        {            
+            if (Type == PathType.WayPoint) return;
+                if (_timeCounter >= TimeToRelease && !_isReleased)
+                    OnReleaseEnemy();
+                else _timeCounter += Time.deltaTime;
+        }
+
+        private void SetInitialAllowedDirections()
+        {            
+            _initialAllowedDirections = AlowedDirections;
+        }
+    
         private void Update()
         {
-            if(Type == PathType.WayPoint) return;
-            
-            if (_timeCounter >= TimeToRelease)
-                OnReleaseEnemy();
-            else _timeCounter += Time.deltaTime;
-
+            EveryFrame();    
         }
 
         private void OnReleaseEnemy()
         {
+            _isReleased = true;
+            
+            if(Type == PathType.WayPoint) return;         
+
             if(AlowedDirections.Contains(DirectionToAddAfterRelease)) return;
             
+            if(DirectionToAddAfterRelease != null)
             AlowedDirections.Add(DirectionToAddAfterRelease);
         }
 
         private void ResetCounter()
         {
             _timeCounter = 0;
+            _isReleased = false;
         }
 
         private void ResetAllowedDirection()
         {
+            if (Type == PathType.WayPoint)
+                AlowedDirections = _initialAllowedDirections;
+            else
+                if (AlowedDirections.Contains(DirectionToAddAfterRelease))
+                    AlowedDirections.RemoveAll(e => e == DirectionToAddAfterRelease);
+
             //AlowedDirections.RemoveAll(e => e == DirectionToAddAfterRelease);
-            AlowedDirections = _initialAllowedDirections;
+            //AlowedDirections = _initialAllowedDirections;
         }
 
         public void OnEnemieRespawn()
@@ -111,11 +154,9 @@ namespace DroidDigital.PacMan.PathFind
             var isPlayerColliding = collider.transform.CompareTag(GameConstants.PLAYER_TAG);
             var isEnemieColliding = collider.transform.CompareTag(GameConstants.ENEMY_TAG);
 
-            var direction = new CharacterDirection();
-
-            if (isPlayerColliding)
+            if (isPlayerColliding && (Character == PathCharacter.Both || Character == PathCharacter.PacMan))
             {         
-                var character = collider.transform.gameObject.GetComponent<CharacterMovement>();
+                var character = collider.transform.gameObject.GetComponent<Characters.CharacterMovement>();
                 var input = collider.transform.gameObject.GetComponent<InputController>();
 
                 if (Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F) //0.25F
@@ -133,28 +174,31 @@ namespace DroidDigital.PacMan.PathFind
                 }
             }
 
-            if (isEnemieColliding && Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F)
+            if (isEnemieColliding && Vector3.Distance(transform.position, collider.bounds.center) <= 0.25F && 
+                (Character == PathCharacter.Ghosts || Character == PathCharacter.Both))
             {
                 if(Time.time - _lastCollidingTime < 0.1F) return;
 
                 _lastCollidingTime = Time.time;
+
+                _pickedDirection = _lastDirection;
                                            
                 var character = collider.transform.gameObject.GetComponent<EnemyMovement>();
                             
                 character.UpdateAllowedDirections(AlowedDirections);
                 
-                direction = AlowedDirections[Random.Range(0, AlowedDirections.Count)];
+                _pickedDirection = AlowedDirections[Random.Range(0, AlowedDirections.Count)];
 
                 if (AlowedDirections.Count > 1)
                 {
                     if (_lastDirection != null)
                     {
-                        if (direction == _lastDirection)
-                            direction = AlowedDirections.FirstOrDefault(e => e != _lastDirection);
+                        if ( _pickedDirection == _lastDirection)
+                            _pickedDirection = AlowedDirections.FirstOrDefault(e => e != _lastDirection);
                     }
                 }              
 
-                character.Character.State.DirectionState = direction;
+                character.Character.State.DirectionState = _pickedDirection;
 
                // var characterName = character.name;
                 
@@ -169,57 +213,12 @@ namespace DroidDigital.PacMan.PathFind
             }                    
         }
 
-     /*   private void OnTriggerExit2D(Collider2D collider2D)
-        {
-            var isPlayer = collider2D.CompareTag(GameConstants.PLAYER_TAG);
-
-            if (isPlayer)
-            {
-                var input = collider2D.GetComponent<InputController>();
-
-                input.IsEnable = false;
-                StartCoroutine(DisableInputForPlayer(collider2D, 0.01F));
-            }
-        }*/
-
-        private IEnumerator DisableInputForPlayer(Collider2D targetObject, float delay)
-        {
-            yield return new WaitForSeconds(delay);
-
-            var input = targetObject.GetComponent<InputController>();
-
-            input.AuthorizingMove = false;
-        }
-
-    /*    private void OnTriggerEnter2D(Collider2D collider2D)
-        {
-            var isPlayer = collider2D.CompareTag(GameConstants.PLAYER_TAG);
-
-            if (isPlayer)
-            {
-                var input = collider2D.gameObject.GetComponent<InputController>();
-
-                input.IsEnable = true;
-            }
-        }*/
 
         private void LastDirectionPick(CharacterDirection currentDirection)
         {
             _lastDirection = currentDirection;
         }
-        
-
-        private void Initialize()
-        {
-            DisableSprite();
-            _initialAllowedDirections = AlowedDirections;
-        }
-
-        private void Start()
-        {
-            Initialize();
-        }
-
+         
         private void PopulatePossiblePathDirections()
         {
             foreach (CharacterDirection direction in Enum.GetValues(typeof(CharacterDirection)))
@@ -235,7 +234,7 @@ namespace DroidDigital.PacMan.PathFind
 
         public Vector3 GetCurrentDirection()
         {
-            var direction = (Vector3) CharacterStateManagement.GetVectorByDirectionState(AlowedDirections[_rayIndex]);
+            var direction = (Vector3) CharacterDirectionHelper.GetVectorByDirectionState(AlowedDirections[_rayIndex]);
 
             return direction;
         }
@@ -248,7 +247,8 @@ namespace DroidDigital.PacMan.PathFind
         
 
         public IEnumerator PerformRayCastingAsync()
-        {         
+        {
+            
             if(AlowedDirections.Count == 0 || AlowedDirections == null) yield break;
             
             yield return new WaitForEndOfFrame();

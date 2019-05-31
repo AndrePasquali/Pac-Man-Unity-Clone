@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace DroidDigital.PacMan.UI
+namespace Aquiris.PacMan.UI
 {
     static internal class ScreenManagement
     {

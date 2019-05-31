@@ -1,4 +1,4 @@
-namespace DroidDigital.PacMan.Level.Item
+namespace Aquiris.PacMan.Level.Item
 {
     public class FruitItem: PickableItem
     {

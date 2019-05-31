@@ -183,7 +183,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &8643200
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -411,7 +410,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &11214847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -672,7 +670,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &33023799
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -848,7 +845,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &42092349
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -961,7 +957,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &43740290
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1074,7 +1069,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &44654514
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1154,7 +1148,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &50094730
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1300,7 +1293,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &54185312
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1317,80 +1309,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.04
---- !u!1 &61341556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 61341557}
-  - component: {fileID: 61341559}
-  - component: {fileID: 61341558}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &61341557
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61341556}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1082263086}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &61341558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61341556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.54509807}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f5a9ad0e6e7414989b83724451ecfe1f, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &61341559
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61341556}
-  m_CullTransparentMesh: 0
 --- !u!1 &63095597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,7 +1372,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &63095601
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1567,7 +1484,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &68767867
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1770,7 +1686,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &72072558
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1850,7 +1765,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &72126682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1996,7 +1910,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &84215231
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2222,7 +2135,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &102415478
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2302,7 +2214,7 @@ RectTransform:
   - {fileID: 1159471502}
   - {fileID: 1633948221}
   m_Father: {fileID: 1082263086}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2372,7 +2284,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &107565789
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2485,7 +2396,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &107643716
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2813,7 +2723,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &126834228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3016,7 +2925,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &140664419
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3133,6 +3041,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 153550843}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &159756123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 159756124}
+  - component: {fileID: 159756126}
+  - component: {fileID: 159756125}
+  m_Layer: 5
+  m_Name: LivesImage (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &159756124
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159756123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998728834}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &159756125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159756123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 4792609672346407122, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &159756126
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159756123}
+  m_CullTransparentMesh: 0
 --- !u!1 &160211458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3229,7 +3212,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &160211462
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3264,7 +3246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &160821305
 Transform:
   m_ObjectHideFlags: 0
@@ -3309,7 +3291,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &160821308
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3455,7 +3436,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &162974316
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3568,7 +3548,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &169085959
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3648,7 +3627,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &169942990
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3794,7 +3772,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &175451629
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3926,6 +3903,115 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 184075322}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &185189732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 450418001}
+    m_Modifications:
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPath (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_TagString
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: Character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -912580341638041419, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
 --- !u!1 &189900652
 GameObject:
   m_ObjectHideFlags: 0
@@ -4040,20 +4126,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3661827474415791062}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &200440107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200440106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8be8e3fb1a4a25bf3e43c25c57dd7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScoreSprite: {fileID: -392834376411137957, guid: a340b1987cf204013b009467c483d609,
-    type: 3}
 --- !u!61 &200440113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4168,7 +4240,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &210802343
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4314,7 +4385,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &218786400
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4590,7 +4660,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &230527711
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4770,7 +4839,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &231562266
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4883,7 +4951,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &234842626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5101,7 +5168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &241398304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5214,7 +5280,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &254992050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5368,6 +5433,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
+--- !u!1 &262405548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262405549}
+  - component: {fileID: 262405551}
+  - component: {fileID: 262405550}
+  m_Layer: 5
+  m_Name: LivesImage (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &262405549
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262405548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 281545628}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 263.05, y: -20}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &262405550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262405548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 5947903406104027793, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &262405551
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262405548}
+  m_CullTransparentMesh: 0
 --- !u!1001 &263412259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5536,7 +5676,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &266455582
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5649,7 +5788,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &273051798
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5795,7 +5933,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &280101922
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5821,6 +5958,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 281545628}
+  - component: {fileID: 281545629}
   m_Layer: 5
   m_Name: Lives
   m_TagString: Untagged
@@ -5842,14 +5980,40 @@ RectTransform:
   - {fileID: 2099533279}
   - {fileID: 737453556}
   - {fileID: 816709547}
+  - {fileID: 361707767}
+  - {fileID: 262405549}
   m_Father: {fileID: 1044819590}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -190, y: 89.4}
-  m_SizeDelta: {x: 450.69995, y: 107.599976}
+  m_AnchoredPosition: {x: -212.5, y: 80}
+  m_SizeDelta: {x: 286.1, y: 60.7}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &281545629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281545627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 1
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 40, y: 40}
+  m_Spacing: {x: 20, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1 &283479516
 GameObject:
   m_ObjectHideFlags: 0
@@ -5946,7 +6110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &283479520
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5972,9 +6135,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 285590952}
-  - component: {fileID: 285590953}
   m_Layer: 5
-  m_Name: Score
+  m_Name: HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6000,18 +6162,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!225 &285590953
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285590951}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!1 &300267901
 GameObject:
   m_ObjectHideFlags: 0
@@ -6108,7 +6258,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &300267905
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6221,7 +6370,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &301429814
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6406,7 +6554,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &303627242
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6552,7 +6699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &303695819
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6761,7 +6907,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1}
+  m_Size: {x: 0.12, y: 0.12}
   m_EdgeRadius: 0
 --- !u!1 &318142224
 GameObject:
@@ -6859,7 +7005,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &318142228
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7015,7 +7160,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &337805638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7161,7 +7305,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &338902786
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7389,7 +7532,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &344791748
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7469,7 +7611,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &344856107
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7582,7 +7723,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &350837224
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7770,7 +7910,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &351346616
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7916,7 +8055,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &356404358
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7933,6 +8071,81 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.04
+--- !u!1 &361707766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361707767}
+  - component: {fileID: 361707769}
+  - component: {fileID: 361707768}
+  m_Layer: 5
+  m_Name: LivesImage (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &361707767
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361707766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 281545628}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 203.05, y: -20}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &361707768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361707766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 5947903406104027793, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &361707769
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361707766}
+  m_CullTransparentMesh: 0
 --- !u!1 &363115197
 GameObject:
   m_ObjectHideFlags: 0
@@ -8086,7 +8299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &363867419
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8166,7 +8378,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &364194442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8279,7 +8490,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &371007796
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8530,7 +8740,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &396347011
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8610,7 +8819,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &406949069
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8756,7 +8964,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &407331260
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8836,7 +9043,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &413291559
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9087,7 +9293,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &419050445
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9262,7 +9467,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &432390312
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9408,7 +9612,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &434704358
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9488,7 +9691,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &438034349
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9658,7 +9860,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &441959927
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9771,7 +9972,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &448683844
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9925,6 +10125,14 @@ Transform:
   - {fileID: 306274700}
   - {fileID: 2078899979}
   - {fileID: 891968820}
+  - {fileID: 740885256}
+  - {fileID: 701464060}
+  - {fileID: 1876432912}
+  - {fileID: 1517609791}
+  - {fileID: 1689146179}
+  - {fileID: 1918537239}
+  - {fileID: 1373684590}
+  - {fileID: 1745919991}
   m_Father: {fileID: 1754539606}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10024,7 +10232,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &450570113
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10104,7 +10311,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &471213197
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10274,7 +10480,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &475437719
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10566,7 +10771,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &477252061
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10634,7 +10838,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &477771583
 Transform:
   m_ObjectHideFlags: 0
@@ -10712,7 +10916,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &477771586
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10949,7 +11152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &497723955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11119,6 +11321,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 502188747}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &506098955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506098956}
+  - component: {fileID: 506098958}
+  - component: {fileID: 506098957}
+  m_Layer: 5
+  m_Name: LivesImage (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &506098956
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506098955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998728834}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &506098957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506098955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 7446380204680235489, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &506098958
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506098955}
+  m_CullTransparentMesh: 0
 --- !u!1 &509899321
 GameObject:
   m_ObjectHideFlags: 0
@@ -11215,7 +11492,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &513125989
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11265,6 +11541,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &515728021
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 450418001}
+    m_Modifications:
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPath (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_TagString
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: Character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -912580341638041419, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -11563,7 +11943,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &522318022
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11676,7 +12055,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &525325108
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11726,26 +12104,124 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &528865426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 528865427}
+  - component: {fileID: 528865430}
+  - component: {fileID: 528865429}
+  - component: {fileID: 528865428}
+  m_Layer: 10
+  m_Name: Dot (294)
+  m_TagString: Items
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &528865427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528865426}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.6, y: 13.78, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 1342307187}
+  m_RootOrder: 293
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &528865428
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528865426}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000011920929, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.04
+--- !u!114 &528865429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528865426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7aef19349de41cbb23df92c271478a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
+  BonusPointsAmount: 10
+--- !u!212 &528865430
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528865426}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 1634138686273053346, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.13, y: 0.14}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &530401948 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3484858375790447489, guid: 0098664a5b2b84ce3bc7f5b18a719d53,
     type: 3}
   m_PrefabInstance: {fileID: 3484858375038683996}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &530401949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530401948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8be8e3fb1a4a25bf3e43c25c57dd7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScoreSprite: {fileID: -392834376411137957, guid: a340b1987cf204013b009467c483d609,
-    type: 3}
 --- !u!61 &530401955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11860,7 +12336,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &549948810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12006,7 +12481,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &553775482
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12086,7 +12560,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &567850584
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12390,7 +12863,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &581007343
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12470,7 +12942,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &588644923
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12616,7 +13087,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &589723045
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12729,7 +13199,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &590873401
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12899,7 +13368,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &603671197
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13012,7 +13480,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &604286329
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13092,7 +13559,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &605160096
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13205,7 +13671,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &609489678
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13502,7 +13967,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &623452260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13720,7 +14184,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &641428121
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13833,7 +14296,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &644490666
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14025,7 +14487,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &650763786
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14138,7 +14599,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &652074812
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14251,7 +14711,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &652282547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14364,7 +14823,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &652922454
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14477,7 +14935,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &653223440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14887,7 +15344,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &664052594
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15000,7 +15456,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &665970127
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15146,7 +15601,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &673335025
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15259,7 +15713,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &674023183
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15339,7 +15792,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &695034328
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15518,7 +15970,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &699331235
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15568,6 +16019,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &701464060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+    type: 3}
+  m_PrefabInstance: {fileID: 515728021}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &706129805
 GameObject:
   m_ObjectHideFlags: 0
@@ -15664,7 +16121,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &706129809
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15681,6 +16137,110 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.04
+--- !u!1001 &706432607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 450418001}
+    m_Modifications:
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPath (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_TagString
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: Character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -912580341638041419, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
 --- !u!1 &706601404
 GameObject:
   m_ObjectHideFlags: 0
@@ -15744,7 +16304,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &706601408
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15890,7 +16449,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &711908513
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15970,7 +16528,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &720770976
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16116,7 +16673,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &730386229
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16333,10 +16889,10 @@ RectTransform:
   m_Father: {fileID: 281545628}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &737453557
 MonoBehaviour:
@@ -16439,7 +16995,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &739297055
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16563,6 +17118,87 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739803473}
+  m_CullTransparentMesh: 0
+--- !u!4 &740885256 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+    type: 3}
+  m_PrefabInstance: {fileID: 706432607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &750204621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 750204622}
+  - component: {fileID: 750204624}
+  - component: {fileID: 750204623}
+  m_Layer: 5
+  m_Name: LivesImage (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &750204622
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750204621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998728834}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &750204623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750204621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: -8858146230897802655, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &750204624
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750204621}
   m_CullTransparentMesh: 0
 --- !u!1001 &754840117
 PrefabInstance:
@@ -16765,7 +17401,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &755608150
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16994,7 +17629,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &770883681
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17107,7 +17741,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &771011908
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17253,7 +17886,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &774195099
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17366,7 +17998,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &778064234
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17446,7 +18077,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &790398476
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17702,7 +18332,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &798238715
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17815,7 +18444,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &799905268
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18057,7 +18685,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &809900442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18139,10 +18766,10 @@ RectTransform:
   m_Father: {fileID: 281545628}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -205, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &816709548
 MonoBehaviour:
@@ -18330,7 +18957,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &835585955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18443,7 +19069,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &839264923
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18588,7 +19213,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &847419700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18734,7 +19358,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &848863741
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18847,7 +19470,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &858243177
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18959,7 +19581,7 @@ PrefabInstance:
     - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
         type: 3}
       propertyPath: Type
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
         type: 3}
@@ -19042,7 +19664,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &861897852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19188,7 +19809,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &870044196
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19359,7 +19979,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &881059542
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19472,7 +20091,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &883985871
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19657,7 +20275,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &891980343
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19770,7 +20387,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &900285481
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19995,7 +20611,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &902424439
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20154,7 +20769,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &905071765
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20450,7 +21064,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &918353485
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20696,7 +21309,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &921014241
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20776,7 +21388,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &921720307
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20826,6 +21437,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &924354495
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 450418001}
+    m_Modifications:
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPath (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_TagString
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -912580341638041419, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
 --- !u!1 &927712191
 GameObject:
   m_ObjectHideFlags: 0
@@ -20889,7 +21604,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &927712195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21002,7 +21716,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &932549168
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21266,7 +21979,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1082263086}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -21374,7 +22087,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &946138773
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21487,7 +22199,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &949806396
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21633,7 +22344,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &953084251
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21713,7 +22423,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &970005495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21826,7 +22535,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &970401609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21939,7 +22647,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &970762237
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22052,7 +22759,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &974793445
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22127,12 +22833,12 @@ PrefabInstance:
     - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.47
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.15
       objectReference: {fileID: 0}
     - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
         type: 3}
@@ -22375,7 +23081,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &990419114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22955,7 +23660,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1016786856
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23035,7 +23739,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1017680227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23180,7 +23883,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1034344422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23318,12 +24020,13 @@ RectTransform:
   - {fileID: 1604440606}
   - {fileID: 1246054027}
   - {fileID: 281545628}
+  - {fileID: 1998728834}
   m_Father: {fileID: 285590952}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035, y: 9.7}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1047676289
@@ -23422,7 +24125,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1047676293
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23724,7 +24426,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1052469061
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23861,7 +24562,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1067199260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24144,7 +24844,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1082108833
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24191,7 +24890,6 @@ RectTransform:
   m_Children:
   - {fileID: 285590952}
   - {fileID: 2020225780}
-  - {fileID: 61341557}
   - {fileID: 106470614}
   - {fileID: 945455971}
   m_Father: {fileID: 2066558236}
@@ -24537,7 +25235,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1106803746
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24618,20 +25315,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 576692134}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1111808431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1111808430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8be8e3fb1a4a25bf3e43c25c57dd7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScoreSprite: {fileID: -392834376411137957, guid: a340b1987cf204013b009467c483d609,
-    type: 3}
 --- !u!61 &1111808437
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24851,7 +25534,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1115687983
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25079,7 +25761,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1117674148
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25192,7 +25873,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1118687988
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25362,7 +26042,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1125525506
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25514,7 +26193,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1133013579
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25673,7 +26351,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1137534882
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25819,7 +26496,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1145396020
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26004,7 +26680,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1146636401
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26117,7 +26792,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1147202517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26263,7 +26937,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1147268373
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26343,7 +27016,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1150827536
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26489,7 +27161,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1153011979
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26648,7 +27319,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1167529158
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26761,7 +27431,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1168377369
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26874,7 +27543,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1179675972
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27020,7 +27688,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1179863905
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27158,7 +27825,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1182828817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27278,7 +27944,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '@ 1980 MIDWAY MFG. CO.'
+  m_Text: "\xAE 1980 MIDWAY MFG. CO."
 --- !u!222 &1183227025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27446,7 +28112,7 @@ PrefabInstance:
     - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.69
+      value: 4.53
       objectReference: {fileID: 0}
     - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
         type: 3}
@@ -27589,7 +28255,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1193465591
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27702,7 +28367,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1200409123
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27752,6 +28416,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1201225496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1201225497}
+  - component: {fileID: 1201225499}
+  - component: {fileID: 1201225498}
+  m_Layer: 5
+  m_Name: LivesImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1201225497
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201225496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998728834}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1201225498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201225496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 4792609672346407122, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1201225499
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201225496}
+  m_CullTransparentMesh: 0
 --- !u!1 &1201830831
 GameObject:
   m_ObjectHideFlags: 0
@@ -27815,7 +28554,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1201830835
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28007,7 +28745,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1219933552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28177,7 +28914,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1227554144
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28290,7 +29026,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1229533840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28403,7 +29138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1232744236
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28729,7 +29463,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1238210656
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28809,7 +29542,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1238387009
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28955,7 +29687,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1243965431
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29108,6 +29839,115 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1253508893}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1254258313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 450418001}
+    m_Modifications:
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPath (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_TagString
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: Character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -912580341638041419, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
 --- !u!1 &1273213414
 GameObject:
   m_ObjectHideFlags: 0
@@ -29203,7 +30043,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1275589553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29349,7 +30188,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1282195685
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29462,7 +30300,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1290427125
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29542,7 +30379,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1294391335
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29655,7 +30491,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1294647290
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29768,7 +30603,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1297153174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30065,7 +30899,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1300702974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30211,7 +31044,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1301013834
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -30406,7 +31238,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1301645785
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30619,6 +31450,120 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1307418907}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1307839440
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 450418001}
+    m_Modifications:
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPath (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_TagString
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: Character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -912580341638041419, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
 --- !u!4 &1314244792 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1896003146403497519, guid: 64a617cafc9e84ec4be46948a6ef97ae,
@@ -30721,7 +31666,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1314251349
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -31064,7 +32008,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1328411027
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -31282,7 +32225,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1336133059
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -31395,7 +32337,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1339354279
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -31842,6 +32783,8 @@ Transform:
   - {fileID: 652074809}
   - {fileID: 1232744233}
   - {fileID: 160821305}
+  - {fileID: 528865427}
+  - {fileID: 1764575186}
   m_Father: {fileID: 194561208}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -31978,7 +32921,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1350324496
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -32158,7 +33100,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1361278219
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32409,7 +33350,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1370432492
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -32531,6 +33471,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1370838343}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1373684590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+    type: 3}
+  m_PrefabInstance: {fileID: 924354495}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1377399249
 GameObject:
   m_ObjectHideFlags: 0
@@ -32594,7 +33540,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1377399253
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33004,7 +33949,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1392252322
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -33141,7 +34085,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1413771311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33254,7 +34197,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1419632521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33367,7 +34309,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1423251340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33480,7 +34421,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1428500458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33530,6 +34470,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1436745918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1436745919}
+  - component: {fileID: 1436745921}
+  - component: {fileID: 1436745920}
+  m_Layer: 5
+  m_Name: LivesImage (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1436745919
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436745918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998728834}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1436745920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436745918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 3192280340266494997, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1436745921
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436745918}
+  m_CullTransparentMesh: 0
 --- !u!1 &1438132063
 GameObject:
   m_ObjectHideFlags: 0
@@ -33593,7 +34608,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1438132067
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33740,7 +34754,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1440585131
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33965,7 +34978,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1444994117
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -34082,7 +35094,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1454775093
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34228,7 +35239,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1463216431
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -34341,7 +35351,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1463249116
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -34421,7 +35430,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1487184923
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34567,7 +35575,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1490764607
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -34752,7 +35759,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1501006188
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34865,7 +35871,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1506767056
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34927,7 +35932,7 @@ GameObject:
   - component: {fileID: 1507782829}
   - component: {fileID: 1507782828}
   m_Layer: 5
-  m_Name: Bezel
+  m_Name: ArcadeBezel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35046,6 +36051,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 2}
   m_EdgeRadius: 0
+--- !u!4 &1517609791 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+    type: 3}
+  m_PrefabInstance: {fileID: 185189732}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1520611193
 GameObject:
   m_ObjectHideFlags: 0
@@ -35109,7 +36120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1520611197
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35255,7 +36265,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1531224032
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -35392,7 +36401,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1532461672
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35643,7 +36651,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1541613374
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -35756,7 +36763,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1552316823
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -35836,7 +36842,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1565560653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36064,7 +37069,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1589278647
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36177,7 +37181,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1603525937
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36370,7 +37373,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1607963050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36516,7 +37518,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1608225244
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -36596,7 +37597,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1614800351
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36652,20 +37652,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5970591672703901828}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1617527948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617527947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8be8e3fb1a4a25bf3e43c25c57dd7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScoreSprite: {fileID: -392834376411137957, guid: a340b1987cf204013b009467c483d609,
-    type: 3}
 --- !u!61 &1617527954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36813,7 +37799,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1624472048
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36959,7 +37944,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1629982484
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37204,7 +38188,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1637315818
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37317,7 +38300,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1653903762
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37397,7 +38379,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1655331383
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37510,7 +38491,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1660454091
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37656,7 +38636,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1661808265
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37804,7 +38783,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1680792955
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37925,6 +38903,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688917383}
   m_CullTransparentMesh: 0
+--- !u!4 &1689146179 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040880990}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1690229535
 GameObject:
   m_ObjectHideFlags: 0
@@ -37988,7 +38972,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1690229539
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38134,7 +39117,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1691292332
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -38294,7 +39276,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1698438165
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -38407,7 +39388,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1699687128
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -38487,7 +39467,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1701867851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38685,7 +39664,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1703886995
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38798,7 +39776,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1712505411
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38911,7 +39888,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1713121745
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39240,7 +40216,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1729396940
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39320,7 +40295,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1730839933
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39433,7 +40407,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1734759319
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39579,7 +40552,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1737198686
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39692,7 +40664,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1737806335
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39766,6 +40737,121 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 2}
   m_EdgeRadius: 0
+--- !u!1001 &1745919990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 450418001}
+    m_Modifications:
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPath (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_TagString
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: Character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -912580341638041419, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
+--- !u!4 &1745919991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+    type: 3}
+  m_PrefabInstance: {fileID: 1745919990}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1751143030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39934,7 +41020,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1753197360
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39994,6 +41079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1754539606}
   - component: {fileID: 1754539607}
+  - component: {fileID: 1754539608}
   m_Layer: 8
   m_Name: Level
   m_TagString: Untagged
@@ -40067,6 +41153,137 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1754539608
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754539605}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b4947cc8ad9f473eb615e374d58d57f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1764575185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1764575186}
+  - component: {fileID: 1764575189}
+  - component: {fileID: 1764575188}
+  - component: {fileID: 1764575187}
+  m_Layer: 10
+  m_Name: Dot (147)
+  m_TagString: Items
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1764575186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764575185}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.37, y: 13.8, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 1342307187}
+  m_RootOrder: 294
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1764575187
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764575185}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.04
+--- !u!114 &1764575188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764575185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7aef19349de41cbb23df92c271478a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
+  BonusPointsAmount: 10
+--- !u!212 &1764575189
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764575185}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 1634138686273053346, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.13, y: 0.14}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1775062745
 GameObject:
   m_ObjectHideFlags: 0
@@ -40130,7 +41347,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1775062749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40391,7 +41607,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1800702258
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40504,7 +41719,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1805878336
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40584,7 +41798,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1806196107
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40762,7 +41975,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1811775948
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40954,7 +42166,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1827505367
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41067,7 +42278,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1839314677
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41180,7 +42390,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1841794172
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41260,7 +42469,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1844522252
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41373,7 +42581,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1844535791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41519,7 +42726,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1849335142
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41632,7 +42838,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1850756820
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41712,7 +42917,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1855128848
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42160,7 +43364,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1875130308
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -42177,6 +43380,12 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.000000029802322}
   serializedVersion: 2
   m_Radius: 0.04
+--- !u!4 &1876432912 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+    type: 3}
+  m_PrefabInstance: {fileID: 1254258313}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1877416693
 GameObject:
   m_ObjectHideFlags: 0
@@ -42304,7 +43513,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1878238409
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -42489,7 +43697,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1883763041
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42635,7 +43842,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1884965666
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -42748,7 +43954,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1887609216
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -42962,7 +44167,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1893230795
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43012,6 +44216,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1893371198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1893371199}
+  - component: {fileID: 1893371201}
+  - component: {fileID: 1893371200}
+  m_Layer: 5
+  m_Name: LivesImage (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1893371199
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893371198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998728834}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1893371200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893371198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: -3840170746342821770, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1893371201
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893371198}
+  m_CullTransparentMesh: 0
 --- !u!1 &1893377332
 GameObject:
   m_ObjectHideFlags: 0
@@ -43108,7 +44387,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1893377336
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -43221,7 +44499,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1893494665
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -43424,7 +44701,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1895226555
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -43504,7 +44780,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1897110858
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43708,7 +44983,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1899413565
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -43788,7 +45062,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1901473370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -44013,7 +45286,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1906557147
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -44126,7 +45398,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1913316367
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -44239,7 +45510,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1915552936
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -44256,6 +45526,12 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.04
+--- !u!4 &1918537239 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307839440}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1920195790
 GameObject:
   m_ObjectHideFlags: 0
@@ -44352,7 +45628,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1920195794
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -44580,7 +45855,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CREDIT 0
+  m_Text: FREE PLAY
 --- !u!222 &1936550875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -44795,7 +46070,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1952600184
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -44875,7 +46149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1954486655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45029,7 +46302,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1955196945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45142,7 +46414,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1956307026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45288,7 +46559,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1956868955
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -45401,7 +46671,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1962714779
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -45481,7 +46750,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1963922039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45735,7 +47003,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &1975406000
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46074,7 +47341,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &1995175955
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -46091,6 +47357,73 @@ CircleCollider2D:
   m_Offset: {x: 0.000000059604645, y: -0.00000023841858}
   serializedVersion: 2
   m_Radius: 0.04
+--- !u!1 &1998728833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998728834}
+  - component: {fileID: 1998728835}
+  m_Layer: 5
+  m_Name: Fruits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1998728834
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998728833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1201225497}
+  - {fileID: 1893371199}
+  - {fileID: 159756124}
+  - {fileID: 506098956}
+  - {fileID: 750204622}
+  - {fileID: 2115064461}
+  - {fileID: 1436745919}
+  m_Father: {fileID: 1044819590}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -816.2, y: 80}
+  m_SizeDelta: {x: 404.4, y: 60.7}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1998728835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998728833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 1
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 40, y: 40}
+  m_Spacing: {x: 20, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1001 &2000826840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46264,7 +47597,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2016313521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46377,7 +47709,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2017208335
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46601,7 +47932,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &2022036710
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -46728,6 +48058,120 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2027896997}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2040880990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 450418001}
+    m_Modifications:
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPath (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_TagString
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997217266057360979, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259716741212632903, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: AlowedDirections.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 289344021949600338, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: Character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -912580341638041419, guid: 6b06f5e6f88f24b7f9762e6401120029,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b06f5e6f88f24b7f9762e6401120029, type: 3}
 --- !u!1001 &2044413906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47006,7 +48450,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2052992257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47119,7 +48562,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2054673387
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47290,7 +48732,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2059486960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47536,7 +48977,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &2067628388
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -47695,7 +49135,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2071528650
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47841,7 +49280,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &2076531288
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -47921,7 +49359,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2077018499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48034,7 +49471,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2077948225
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48284,7 +49720,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2087709176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48430,7 +49865,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &2098652112
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -48479,10 +49913,10 @@ RectTransform:
   m_Father: {fileID: 281545628}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2099533280
 MonoBehaviour:
@@ -48683,6 +50117,81 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &2115064460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2115064461}
+  - component: {fileID: 2115064463}
+  - component: {fileID: 2115064462}
+  m_Layer: 5
+  m_Name: LivesImage (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2115064461
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115064460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998728834}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2115064462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115064460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: -688857281475116164, guid: a340b1987cf204013b009467c483d609,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &2115064463
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115064460}
+  m_CullTransparentMesh: 0
 --- !u!1 &2119557271
 GameObject:
   m_ObjectHideFlags: 0
@@ -48779,7 +50288,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &2119557275
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -48859,7 +50367,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2120250456
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48923,6 +50430,7 @@ GameObject:
   - component: {fileID: 2126408235}
   - component: {fileID: 2126408239}
   - component: {fileID: 2126408240}
+  - component: {fileID: 2126408241}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -49038,14 +50546,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 805dfa78a351f460fb8d5b77913b3f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dotPickupClips:
-  - {fileID: 8300000, guid: 049c16e2841824a56bc8f4808309cf0a, type: 3}
-  - {fileID: 8300000, guid: 51999b207c7a7427b989ccc62210fa11, type: 3}
-  - {fileID: 8300000, guid: 8472a63d9ca6d412bbac08eb9982b09d, type: 3}
-  - {fileID: 8300000, guid: 5f93381489243423fa3b0eba5676e9ca, type: 3}
+  _dotPickupClips: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   _startLevelClip: {fileID: 8300000, guid: 5ccbe3968eee848fb9a600abe220f5c8, type: 3}
   _gameplayClip: {fileID: 8300000, guid: f37b7f822a6e5468f90149e75d29ead1, type: 3}
   _playerDieClip: {fileID: 8300000, guid: 3eeadbe4ac35140f4893aecdb670c13f, type: 3}
+  _enemyDieClip: {fileID: 8300000, guid: f62b1dd80eb764f299d606cc9c58c805, type: 3}
+  _powerUpClip: {fileID: 8300000, guid: 8bb8b424862ce406b8f3f5f8b4d22aa9, type: 3}
+  _normalSpeedClip: {fileID: 8300000, guid: f37b7f822a6e5468f90149e75d29ead1, type: 3}
+  _moderateSpeedClip: {fileID: 8300000, guid: 38ed91035a8eb44149be10273eba79aa, type: 3}
+  _fastSpeedClip: {fileID: 8300000, guid: 0e65ece33cfca4afc9351bdaebf92e23, type: 3}
+  _superFastClip: {fileID: 8300000, guid: f493424eb50074e4b97d7b1787cd29bd, type: 3}
+  _ultraFastClip: {fileID: 8300000, guid: 25bdcb05787fa4f9f8c34f5c18ee5923, type: 3}
 --- !u!4 &2126408237
 Transform:
   m_ObjectHideFlags: 0
@@ -49125,11 +50636,105 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d539a3c21ec7148b6a87bf4b706fb2e4, type: 2}
   - {fileID: 11400000, guid: ec070c74b0f304e8b93595e2099b9fdd, type: 2}
   - {fileID: 11400000, guid: 5584eada0f5ce4224a57a33095fe80be, type: 2}
-  LevelSprite: {fileID: 1754539607}
-  _levelFinishSprite: {fileID: -6549960491094577852, guid: fc03986078b6c4ca9aafbae028dafb0b,
+  _levelAnimator: {fileID: 1754539608}
+  _levelFinishSprite: {fileID: -9048584101370865540, guid: fc03986078b6c4ca9aafbae028dafb0b,
     type: 3}
-  _levelSprite: {fileID: -3186575185625007550, guid: 9f09cd2d71e204a3383c821ac483a18b,
-    type: 3}
+--- !u!82 &2126408241
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126408234}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2131812292
 GameObject:
   m_ObjectHideFlags: 0
@@ -49226,7 +50831,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &2131812296
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -49339,7 +50943,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &2134641824
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -49419,7 +51022,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!212 &2139497538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -49565,7 +51167,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickClip: {fileID: 8300000, guid: c041fbf4fc5f341b680b1be384205504, type: 3}
   BonusPointsAmount: 10
-  IsPicked: 0
 --- !u!58 &2142913341
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -49599,6 +51200,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664951271222116314, guid: f15271c6aaf9d4339b16c48bc43a803e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1664951271222116317, guid: f15271c6aaf9d4339b16c48bc43a803e,
         type: 3}
@@ -49728,7 +51334,12 @@ PrefabInstance:
     - target: {fileID: 1664951271222116319, guid: f15271c6aaf9d4339b16c48bc43a803e,
         type: 3}
       propertyPath: DistanceView
-      value: 1
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664951271222116319, guid: f15271c6aaf9d4339b16c48bc43a803e,
+        type: 3}
+      propertyPath: MovementSpeed
+      value: 12.6
       objectReference: {fileID: 0}
     - target: {fileID: 1664951271222116290, guid: f15271c6aaf9d4339b16c48bc43a803e,
         type: 3}
@@ -49746,6 +51357,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8635337452839114711, guid: a340b1987cf204013b009467c483d609,
         type: 3}
+    - target: {fileID: 1664951271222116316, guid: f15271c6aaf9d4339b16c48bc43a803e,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1017225489, guid: f15271c6aaf9d4339b16c48bc43a803e, type: 3}
       propertyPath: DirectionState
       value: 4
@@ -50145,7 +51761,7 @@ PrefabInstance:
     - target: {fileID: 6813420798321404428, guid: 6b0be553f804d484b91646d7c5c0b217,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 6813420798321404428, guid: 6b0be553f804d484b91646d7c5c0b217,
         type: 3}

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DroidDigital.PacMan.UI
+namespace Aquiris.PacMan.UI
 {
     public class Screen: MonoBehaviour
     {

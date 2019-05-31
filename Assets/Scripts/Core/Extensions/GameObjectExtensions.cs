@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DroidDigital.Core.Extensions
+namespace Aquiris.Core.Extensions
 {
     public static class GameObjectExtensions
     {

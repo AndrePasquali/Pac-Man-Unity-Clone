@@ -2,7 +2,7 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-namespace DroidDigital.Core.Extensions
+namespace Aquiris.Core.Extensions
 {
     public static class AsyncExtensions
     {

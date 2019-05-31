@@ -1,15 +1,16 @@
-namespace DroidDigital.PacMan.Gameplay.State
+namespace Aquiris.PacMan.Gameplay.State
 {
     public enum GamePlayState
     {
-        Start,
+        StartScreen,
         StartConfirmation,
-        PreGame,
-        InGame,
+        LevelStart,
+        GameStart,
         LevelCompleted,
         LevelTransition,
         GameOver,
         PlayerDie,
-        PlayerGetPowerUp
+        PlayerPowerUp,
+        PowerUpTimeOut
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace DroidDigital.PacMan.FX
+namespace Aquiris.PacMan.FX
 {
     [RequireComponent(typeof(SpriteRenderer))]
     public class FlickerEffect: MonoBehaviour
@@ -74,6 +74,13 @@ namespace DroidDigital.PacMan.FX
         public void OnPicked()
         {
             isPicked = true;
+        }
+
+        public void OnResetLevel()
+        {
+            isPicked = false;
+            StopAllCoroutines();
+            StartFlicker();
         }
     }
 }

@@ -1,8 +1,8 @@
-using DroidDigital.PacMan.Characters.State;
-using DroidDigital.PacMan.Gameplay;
+using Aquiris.PacMan.Characters.State;
+using Aquiris.PacMan.Gameplay;
 using UnityEngine;
 
-namespace DroidDigital.Characters
+namespace Aquiris.Characters
 {
     public class CharacterHealth: MonoBehaviour
     {
@@ -26,7 +26,7 @@ namespace DroidDigital.Characters
             CharacterState.ChangeConditionState(CharacterCondition.Dead);
             
             if(DeathClip != null)
-                AudioController.Instance.PlaySound(DeathClip);
+                AudioManager.Instance.PlaySound(DeathClip);
         }
 
         private void OnDestroy()

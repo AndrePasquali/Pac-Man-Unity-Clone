@@ -1,15 +1,20 @@
-using DroidDigital.Core.Constants;
-using DroidDigital.PacMan.Characters.Animation;
-using DroidDigital.PacMan.Characters.State;
-using DroidDigital.PacMan.Input;
+using Aquiris.Core.Constants;
+using Aquiris.PacMan.Characters.Animation;
+using Aquiris.PacMan.Characters.State;
+using Aquiris.PacMan.Input;
 
-namespace DroidDigital.PacMan.Characters
+namespace Aquiris.PacMan.Characters
 {
     public sealed class PacManCharacter: Character
     {
         public InputController LinkedInputController => _linkedInputController ?? (_linkedInputController = GetComponent<InputController>());
 
         private InputController _linkedInputController;
+        
+        private void OnEnable()
+        {
+            AnimatorController.SetBool(Animator, GameConstants.ISPACMAN, Name == CharacterName.PacMan);
+        }
 
         protected override void EveryFrame()
         {
@@ -26,7 +31,7 @@ namespace DroidDigital.PacMan.Characters
             AnimatorController.SetBool(Animator, GameConstants.MOVE_RIGHT, State.DirectionState == CharacterDirection.Right);
           //  AnimatorController.SetBool(Animator, GameConstants.IDLE, State.MovementState == Characters.State.CharacterMovement.Idle);
             
-            AnimatorController.SetBool(Animator, GameConstants.ALIVE, State.ConditionState == CharacterCondition.Alive);
+            AnimatorController.SetBool(Animator, GameConstants.ALIVE, State.ConditionState == CharacterCondition.Normal);
             AnimatorController.SetBool(Animator, GameConstants.DEAD, State.ConditionState == CharacterCondition.Dead);
             AnimatorController.SetBool(Animator, GameConstants.IDLE, State.ConditionState == CharacterCondition.Freeze);
             

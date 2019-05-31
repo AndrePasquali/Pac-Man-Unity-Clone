@@ -6,7 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Audio" t="Include">
-            <e p="AudioController.cs" t="Include" />
+            <e p="AudioManager.cs" t="Include" />
           </e>
           <e p="Characters" t="Include">
             <e p="Animation" t="Include">
@@ -16,7 +16,8 @@
               <e p="Difficulty.cs" t="Include" />
               <e p="Enemy.cs" t="Include" />
               <e p="EnemyMovement.cs" t="Include" />
-              <e p="EnemyUI.cs" t="Include" />
+              <e p="EnemyScoreFeedBack.cs" t="Include" />
+              <e p="EnemySpeed.cs" t="Include" />
               <e p="EnemyVision.cs" t="Include" />
               <e p="Implementations" t="Include">
                 <e p="EnemyCharacter.cs" t="Include" />
@@ -31,15 +32,16 @@
               <e p="Implementations" t="Include">
                 <e p="PacManCharacter.cs" t="Include" />
                 <e p="PacManHealth.cs" t="Include" />
+                <e p="PacManMovement.cs" t="Include" />
                 <e p="PacManPhysics.cs" t="Include" />
               </e>
             </e>
             <e p="State" t="Include">
               <e p="CharacterCondition.cs" t="Include" />
               <e p="CharacterDirection.cs" t="Include" />
+              <e p="CharacterDirectionHelper.cs" t="Include" />
               <e p="CharacterMovement.cs" t="Include" />
               <e p="CharacterState.cs" t="Include" />
-              <e p="CharacterStateManagement.cs" t="Include" />
             </e>
             <e p="Structures" t="Include">
               <e p="Character.cs" t="Include" />
@@ -61,20 +63,25 @@
             </e>
             <e p="Initialize.cs" t="Include" />
             <e p="IO" t="Include">
-              <e p="SaveManager.cs" t="Include" />
+              <e p="BinarySave.cs" t="Include" />
+              <e p="FileHelper.cs" t="Include" />
+              <e p="JsonSave.cs" t="Include" />
             </e>
             <e p="Settings" t="Include">
               <e p="GameSettings.cs" t="Include" />
             </e>
           </e>
           <e p="Gameplay" t="Include">
-            <e p="GameplayController.cs" t="Include" />
+            <e p="Gameplay.cs" t="Include" />
+            <e p="Gameplay.Events.cs" t="Include" />
+            <e p="Gameplay.Manager.cs" t="Include" />
+            <e p="Gameplay.State.cs" t="Include" />
             <e p="Score" t="Include">
-              <e p="ScoreManagement.cs" t="Include" />
+              <e p="ScoreManager.cs" t="Include" />
             </e>
             <e p="State" t="Include">
               <e p="GameplayState.cs" t="Include" />
-              <e p="GameplayStateController.cs" t="Include" />
+              <e p="GamePlayStateManager.cs" t="Include" />
             </e>
           </e>
           <e p="Helpers" t="Include">
@@ -123,15 +130,15 @@
             </e>
           </e>
           <e p="UI" t="Include">
-            <e p="HUDController.cs" t="Include" />
+            <e p="HUDManager.cs" t="Include" />
             <e p="Screen" t="Include">
               <e p="Screen.cs" t="Include" />
               <e p="ScreenManagement.cs" t="Include" />
             </e>
             <e p="StateMachine" t="Include">
               <e p="UIState.cs" t="Include" />
-              <e p="UIStateController.cs" t="Include" />
               <e p="UIStateManagement.cs" t="Include" />
+              <e p="UIStateManager.cs" t="Include" />
             </e>
           </e>
         </e>

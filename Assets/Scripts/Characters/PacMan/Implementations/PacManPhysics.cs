@@ -1,31 +1,26 @@
-using DroidDigital.Characters;
-using DroidDigital.Core.Constants;
-using DroidDigital.PacMan.Characters.State;
-using DroidDigital.PacMan.Gameplay.State;
+using Aquiris.Characters;
+using Aquiris.Core.Constants;
+using Aquiris.PacMan.Characters.State;
+using Aquiris.PacMan.Gameplay.State;
 using UnityEngine;
 
-namespace DroidDigital.PacMan.Characters
+namespace Aquiris.PacMan.Characters
 {
-    public class PacManPhysics: CharacterPhysics
+    public sealed class PacManPhysics: CharacterPhysics
     {    
         public override void OnCharacterCollider(Collider2D collider)
         {
             var isEnemieColliding = collider.CompareTag(GameConstants.ENEMY_TAG);
-            
-            if(!isEnemieColliding || GamePlayStateController.CurrentGamePlayState != GamePlayState.InGame) return;
-                    
-            if(!collider.CompareTag(GameConstants.ENEMY_TAG)) return;
-            
-            Debug.Log(collider.name);
-
-
+                        
+            if(!isEnemieColliding) return; 
+             
             var enemieState = collider.GetComponent<CharacterState>();
-            
+                      
             if(enemieState == null) return;
-                                    
-            if(enemieState.ConditionState == CharacterCondition.Vulnerable
+                                               
+            if(enemieState.ConditionState == CharacterCondition.Blue
                || enemieState.ConditionState == CharacterCondition.Dead) 
-                return;
+                return;          
                         
             Kill(CharacterHealth);                              
         }       

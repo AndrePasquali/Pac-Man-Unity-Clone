@@ -1,14 +1,14 @@
-using DroidDigital.Core.IO;
-using DroidDigital.Gameplay.Score;
-using DroidDigital.PacMan.Level;
+using Aquiris.Core.IO;
+using Aquiris.Gameplay.Score;
+using Aquiris.PacMan.Level;
 
-namespace DroidDigital.PacMan.Player.Progress
+namespace Aquiris.PacMan.Player.Progress
 {
     public static class PlayerProgressManager
     {
         public static void SaveProgress()
         {
-            var highestScore = ScoreManagement.GetHighestScore();
+            var highestScore = ScoreManager.GetHighestScore();
             var longestLevel = LevelManager.Instance.GetCurrentLevel();
             
             var save = new Save
@@ -17,12 +17,12 @@ namespace DroidDigital.PacMan.Player.Progress
                 LongestLevel = longestLevel
             };
             
-            SaveManager.Save(save);
+            BinarySave.Save(save);
         }
 
         public static void LoadProgress()
         {
-            var progress = SaveManager.Load<Save>();
+            var progress = BinarySave.Load<Save>();
             
             UpdateHighScore(progress);
         }
@@ -31,7 +31,7 @@ namespace DroidDigital.PacMan.Player.Progress
         {
             var highestScore = saveLoaded.HighScore;
             
-            ScoreManagement.UpdateHighScore(highestScore);
+            ScoreManager.UpdateHighScore(highestScore);
         }
     }
 }

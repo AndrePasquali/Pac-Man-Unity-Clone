@@ -1,4 +1,4 @@
-﻿namespace DroidDigital.PacMan.Enemy
+﻿namespace Aquiris.PacMan.Enemy
 {
     public enum Difficulty
     {

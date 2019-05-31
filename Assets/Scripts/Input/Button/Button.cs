@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DroidDigital.PacMan.Input
+namespace Aquiris.PacMan.Input
 {
     public class Button
     {

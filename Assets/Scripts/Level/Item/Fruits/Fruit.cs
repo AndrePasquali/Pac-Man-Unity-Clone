@@ -1,4 +1,4 @@
-namespace DroidDigital.PacMan.Level.Item.Fruits
+namespace Aquiris.PacMan.Level.Item.Fruits
 {
     public enum Fruit
     {

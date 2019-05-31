@@ -3,8 +3,8 @@ guid: fc03986078b6c4ca9aafbae028dafb0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6549960491094577852
-    second: Maze_0
+      213: -9048584101370865540
+    second: LevelFinish_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 8
-  spriteBorder: {x: 227, y: 0, z: 227, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -109,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Maze_0
+      name: LevelFinish_0
       rect:
         serializedVersion: 2
         x: 227
@@ -117,14 +117,14 @@ TextureImporter:
         width: 226
         height: 248
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e03d1204cefeb47d3a8000e0880facf2
-      internalID: -6549960491094577852
+      spriteID: a32d03307eeee4e5aa2cd9397dbc2e7e
+      internalID: -9048584101370865540
       vertices: []
       indices: 
       edges: []
@@ -132,7 +132,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 013339078a10f4524a217886c265b47e
+    spriteID: 620d9425608a84e82aaef4cc7f9ed535
     internalID: 0
     vertices: []
     indices: 

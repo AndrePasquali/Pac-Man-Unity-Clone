@@ -1,4 +1,4 @@
-namespace DroidDigital.PacMan.Path
+namespace Aquiris.PacMan.Path
 {
     public class PathPosition
     {

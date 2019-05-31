@@ -1,7 +1,7 @@
-using DroidDigital.Characters.Interfaces;
+using Aquiris.Characters.Interfaces;
 using UnityEngine;
 
-namespace DroidDigital.Characters
+namespace Aquiris.Characters
 {
     public abstract class CharacterPhysics: MonoBehaviour, IKill
     {        

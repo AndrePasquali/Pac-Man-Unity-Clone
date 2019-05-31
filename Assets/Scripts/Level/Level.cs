@@ -1,7 +1,7 @@
-using DroidDigital.PacMan.Level.Item.Fruits;
+using Aquiris.PacMan.Level.Item.Fruits;
 using UnityEngine;
 
-namespace DroidDigital.PacMan.Level
+namespace Aquiris.PacMan.Level
 {
     [CreateAssetMenu(fileName = "Level", menuName = "Create Level", order = 0)]
     public class Level: ScriptableObject

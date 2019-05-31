@@ -1,4 +1,4 @@
-﻿namespace DroidDigital.PacMan.Input
+﻿namespace Aquiris.PacMan.Input
 {
     public enum ButtonState
     {

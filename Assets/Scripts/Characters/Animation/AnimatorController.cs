@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DroidDigital.PacMan.Characters.Animation
+namespace Aquiris.PacMan.Characters.Animation
 {
     public static class AnimatorController
     {

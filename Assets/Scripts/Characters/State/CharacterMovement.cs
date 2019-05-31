@@ -1,4 +1,4 @@
-﻿namespace DroidDigital.PacMan.Characters.State
+﻿namespace Aquiris.PacMan.Characters.State
 {
     public enum CharacterMovement 
     {

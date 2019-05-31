@@ -1,16 +1,16 @@
-using DroidDigital.Gameplay.Score;
-using DroidDigital.PacMan.Characters.State;
-using DroidDigital.PacMan.Gameplay;
-using DroidDigital.PacMan.PathFind;
+using Aquiris.Gameplay.Score;
+using Aquiris.PacMan.Characters.State;
+using Aquiris.PacMan.PathFind;
+using Aquiris.PacMan.Gameplay;
 
-namespace DroidDigital.Core
+namespace Aquiris.Core
 {
     internal static class Initialize
     {
         public static void InitalizeGame()
         {
-            ScoreManagement.Initialize();
-            CharacterStateManagement.Initialize();
+            ScoreManager.Initialize();
+            CharacterDirectionHelper.Initialize();
             WayPointManagement.PopulatePathList();
         }
     }

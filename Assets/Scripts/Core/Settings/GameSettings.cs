@@ -1,4 +1,4 @@
-namespace DroidDigital.PacMan.Core.Settings
+namespace Aquiris.PacMan.Core.Settings
 {
     public class GameSettings
     {

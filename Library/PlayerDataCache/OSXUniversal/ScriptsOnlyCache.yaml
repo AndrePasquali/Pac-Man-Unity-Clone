@@ -1,29 +1,29 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AudioController
-    - DroidDigital.Characters.Enemies.Enemies.EnemyUI
-    - DroidDigital.Characters.Enemies.EnemyVision
-    - DroidDigital.Level.Teleport
-    - DroidDigital.PacMan.CharacterController
-    - DroidDigital.PacMan.Characters.CharacterMovement
-    - DroidDigital.PacMan.Characters.EnemyCharacter
-    - DroidDigital.PacMan.Characters.EnemyHealth
-    - DroidDigital.PacMan.Characters.EnemyPhysics
-    - DroidDigital.PacMan.Characters.PacManCharacter
-    - DroidDigital.PacMan.Characters.PacManHealth
-    - DroidDigital.PacMan.Characters.PacManPhysics
-    - DroidDigital.PacMan.Characters.State.CharacterState
-    - DroidDigital.PacMan.Enemy.IA.EnemyMovement
-    - DroidDigital.PacMan.FX.FlickerEffect
-    - DroidDigital.PacMan.Input.InputController
-    - DroidDigital.PacMan.Level.Item.DotItem
-    - DroidDigital.PacMan.Level.Item.PowerUpItem
-    - DroidDigital.PacMan.Level.Level
-    - DroidDigital.PacMan.Level.LevelManager
-    - DroidDigital.PacMan.PathFind.ItemPath
-    - DroidDigital.PacMan.UI.HUDController
-    - DroidDigital.PacMan.UI.StateMachine.UIStateController
+    - Aquiris.Characters.Enemies.Enemies.EnemyScoreFeedBack
+    - Aquiris.Characters.Enemies.EnemyVision
+    - Aquiris.Level.Teleport
+    - Aquiris.PacMan.CharacterController
+    - Aquiris.PacMan.Characters.CharacterMovement
+    - Aquiris.PacMan.Characters.EnemyCharacter
+    - Aquiris.PacMan.Characters.EnemyHealth
+    - Aquiris.PacMan.Characters.EnemyPhysics
+    - Aquiris.PacMan.Characters.PacManCharacter
+    - Aquiris.PacMan.Characters.PacManHealth
+    - Aquiris.PacMan.Characters.PacManPhysics
+    - Aquiris.PacMan.Characters.State.CharacterState
+    - Aquiris.PacMan.Enemy.IA.EnemyMovement
+    - Aquiris.PacMan.FX.FlickerEffect
+    - Aquiris.PacMan.Input.InputController
+    - Aquiris.PacMan.Level.Item.DotItem
+    - Aquiris.PacMan.Level.Item.PowerUpItem
+    - Aquiris.PacMan.Level.Level
+    - Aquiris.PacMan.Level.LevelManager
+    - Aquiris.PacMan.PathFind.ItemPath
+    - Aquiris.PacMan.UI.HUDManager
+    - Aquiris.PacMan.UI.StateMachine.UIStateManager
+    - AudioManager
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -39,6 +39,7 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
@@ -76,63 +77,65 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9234}
+      Script: {instanceID: 9236}
     - Class: 114
-      Script: {instanceID: 9256}
-    - Class: 114
-      Script: {instanceID: 9338}
+      Script: {instanceID: 9260}
     - Class: 114
       Script: {instanceID: 9344}
     - Class: 114
       Script: {instanceID: 9350}
     - Class: 114
+      Script: {instanceID: 9356}
+    - Class: 114
       Script: {instanceID: 9358}
     - Class: 114
-      Script: {instanceID: 9394}
+      Script: {instanceID: 9364}
     - Class: 114
-      Script: {instanceID: 9396}
+      Script: {instanceID: 9400}
     - Class: 114
-      Script: {instanceID: 9570}
+      Script: {instanceID: 9402}
     - Class: 114
-      Script: {instanceID: 9682}
+      Script: {instanceID: 9578}
     - Class: 114
-      Script: {instanceID: 9798}
+      Script: {instanceID: 9690}
     - Class: 114
-      Script: {instanceID: 9868}
+      Script: {instanceID: 9808}
     - Class: 114
-      Script: {instanceID: 9870}
+      Script: {instanceID: 9880}
     - Class: 114
-      Script: {instanceID: 9924}
+      Script: {instanceID: 9882}
     - Class: 114
-      Script: {instanceID: 9934}
+      Script: {instanceID: 9936}
     - Class: 114
-      Script: {instanceID: 9990}
+      Script: {instanceID: 9946}
     - Class: 114
-      Script: {instanceID: 10000}
+      Script: {instanceID: 10004}
     - Class: 114
-      Script: {instanceID: 10036}
+      Script: {instanceID: 10014}
     - Class: 114
-      Script: {instanceID: 10042}
+      Script: {instanceID: 10050}
     - Class: 114
-      Script: {instanceID: 10102}
+      Script: {instanceID: 10056}
     - Class: 114
-      Script: {instanceID: 10140}
+      Script: {instanceID: 10116}
     - Class: 114
-      Script: {instanceID: 10148}
+      Script: {instanceID: 10154}
     - Class: 114
-      Script: {instanceID: 10180}
+      Script: {instanceID: 10162}
     - Class: 114
-      Script: {instanceID: 10454}
+      Script: {instanceID: 10194}
     - Class: 114
-      Script: {instanceID: 10528}
+      Script: {instanceID: 10474}
     - Class: 114
-      Script: {instanceID: 10536}
+      Script: {instanceID: 10548}
     - Class: 114
-      Script: {instanceID: 10540}
+      Script: {instanceID: 10556}
     - Class: 114
-      Script: {instanceID: 10696}
+      Script: {instanceID: 10560}
     - Class: 114
-      Script: {instanceID: 10702}
+      Script: {instanceID: 10718}
+    - Class: 114
+      Script: {instanceID: 10724}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -176,19 +179,19 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: d94d562fdb85285da8d0f548ebfb27c1
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Enemy.IA
+    namespaceName: Aquiris.PacMan.Enemy.IA
     className: EnemyMovement
   - hash:
       serializedVersion: 2
-      Hash: 56a6aa2f3562cd66aef969a36ddad279
+      Hash: 4f9f483b11412ed489a9ea3f4ea63bea
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Level.Item
+    namespaceName: Aquiris.PacMan.Level.Item
     className: FruitItem
   - hash:
       serializedVersion: 2
-      Hash: 56a6aa2f3562cd66aef969a36ddad279
+      Hash: 4f9f483b11412ed489a9ea3f4ea63bea
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Level.Item
+    namespaceName: Aquiris.PacMan.Level.Item
     className: PowerUpItem
   - hash:
       serializedVersion: 2
@@ -608,7 +611,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 4da4c781e0b554e987cef31220c8f1b7
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Characters
+    namespaceName: Aquiris.PacMan.Characters
     className: EnemyCharacter
   - hash:
       serializedVersion: 2
@@ -630,10 +633,10 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 921c06f96a0bcc3c939fa8084f3f30b7
+      Hash: 984f9af83ff7ef4dcd08795c8819131e
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.Characters.Enemies.Enemies
-    className: EnemyUI
+    namespaceName: Aquiris.Characters.Enemies.Enemies
+    className: EnemyScoreFeedBack
   - hash:
       serializedVersion: 2
       Hash: 303ad70ce203ad874efe2965d0fbcff9
@@ -668,8 +671,14 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 59baa78c0a46cbf398b05ed9abe3450e
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.UI.StateMachine
-    className: UIStateController
+    namespaceName: Aquiris.PacMan.UI.StateMachine
+    className: UIStateManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3ef316dc898684dd298bb3ea1a4307aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Aquiris.PacMan.Characters
+    className: PacManMovement
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -680,13 +689,13 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 6928b3bdb580bad4e81abfcc66ae820d
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.Characters.Enemies
+    namespaceName: Aquiris.Characters.Enemies
     className: EnemyVision
   - hash:
       serializedVersion: 2
       Hash: 09a3e4a77d616d018c9d0d1dc661539b
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan
+    namespaceName: Aquiris.PacMan
     className: CharacterController
   - hash:
       serializedVersion: 2
@@ -696,9 +705,9 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: d1de0ed2336310a3a546edd174a49d6f
+      Hash: 281855696def01617dd7199b9e67638e
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.PathFind
+    namespaceName: Aquiris.PacMan.PathFind
     className: ItemPath
   - hash:
       serializedVersion: 2
@@ -708,9 +717,9 @@ ScriptsOnlyBuild:
     className: AnalyticsEventTrackerEditor
   - hash:
       serializedVersion: 2
-      Hash: a0d63e39dd11395410321ac7a3f18bac
+      Hash: 3ef316dc898684dd298bb3ea1a4307aa
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Characters
+    namespaceName: Aquiris.PacMan.Characters
     className: CharacterMovement
   - hash:
       serializedVersion: 2
@@ -720,10 +729,10 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: d2128c864553e6da93a75fdabd6ecf3b
+      Hash: bda555871bac2751a29bbfe5b60bd37b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: AudioController
+    className: AudioManager
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -734,37 +743,37 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: f3b0033f34b059b30f09d4aeb291e86d
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.Level
+    namespaceName: Aquiris.Level
     className: Teleport
   - hash:
       serializedVersion: 2
-      Hash: 56a6aa2f3562cd66aef969a36ddad279
+      Hash: 4f9f483b11412ed489a9ea3f4ea63bea
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Level.Item
+    namespaceName: Aquiris.PacMan.Level.Item
     className: DotItem
   - hash:
       serializedVersion: 2
-      Hash: f5e0e9acd4ed744f12a8d8da0038ad28
+      Hash: 51fdd9dbd0f0201719f4a99bcdd2000d
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Input
+    namespaceName: Aquiris.PacMan.Input
     className: InputController
   - hash:
       serializedVersion: 2
       Hash: a8f55a9d87b835b2f114d73d6d85ed96
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.UI
+    namespaceName: Aquiris.PacMan.UI
     className: Screen
   - hash:
       serializedVersion: 2
       Hash: ed5a03904aecd5ed1742795ddf84c432
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Characters
+    namespaceName: Aquiris.PacMan.Characters
     className: EnemyHealth
   - hash:
       serializedVersion: 2
       Hash: ed5a03904aecd5ed1742795ddf84c432
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.Characters
+    namespaceName: Aquiris.Characters
     className: CharacterHealth
   - hash:
       serializedVersion: 2
@@ -776,17 +785,17 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 2960353612623aab0c511929df887085
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Input
+    namespaceName: Aquiris.PacMan.Input
     className: Keys
   - hash:
       serializedVersion: 2
       Hash: d099e41097b7714f3acda37bc3d67f3e
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Characters.State
+    namespaceName: Aquiris.PacMan.Characters.State
     className: CharacterState
   - hash:
       serializedVersion: 2
-      Hash: 4a0369cd366c126cd420018a4ac01f32
+      Hash: 35a9693c388776aaf487636491a20f11
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
@@ -794,8 +803,8 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: b1a7669f958e4a83ee88ebaddedb50b2
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.UI
-    className: HUDController
+    namespaceName: Aquiris.PacMan.UI
+    className: HUDManager
   - hash:
       serializedVersion: 2
       Hash: e1300922cc039f41ab46a47f4cb05898
@@ -812,7 +821,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 6b913362e6aa056f663de6f1276d2515
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Level
+    namespaceName: Aquiris.PacMan.Level
     className: Level
   - hash:
       serializedVersion: 2
@@ -878,13 +887,13 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 55ec1ab56bec14c68d1f0723ea47fda9
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.FX
+    namespaceName: Aquiris.PacMan.FX
     className: FlickerEffect
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Characters
+    namespaceName: Aquiris.PacMan.Characters
     className: EnemyPhysics
   - hash:
       serializedVersion: 2
@@ -896,13 +905,13 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Characters
+    namespaceName: Aquiris.PacMan.Characters
     className: PacManPhysics
   - hash:
       serializedVersion: 2
       Hash: 4da4c781e0b554e987cef31220c8f1b7
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Characters
+    namespaceName: Aquiris.PacMan.Characters
     className: PacManCharacter
   - hash:
       serializedVersion: 2
@@ -942,15 +951,15 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 9903b4c5a55e97f5e9c2edaddb6991ce
+      Hash: 9d187a3d48decd14642973bad2205669
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Level
+    namespaceName: Aquiris.PacMan.Level
     className: LevelManager
   - hash:
       serializedVersion: 2
       Hash: ed5a03904aecd5ed1742795ddf84c432
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DroidDigital.PacMan.Characters
+    namespaceName: Aquiris.PacMan.Characters
     className: PacManHealth
   - hash:
       serializedVersion: 2
@@ -961,4 +970,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: /Users/andre/Documents/HeartAttack Games/PacMan.app
+  playerPath: /Users/andre/Documents/PacMan.app

@@ -1,4 +1,4 @@
-namespace DroidDigital.Characters.Interfaces
+namespace Aquiris.Characters.Interfaces
 {
     interface IKill
     {
