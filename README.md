@@ -13,7 +13,7 @@ The PAC MAN CLONE made with Unity from scratch. This project was originally made
 
 
 ## TESTED PLATFORMS
-- PC/COMPUTER
+- PC/WINDOWS
 - MAC OSX
 
 ## KNOW ISSUES
