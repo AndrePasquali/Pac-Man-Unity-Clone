@@ -1,6 +1,10 @@
 # PacMan
 PAC MAN CLONE made with Unity from scratch. This project has study purposes. 
 
+PLATFORM
+PC/COMPUTER
+MAC OSX
+
 KNOW ISSUES
 - GHOSTS SOMETIMES CAN WALK OUT OF LEVEL (Collision problems)
 
