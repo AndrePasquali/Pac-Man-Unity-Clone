@@ -7,9 +7,9 @@ The PAC MAN CLONE made with Unity from scratch. This project was originally made
 
 ![GAMEPLAY](https://i.imgur.com/5tfyfSw.png)
 
-VIDEO
+## VIDEO DEMONSTRATION
 
-[![Watch the video](https://i.imgur.com/UmuCIs9.png)(https://www.youtube.com/watch?v=g2Hm1A5Oieo)
+![Watch the video](https://i.imgur.com/UmuCIs9.png)(https://www.youtube.com/watch?v=g2Hm1A5Oieo)
 
 
 ## TESTED PLATFORMS
