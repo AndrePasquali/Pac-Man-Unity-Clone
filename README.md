@@ -22,8 +22,7 @@ The PAC MAN CLONE made with Unity from scratch. This project was originally made
 ## TODO
 - ADD OTHER I.A FORMS
 - ADD RESPONSIVE SCREENS
-- ADD OTHER LEVELS
-- ADD FRUITS 
+- ADD PROGRESSION SYSTEM
 - ADD BONUS
 
 ### GNU General Public License (GPL)
