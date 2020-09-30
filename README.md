@@ -1,8 +1,6 @@
 # PAC MAN UNITY CLONE
 The PAC MAN CLONE made with Unity from scratch. This project was originally made by me to AQUIRIS GAME STUDIO for SENIOR SOFTWARE ENGINEER position. The whole project cost me approximately 20 hours of programming.
 
-### GNU General Public License (GPL)
-
 ## SCREENSHOTS
 
 ![OPENING SCREEN](https://i.imgur.com/PsjJvPU.png)
@@ -22,3 +20,6 @@ The PAC MAN CLONE made with Unity from scratch. This project was originally made
 - ADD OTHER LEVELS
 - ADD FRUITS 
 - ADD BONUS
+
+### GNU General Public License (GPL)
+
