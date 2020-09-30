@@ -5,14 +5,14 @@ The PAC MAN CLONE made with Unity from scratch. This project was originally made
 
 ![GAMEPLAY](https://i.imgur.com/5tfyfSw.png)
 
-TESTED PLATFORMS
+## TESTED PLATFORMS
 - PC/COMPUTER
 - MAC OSX
 
-KNOW ISSUES
+## KNOW ISSUES
 - GHOSTS SOMETIMES CAN WALK OUT OF LEVEL (Collision problems)
 
-TODO
+## TODO
 - ADD OTHER I.A FORMS
 - ADD RESPONSIVE SCREENS
 - ADD OTHER LEVELS
