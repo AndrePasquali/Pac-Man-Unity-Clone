@@ -17,7 +17,7 @@ The PAC MAN CLONE made with Unity from scratch. This project was originally made
 - MAC OSX
 
 ## KNOW ISSUES
-- GHOSTS SOMETIMES CAN WALK OUT OF THE LEVEL
+- GHOSTS SOMETIMES GET OUT OF THE LEVEL
 
 ## TODO
 - ADD OTHER I.A FORMS
