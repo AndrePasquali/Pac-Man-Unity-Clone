@@ -1,5 +1,5 @@
-# PacMan
-PAC MAN CLONE made with Unity from scratch. This project was originally made to AQUIRIS GAME STUDIO for SENIOR SOFTWARE ENGINEER position. The whole project cost me approximately 20 hours of programming. 
+# PAC MAN UNITY CLONE
+The PAC MAN CLONE made with Unity from scratch. This project was originally made to AQUIRIS GAME STUDIO for SENIOR SOFTWARE ENGINEER position. The whole project cost me approximately 20 hours of programming. 
 
 PLATFORM
 PC/COMPUTER
