@@ -27,7 +27,7 @@ The PAC MAN CLONE made with Unity from scratch. This project was originally made
 - ADD BONUS
 
 ### GNU General Public License (GPL)
-###### Disclaimer: This license is not valid for any game assets like: sounds, music and sprites.
+#### Disclaimer: This license is not valid for any game assets like: sounds, music and sprites.
 
 ###### MY PROFESSIONAL ACCOUNT: https://github.com/droid-dev
 ###### CONTACT: https://www.instagram.com/andreluz_rp/
